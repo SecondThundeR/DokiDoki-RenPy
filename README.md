@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/logos/ddlc_logo.png?token=AIXISSPJ2WLON2NVBBHCWIS7SWICO" width="256px" height="256px" alt="DDLC-Logo">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/logos/ddlc_logo.png" width="256px" height="256px" alt="DDLC-Logo">
 
  <h1>Decompiled Doki Doki Literature Club (For Ren'Py Launcher use)</h1>
 </div>
@@ -61,11 +61,11 @@ In accordance with [Team Salvato IP Guidelines](http://teamsalvato.com/ip-guidel
 ## Screenshots
 
 <div align="center">
- <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/main_menu.png?token=AIXISSMQA5HH45J6GBPIVU27SWKJM" alt="DDLC with edited name">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/main_menu.png" alt="DDLC with edited name">
 
- <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/dev_menu.png?token=AIXISSM3NISDYZ362OJBHTS7SWIJ4" alt="Developer Tools Screenshot">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/dev_menu.png" alt="Developer Tools Screenshot">
 
- <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/image_loc_picker.png?token=AIXISSPRN5YO2WWD7IBKDP27SWKLE" alt="Image Location Picker Screenshot">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/image_loc_picker.png" alt="Image Location Picker Screenshot">
 </div>
 
 ## License
