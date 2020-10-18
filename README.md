@@ -74,4 +74,4 @@ This decomplied sources is licensed under [MIT License](https://github.com/Secon
 
 All rights reserved by Team Salvato, which created DDLC
 
-Also thanks [Ren`Py](https://github.com/renpy/renpy), [unrpa](https://github.com/Lattyware/unrpa), [unrpyc](https://github.com/CensoredUsername/unrpyc) for great tools
+Also thanks [Ren`Py](https://github.com/renpy/renpy), [unrpa](https://github.com/Lattyware/unrpa), [unrpyc](https://github.com/CensoredUsername/unrpyc) authors for great tools

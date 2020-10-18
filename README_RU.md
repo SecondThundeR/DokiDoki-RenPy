@@ -74,4 +74,4 @@
 
 Все права принадлежат студии Team Salvato, которая создала DDLC
 
-Также спасибо [Ren`Py](https://github.com/renpy/renpy), [unrpa](https://github.com/Lattyware/unrpa), [unrpyc](https://github.com/CensoredUsername/unrpyc) за замечательные инструменты
+Также спасибо авторам [Ren`Py](https://github.com/renpy/renpy), [unrpa](https://github.com/Lattyware/unrpa), [unrpyc](https://github.com/CensoredUsername/unrpyc) за замечательные инструменты
