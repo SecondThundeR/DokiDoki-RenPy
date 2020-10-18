@@ -1,8 +1,8 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/ddlc_logo.png?token=AIXISSPEQVF3G4MZ3T6QU227SWGII" width="256px" height="256px" alt="DDLC-Logo">
-</p>
+<div align="center">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/logos/ddlc_logo.png?token=AIXISSPJ2WLON2NVBBHCWIS7SWICO" width="256px" height="256px" alt="DDLC-Logo">
 
-# Decompiled Doki Doki Literature Club (For Ren'Py Launcher use)
+ <h1>Decompiled Doki Doki Literature Club (For Ren'Py Launcher use)</h1>
+</div>
 
 > **Warning! These files contain many spoilers *(obviously)*. If you haven't played DDLC yet for some reasons, I recommend you play this game first to get true emotions from walkthrough *(Believe me, it's worth it)***
 
@@ -60,17 +60,13 @@ In accordance with [Team Salvato IP Guidelines](http://teamsalvato.com/ip-guidel
 
 ## Screenshots
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot1.png?token=AIXISSKNI27DT32MFTEGPBS7SWGL6" alt="DDLC with edited name">
-</p>
+<div align="center">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/main_menu.png?token=AIXISSMQA5HH45J6GBPIVU27SWKJM" alt="DDLC with edited name">
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot2.png?token=AIXISSOCY4EUZZYORZMQNIK7SWGMA" alt="Developer Tools Screenshot">
-</p>
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/dev_menu.png?token=AIXISSM3NISDYZ362OJBHTS7SWIJ4" alt="Developer Tools Screenshot">
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot3.png?token=AIXISSN557XEIKENO54IVOC7SWGME" alt="Image Location Picker Screenshot">
-</p>
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/image_loc_picker.png?token=AIXISSPRN5YO2WWD7IBKDP27SWKLE" alt="Image Location Picker Screenshot">
+</div>
 
 ## License
 

@@ -1,8 +1,8 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/ddlc_logo_ru.png?token=AIXISSJGRHDVOOJOWNOJ2SS7SWGJ6" width="256px" height="256px" alt="DDLC-Logo">
-</p>
+<div align="center">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/logos/ddlc_logo_ru.png?token=AIXISSLFWPG3N7Z3UUSDLZC7SWIJY" width="256px" height="256px" alt="DDLC-Logo">
 
-# Декомпилированный Doki Doki Literature Club (Для использования в Ren'Py Launcher)
+ <h1>Декомпилированный Doki Doki Literature Club (Для использования в Ren'Py Launcher)</h1>
+</div>
 
 > **Внимание! Эти файлы содержат много спойлеров *(очевидно)*. Если вы еще не играли в DDLC по каким-либо причинам, я рекомендую вам для начала сыграть в эту игру, чтобы получить истинные эмоции от прохождения *(Поверьте, оно того стоит)***
 
@@ -60,17 +60,13 @@
 
 ## Скриншоты
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot1.png?token=AIXISSKNI27DT32MFTEGPBS7SWGL6" alt="DDLC with edited name">
-</p>
+<div align="center">
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/main_menu.png?token=AIXISSMQA5HH45J6GBPIVU27SWKJM" alt="DDLC with edited name">
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot2.png?token=AIXISSOCY4EUZZYORZMQNIK7SWGMA" alt="Developer Tools Screenshot">
-</p>
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/dev_menu.png?token=AIXISSM3NISDYZ362OJBHTS7SWIJ4" alt="Developer Tools Screenshot">
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot3.png?token=AIXISSN557XEIKENO54IVOC7SWGME" alt="Image Location Picker Screenshot">
-</p>
+ <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_files/screenshots/image_loc_picker.png?token=AIXISSPRN5YO2WWD7IBKDP27SWKLE" alt="Image Location Picker Screenshot">
+</div>
 
 ## Лицензия
 
