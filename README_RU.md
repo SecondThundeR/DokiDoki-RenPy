@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/master/ddlc_logo_ru.png" width="256px" height="256px" alt="DDLC-Logo">
+    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/ddlc_logo_ru.png?token=AIXISSJGRHDVOOJOWNOJ2SS7SWGJ6" width="256px" height="256px" alt="DDLC-Logo">
 </p>
 
 # Декомпилированный Doki Doki Literature Club (Для использования в Ren'Py Launcher)
@@ -10,7 +10,7 @@
 
 Декомпилированные исходные файлы предоставляются только для личного использования, анализа файлов с целью получения опыта в создании игр на Ren'Py и создания модификаций для DDLC. Создание самостоятельных проектов, используя исходные файлы DDLC, запрещено Team Salvato [*(см. раздел "Fan Games" в руководстве по интеллектуальной собственности Team Salvato)*](http://teamsalvato.com/ip-guidelines/)
 
-**Для просмотра README на английском языке, пройдите [по этой ссылке](https://github.com/SecondThundeR/DokiDoki-RenPy/blob/master/README.md)**
+**Для просмотра README на английском языке, пройдите [по этой ссылке](https://github.com/SecondThundeR/DokiDoki-RenPy/blob/your-reality/README.md)**
 
 ## Как использовать исходные файлы
 
@@ -61,21 +61,21 @@
 ## Скриншоты
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/master/readme_screenshots/screenshot1.png" alt="DDLC with edited name">
+    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot1.png?token=AIXISSKNI27DT32MFTEGPBS7SWGL6" alt="DDLC with edited name">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/master/readme_screenshots/screenshot2.png" alt="Developer Tools Screenshot">
+    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot2.png?token=AIXISSOCY4EUZZYORZMQNIK7SWGMA" alt="Developer Tools Screenshot">
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/master/readme_screenshots/screenshot3.png" alt="Image Location Picker Screenshot">
+    <img src="https://raw.githubusercontent.com/SecondThundeR/DokiDoki-RenPy/your-reality/readme_screenshots/screenshot3.png?token=AIXISSN557XEIKENO54IVOC7SWGME" alt="Image Location Picker Screenshot">
 </p>
 
 ## Лицензия
 
-Эти исходные файлы распространяются под [лицензией MIT](https://github.com/SecondThundeR/DokiDoki-RenPy/blob/master/LICENSE) и предоставляются "КАК ЕСТЬ" без каких-либо гарантий.
+Эти исходные файлы распространяются под [лицензией MIT](https://github.com/SecondThundeR/DokiDoki-RenPy/blob/your-reality/LICENSE) и предоставляются "КАК ЕСТЬ" без каких-либо гарантий.
 
-Все права принадлежат Team Salvato, которая создала DDLC
+Все права принадлежат студии Team Salvato, которая создала DDLC
 
 Также спасибо [Ren`Py](https://github.com/renpy/renpy), [unrpa](https://github.com/Lattyware/unrpa), [unrpyc](https://github.com/CensoredUsername/unrpyc) за замечательные инструменты
