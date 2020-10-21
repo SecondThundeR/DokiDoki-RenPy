@@ -714,6 +714,7 @@ label showpoem(poem=None, music=True, track=None, revert_music=True, img=None, w
 
   if not persistent.first_poem:
     $ persistent.first_poem = True
+
     $ renpy.save_persistent()
 
     show expression "gui/poem_dismiss.png" as poem_dismiss:
@@ -724,6 +725,7 @@ label showpoem(poem=None, music=True, track=None, revert_music=True, img=None, w
 
   if img:
     $ renpy.hide(poem.author)
+
     $ renpy.show(img, at_list=[where])
 
   hide screen poem
@@ -734,6 +736,7 @@ label showpoem(poem=None, music=True, track=None, revert_music=True, img=None, w
 
   if music and revert_music:
     $ currentpos = get_pos(channel="music_poem")
+
     $ audio.t5c = "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
 
     stop music_poem fadeout 2.0
