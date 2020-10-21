@@ -11,20 +11,33 @@ label ch4_main:
 
   if ch4_scene == "natsuki":
     "I've been getting increasingly anxious about Natsuki's upcoming visit."
+
     "I keep telling myself there's no reason to be nervous, but it doesn't help much."
+
     "I wonder if she'll act any different when it's just the two of us?"
+
     "Meanwhile, she's been texting me a lot."
+
     "We sent each other one after exchanging numbers to double-check, but it turned into conversation."
+
     "She's almost a different personality on the phone, using tons of emoji and cute language."
+
     "She also really likes complaining about things, but I kind of saw that one coming."
+
     "But putting Natsuki aside..."
   else:
     "I've been getting increasingly anxious about Yuri's upcoming visit."
+
     "I keep telling myself there's no reason to be nervous, but it doesn't help much."
+
     "Yuri is clearly an introvert and also an intimate person in general."
+
     "There's no doubt that she'll open up a little bit when it's just the two of us."
+
     "Meanwhile, we've even been texting occasionally."
+
     "She was extremely apprehensive at first, but it wasn't long before I was already learning more about her."
+
     "But putting Yuri aside..."
 
   "I haven't heard a thing from Sayori since she left club early the other day."
