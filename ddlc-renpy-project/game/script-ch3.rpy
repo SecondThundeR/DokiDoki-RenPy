@@ -1177,25 +1177,43 @@ label ch3_end:
 
   if help_sayori:
     "Even though I would have preferred to do this with Sayori..."
+
     "My anxiety still shoots through the roof."
+
     "I guess I've gotten pretty used to handling her at this point..."
+
     "But who knows what might end up happening when we're outside of school?"
+
     "She even told me she was looking forward to it..."
+
     "I shake my head."
+
     "Why do I feel nervous that Sayori finds out about this?"
+
     "It's not like we feel {i}that{/i} way about each other..."
+
     "Besides, like Monika said, this is about the club."
+
     "I have nothing to worry about."
+
     "If I just go with it, then I'll have a good time."
   else:
     "My anxiety shoots through the roof."
+
     "Even though I've gotten pretty used to handling her at this point..."
+
     "There's no telling what might end up happening when we're outside of school."
+
     "More than that...she told me that she was looking forward to it."
+
     "Is this the chance I have to make something happen between us?"
+
     "...Or is it too early for that?"
+
     "Only time will tell..."
+
     "But until then, I won't be able to take my mind off it."
+
     "I seriously can't wait!"
 
   return
@@ -1230,7 +1248,6 @@ label ch3_end_sayori:
   show monika 1e zorder 3 at f32
 
   m "Sorry, I didn't mean for this to be difficult..."
-
 
   show monika zorder 2 at t32
 
