@@ -37,9 +37,14 @@ label ch10_main:
 
   python:
     currentpos = get_pos()
+
     startpos = currentpos - 0.3
-    if startpos < 0: startpos = 0
+
+    if startpos < 0:
+      startpos = 0
+
     track = "<from " + str(startpos) + " to " + str(currentpos) + ">bgm/2.ogg"
+
     renpy.music.play(track, loop=True)
 
   $ pause(1.0)
