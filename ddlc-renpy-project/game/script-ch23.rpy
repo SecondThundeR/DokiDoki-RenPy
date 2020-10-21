@@ -1063,6 +1063,7 @@ label yuri_kill_2:
 
   if not renpy.music.get_playing(channel='music') == audio.t6s:
     $ audiostart = str(renpy.random.random() * 360)
+
     $ audio.t6s = "<from " + audiostart + " loop 43.572>bgm/6s.ogg"
 
     play music t6s
@@ -1107,6 +1108,7 @@ label yuri_kill_3:
 
   if not renpy.music.get_playing(channel='music') == audio.t6s:
     $ audiostart = str(renpy.random.random() * 360)
+
     $ audio.t6s = "<from " + audiostart + " loop 43.572>bgm/6s.ogg"
 
     play music t6s
