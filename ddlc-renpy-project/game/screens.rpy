@@ -300,8 +300,11 @@ init -1 style quick_button_text:
 
 init -1 python:
   def FinishEnterName():
-    if not player: return
+    if not player:
+      return
+
     persistent.playername = player
+
     renpy.save_persistent()
     renpy.hide_screen("name_input")
     renpy.jump_out_of_context("start")
@@ -699,25 +702,31 @@ init -501 screen preferences():
         vbox:
           if config.has_music:
             label _("Music Volume")
+
             hbox:
               bar value Preference("music volume")
 
           if config.has_sound:
             label _("Sound Volume")
+
             hbox:
               bar value Preference("sound volume")
+
               if config.sample_sound:
                 textbutton _("Test") action Play("sound", config.sample_sound)
 
           if config.has_voice:
             label _("Voice Volume")
+
             hbox:
               bar value Preference("voice volume")
+
               if config.sample_voice:
                 textbutton _("Test") action Play("voice", config.sample_voice)
 
           if config.has_music or config.has_sound or config.has_voice:
             null height gui.pref_spacing
+
             textbutton _("Mute All"):
               action Preference("all mute", "toggle")
               style "mute_all_button"
@@ -817,8 +826,10 @@ init -501 screen history():
         if h.who:
           label h.who:
             style "history_name"
+
             if "color" in h.who_args:
               text_color h.who_args["color"]
+
         text h.what
 
     if not _history_list:
