@@ -62,7 +62,9 @@ init python:
       delete_character("sayori")
     elif persistent.playthrough == 3:
       delete_character("sayori")
+
       delete_character("natsuki")
+
       delete_character("yuri")
     elif persistent.playthrough == 4:
       delete_character("monika")
@@ -72,9 +74,12 @@ init python:
 
     if not time:
       _windows_hidden = True
+
       renpy.ui.saybehavior(afm=" ")
       renpy.ui.interact(mouse='pause', type='pause', roll_forward=None)
+
       _windows_hidden = False
+
       return
 
     if time <= 0:
