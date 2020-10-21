@@ -33,17 +33,22 @@ default preferences.music_volume = 0.75
 default preferences.sfx_volume = 0.75
 
 init python:
-  if len(renpy.loadsave.location.locations) > 1: del(renpy.loadsave.location.locations[1])
+  if len(renpy.loadsave.location.locations) > 1:
+    del(renpy.loadsave.location.locations[1])
+
   renpy.game.preferences.pad_enabled = False
+
   def replace_text(s):
     s = s.replace('--', u'\u2014')
     s = s.replace(' - ', u'\u2014')
+
     return s
 
   config.replace_text = replace_text
 
   def game_menu_check():
-    if quick_menu: renpy.call_in_new_context('_game_menu')
+    if quick_menu:
+      renpy.call_in_new_context('_game_menu')
 
   config.game_menu_action = game_menu_check
 
