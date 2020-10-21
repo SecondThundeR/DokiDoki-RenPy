@@ -1552,11 +1552,8 @@ label ch2_end:
     "I would walk home with [ch2_winner].":
 
       if ch2_winner == "Natsuki":
-
         call ch2_end_natsuki
-
       else:
-
         call ch2_end_yuri
 
     "I would still walk home with Sayori.":
