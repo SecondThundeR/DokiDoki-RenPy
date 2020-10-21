@@ -142,6 +142,7 @@ init python:
         if st >= self.timers[i]:
           s.x = random.randint(0, 40) * 32
           s.y = random.randint(0, 23) * 32
+
           self.timers[i] = st + random.random() * 0.4 + 0.1
 
       return 0
@@ -182,6 +183,7 @@ init python:
           s.y = (ySpeed * 120 * (st + .20) + (self.gravity * st * st))
         else:
           s.destroy()
+
           self.stars.pop(sindex)
 
         sindex += 1
@@ -238,7 +240,9 @@ init python:
       sindex = 0
 
       for xSpeed, ySpeed, squirtTime in self.squirts:
-        if st > squirtTime: self.squirts.pop(sindex)
+        if st > squirtTime:
+          self.squirts.pop(sindex)
+
         sindex += 1
 
       pindex = 0
@@ -246,7 +250,9 @@ init python:
       if st < self.dripTime:
         while self.delta * self.density >= 1.0:
           self.delta -= (1.0 / self.density)
-          if random.random() >= 1 - self.dripChance: self.add_drip(self.displayable, st)
+
+          if random.random() >= 1 - self.dripChance:
+            self.add_drip(self.displayable, st)
 
           for xSpeed, ySpeed, squirtTime in self.squirts:
             s = self.sm.create(self.displayable)
@@ -258,9 +264,11 @@ init python:
         if (st - startTime < particleTime):
           s.x += xSpeed * delta
           s.y += ySpeed * delta
+
           self.drops[pindex][2] += self.gravity * delta
         else:
           s.destroy()
+
           self.drops.pop(pindex)
 
         pindex += 1
@@ -274,6 +282,7 @@ init python:
   class AnimatedMask(renpy.Displayable):
     def __init__(self, child, mask, maskb, oc, op, moving=True, speed=1.0, frequency=1.0, amount=0.5, **properties):
       super(AnimatedMask, self).__init__(**properties)
+
       self.child = renpy.displayable(child)
       self.mask = renpy.displayable(mask)
       self.maskb = renpy.displayable(maskb)
