@@ -3,7 +3,7 @@
 
  <h1>Decompiled Doki Doki Literature Club (For Ren'Py Launcher use)</h1>
 
- <blockquote><b>Warning! These files contain many spoilers <i>(obviously)</i>. If you haven't played DDLC yet for some reasons, I recommend you play this game first to get true emotions from walkthrough <i>(Believe me, it's worth it)</i></b></blockquote>
+ <blockquote><b>Warning! These files contain many spoilers <i>(obviously)</i>. <br>If you haven't played DDLC yet for some reasons, I recommend you play this game first to get true emotions from walkthrough <i>(Believe me, it's worth it)</i></b></blockquote>
 </div>
 
 This repository contains the decompiled sources of the latest version of the Doki Doki Literature Club (1.1.1) for using in Ren'Py Launcher *(e.g. making mods for DDLC)*
