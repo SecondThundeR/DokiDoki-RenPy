@@ -3,76 +3,93 @@ define persistent.steam = ("steamapps" in config.basedir.lower())
 define config.developer = False
 
 python early:
-    import singleton
-    me = singleton.SingleInstance()
+  import singleton
+
+  me = singleton.SingleInstance()
 
 init python:
-    config.keymap['game_menu'].remove('mouseup_3')
-    config.keymap['hide_windows'].append('mouseup_3')
-    config.keymap['self_voicing'] = []
-    config.keymap['clipboard_voicing'] = []
-    config.keymap['toggle_skip'] = []
-    renpy.music.register_channel("music_poem", mixer="music", tight=True)
+  config.keymap['game_menu'].remove('mouseup_3')
+  config.keymap['hide_windows'].append('mouseup_3')
+  config.keymap['self_voicing'] = []
+  config.keymap['clipboard_voicing'] = []
+  config.keymap['toggle_skip'] = []
 
-    def get_pos(channel='music'):
-        pos = renpy.music.get_pos(channel=channel)
-        if pos:
-            return pos
-        return 0
+  renpy.music.register_channel("music_poem", mixer="music", tight=True)
 
-    def delete_all_saves():
-        for savegame in renpy.list_saved_games(fast=True):
-            renpy.unlink_save(savegame)
+  def get_pos(channel='music'):
+    pos = renpy.music.get_pos(channel=channel)
 
-    def delete_character(name):
-        import os
-        try:
-            os.remove(config.basedir + "/characters/" + name + ".chr")
-        except:
-            pass
+    if pos:
+      return pos
 
-    def restore_all_characters():
-        try:
-            renpy.file("../characters/monika.chr")
-        except:
-            open(config.basedir + "/characters/monika.chr", "wb").write(renpy.file("monika.chr").read())
-        try:
-            renpy.file("../characters/natsuki.chr")
-        except:
-            open(config.basedir + "/characters/natsuki.chr", "wb").write(renpy.file("natsuki.chr").read())
-        try:
-            renpy.file("../characters/yuri.chr")
-        except:
-            open(config.basedir + "/characters/yuri.chr", "wb").write(renpy.file("yuri.chr").read())
-        try:
-            renpy.file("../characters/sayori.chr")
-        except:
-            open(config.basedir + "/characters/sayori.chr", "wb").write(renpy.file("sayori.chr").read())
+    return 0
 
-    def restore_relevant_characters():
-        restore_all_characters()
-        if persistent.playthrough == 1 or persistent.playthrough == 2:
-            delete_character("sayori")
-        elif persistent.playthrough == 3:
-            delete_character("sayori")
-            delete_character("natsuki")
-            delete_character("yuri")
-        elif persistent.playthrough == 4:
-            delete_character("monika")
+  def delete_all_saves():
+    for savegame in renpy.list_saved_games(fast=True):
+      renpy.unlink_save(savegame)
 
-    def pause(time=None):
-        global _windows_hidden
-        if not time:
-            _windows_hidden = True
-            renpy.ui.saybehavior(afm=" ")
-            renpy.ui.interact(mouse='pause', type='pause', roll_forward=None)
-            _windows_hidden = False
-            return
-        if time <= 0:
-            return
-        _windows_hidden = True
-        renpy.pause(time)
-        _windows_hidden = False
+  def delete_character(name):
+    import os
+
+    try:
+      os.remove(config.basedir + "/characters/" + name + ".chr")
+    except:
+      pass
+
+  def restore_all_characters():
+    try:
+      renpy.file("../characters/monika.chr")
+    except:
+      open(config.basedir + "/characters/monika.chr", "wb").write(renpy.file("monika.chr").read())
+
+    try:
+      renpy.file("../characters/natsuki.chr")
+    except:
+      open(config.basedir + "/characters/natsuki.chr", "wb").write(renpy.file("natsuki.chr").read())
+
+    try:
+      renpy.file("../characters/yuri.chr")
+    except:
+      open(config.basedir + "/characters/yuri.chr", "wb").write(renpy.file("yuri.chr").read())
+
+    try:
+      renpy.file("../characters/sayori.chr")
+    except:
+      open(config.basedir + "/characters/sayori.chr", "wb").write(renpy.file("sayori.chr").read())
+
+  def restore_relevant_characters():
+    restore_all_characters()
+
+    if persistent.playthrough == 1 or persistent.playthrough == 2:
+      delete_character("sayori")
+    elif persistent.playthrough == 3:
+      delete_character("sayori")
+      delete_character("natsuki")
+      delete_character("yuri")
+    elif persistent.playthrough == 4:
+      delete_character("monika")
+
+  def pause(time=None):
+    global _windows_hidden
+
+    if not time:
+      _windows_hidden = True
+
+      renpy.ui.saybehavior(afm=" ")
+      renpy.ui.interact(mouse='pause', type='pause', roll_forward=None)
+
+      _windows_hidden = False
+
+      return
+
+    if time <= 0:
+      return
+
+    _windows_hidden = True
+
+    renpy.pause(time)
+
+    _windows_hidden = False
 
 define audio.t1 = "<loop 22.073>bgm/1.ogg"
 define audio.t2 = "<loop 4.499>bgm/2.ogg"
@@ -119,25 +136,25 @@ image darkred = "#110000c8"
 image white = "#ffffff"
 image splash = "bg/splash.png"
 image end:
-    truecenter
-    "gui/end.png"
+  truecenter
+  "gui/end.png"
 image bg residential_day = "bg/residential.png"
 image bg class_day = "bg/class.png"
 image bg corridor = "bg/corridor.png"
 image bg club_day = "bg/club.png"
 image bg club_day2:
-    choice:
-        "bg club_day"
-    choice:
-        "bg club_day"
-    choice:
-        "bg club_day"
-    choice:
-        "bg club_day"
-    choice:
-        "bg club_day"
-    choice:
-        "bg/club-skill.png"
+  choice:
+    "bg club_day"
+  choice:
+    "bg club_day"
+  choice:
+    "bg club_day"
+  choice:
+    "bg club_day"
+  choice:
+    "bg club_day"
+  choice:
+    "bg/club-skill.png"
 image bg closet = "bg/closet.png"
 image bg bedroom = "bg/bedroom.png"
 image bg sayori_bedroom = "bg/sayori_bedroom.png"
@@ -148,82 +165,82 @@ image bg notebook-glitch = "bg/notebook-glitch.png"
 image bg glitch = LiveTile("bg/glitch.jpg")
 
 image glitch_color:
-    ytile 3
-    zoom 2.5
-    parallel:
-        "bg/glitch-red.png"
-        0.1
-        "bg/glitch-green.png"
-        0.1
-        "bg/glitch-blue.png"
-        0.1
-        repeat
-    parallel:
-        yoffset 720
-        linear 0.5 yoffset 0
-        repeat
-    parallel:
-        choice:
-            xoffset 0
-        choice:
-            xoffset 10
-        choice:
-            xoffset 20
-        choice:
-            xoffset 35
-        choice:
-            xoffset -10
-        choice:
-            xoffset -20
-        choice:
-            xoffset -30
-        0.01
-        repeat
-    parallel:
-        alpha 0.6
-        linear 0.15 alpha 0.1
-        0.2
-        alpha 0.6
-        linear 0.15 alpha 0.1
-        0.2
-        alpha 0.7
-        linear 0.45 alpha 0
+  ytile 3
+  zoom 2.5
+  parallel:
+    "bg/glitch-red.png"
+    0.1
+    "bg/glitch-green.png"
+    0.1
+    "bg/glitch-blue.png"
+    0.1
+    repeat
+  parallel:
+    yoffset 720
+    linear 0.5 yoffset 0
+    repeat
+  parallel:
+    choice:
+      xoffset 0
+    choice:
+      xoffset 10
+    choice:
+      xoffset 20
+    choice:
+      xoffset 35
+    choice:
+      xoffset -10
+    choice:
+      xoffset -20
+    choice:
+      xoffset -30
+    0.01
+    repeat
+  parallel:
+    alpha 0.6
+    linear 0.15 alpha 0.1
+    0.2
+    alpha 0.6
+    linear 0.15 alpha 0.1
+    0.2
+    alpha 0.7
+    linear 0.45 alpha 0
 
 image glitch_color2:
-    ytile 3
-    zoom 2.5
-    parallel:
-        "bg/glitch-red.png"
-        0.1
-        "bg/glitch-green.png"
-        0.1
-        "bg/glitch-blue.png"
-        0.1
-        repeat
-    parallel:
-        yoffset 720
-        linear 0.5 yoffset 0
-        repeat
-    parallel:
-        choice:
-            xoffset 0
-        choice:
-            xoffset 10
-        choice:
-            xoffset 20
-        choice:
-            xoffset 35
-        choice:
-            xoffset -10
-        choice:
-            xoffset -20
-        choice:
-            xoffset -30
-        0.01
-        repeat
-    parallel:
-        alpha 0.7
-        linear 0.45 alpha 0
+  ytile 3
+  zoom 2.5
+  parallel:
+    "bg/glitch-red.png"
+    0.1
+    "bg/glitch-green.png"
+    0.1
+    "bg/glitch-blue.png"
+    0.1
+    repeat
+  parallel:
+    yoffset 720
+    linear 0.5 yoffset 0
+    repeat
+  parallel:
+    choice:
+      xoffset 0
+    choice:
+      xoffset 10
+    choice:
+      xoffset 20
+    choice:
+      xoffset 35
+    choice:
+      xoffset -10
+    choice:
+      xoffset -20
+    choice:
+      xoffset -30
+    0.01
+    repeat
+  parallel:
+    alpha 0.7
+    linear 0.45 alpha 0
 
 image sayori 1 = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/a.png")
 image sayori 1a = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/a.png")
@@ -444,11 +461,11 @@ image sayori 4bx = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "s
 image sayori 4by = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/y.png")
 
 image sayori glitch:
-    "sayori/glitch1.png"
-    pause 0.01666
-    "sayori/glitch2.png"
-    pause 0.01666
-    repeat
+  "sayori/glitch1.png"
+  pause 0.01666
+  "sayori/glitch2.png"
+  pause 0.01666
+  repeat
 
 image natsuki 11 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/1t.png")
 image natsuki 1a = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/a.png")
@@ -776,89 +793,91 @@ image natsuki 5 = im.Composite((960, 960), (18, 22), "natsuki/1t.png", (0, 0), "
 image natsuki mouth = LiveComposite((960, 960), (0, 0), "natsuki/0.png", (390, 340), "n_rects_mouth", (480, 334), "n_rects_mouth")
 
 image n_rects_mouth:
-    RectCluster(Solid("#000"), 4, 15, 5).sm
-    size (20, 25)
+  RectCluster(Solid("#000"), 4, 15, 5).sm
+  size (20, 25)
 
 image n_moving_mouth:
-    "images/natsuki/mouth.png"
-    pos (615, 305)
-    xanchor 0.5 yanchor 0.5
-    parallel:
-        choice:
-            ease 0.10 yzoom 0.2
-        choice:
-            ease 0.05 yzoom 0.2
-        choice:
-            ease 0.075 yzoom 0.2
-        pass
-        choice:
-            0.02
-        choice:
-            0.04
-        choice:
-            0.06
-        choice:
-            0.08
-        pass
-        choice:
-            ease 0.10 yzoom 1
-        choice:
-            ease 0.05 yzoom 1
-        choice:
-            ease 0.075 yzoom 1
-        pass
-        choice:
-            0.02
-        choice:
-            0.04
-        choice:
-            0.06
-        choice:
-            0.08
-        repeat
-    parallel:
-        choice:
-            0.2
-        choice:
-            0.4
-        choice:
-            0.6
-        ease 0.2 xzoom 0.4
-        ease 0.2 xzoom 0.8
-        repeat
+  "images/natsuki/mouth.png"
+  pos (615, 305)
+  xanchor 0.5 yanchor 0.5
+  parallel:
+    choice:
+      ease 0.10 yzoom 0.2
+    choice:
+      ease 0.05 yzoom 0.2
+    choice:
+      ease 0.075 yzoom 0.2
+    pass
+    choice:
+      0.02
+    choice:
+      0.04
+    choice:
+      0.06
+    choice:
+      0.08
+    pass
+    choice:
+      ease 0.10 yzoom 1
+    choice:
+      ease 0.05 yzoom 1
+    choice:
+      ease 0.075 yzoom 1
+    pass
+    choice:
+      0.02
+    choice:
+      0.04
+    choice:
+      0.06
+    choice:
+      0.08
+    repeat
+  parallel:
+    choice:
+      0.2
+    choice:
+      0.4
+    choice:
+      0.6
+    ease 0.2 xzoom 0.4
+    ease 0.2 xzoom 0.8
+    repeat
 
 image natsuki_ghost_blood:
-    "#00000000"
-    "natsuki/ghost_blood.png" with ImageDissolve("images/menu/wipedown.png", 80.0, ramplen=4, alpha=True)
-    pos (620,320) zoom 0.80
+  "#00000000"
+  "natsuki/ghost_blood.png" with ImageDissolve("images/menu/wipedown.png", 80.0, ramplen=4, alpha=True)
+  pos (620,320) zoom 0.80
 
 image natsuki ghost_base:
-    "natsuki/ghost1.png"
+  "natsuki/ghost1.png"
+
 image natsuki ghost1:
-    "natsuki 11"
-    "natsuki ghost_base" with Dissolve(20.0, alpha=True)
+  "natsuki 11"
+  "natsuki ghost_base" with Dissolve(20.0, alpha=True)
 image natsuki ghost2 = Image("natsuki/ghost2.png")
 image natsuki ghost3 = Image("natsuki/ghost3.png")
 image natsuki ghost4:
-    "natsuki ghost3"
-    parallel:
-        easeout 0.25 zoom 4.5 yoffset 1200
-    parallel:
-        ease 0.025 xoffset -20
-        ease 0.025 xoffset 20
-        repeat
-    0.25
-    "black"
+  "natsuki ghost3"
+  parallel:
+    easeout 0.25 zoom 4.5 yoffset 1200
+  parallel:
+    ease 0.025 xoffset -20
+    ease 0.025 xoffset 20
+    repeat
+  0.25
+  "black"
+
 image natsuki glitch1:
-    "natsuki/glitch1.png"
-    zoom 1.25
-    block:
-        yoffset 300 xoffset 100 ytile 2
-        linear 0.15 yoffset 200
-        repeat
-    time 0.75
-    yoffset 0 zoom 1 xoffset 0 ytile 1
-    "natsuki 4e"
+  "natsuki/glitch1.png"
+  zoom 1.25
+  block:
+    yoffset 300 xoffset 100 ytile 2
+    linear 0.15 yoffset 200
+    repeat
+  time 0.75
+  yoffset 0 zoom 1 xoffset 0 ytile 1
+  "natsuki 4e"
 
 image natsuki scream = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/scream.png")
 image natsuki vomit = "natsuki/vomit.png"
@@ -1052,15 +1071,15 @@ image yuri 4bd = im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3
 image yuri 4be = im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png")
 
 image y_glitch_head:
-    "images/yuri/za.png"
-    0.15
-    "images/yuri/zb.png"
-    0.15
-    "images/yuri/zc.png"
-    0.15
-    "images/yuri/zd.png"
-    0.15
-    repeat
+  "images/yuri/za.png"
+  0.15
+  "images/yuri/zb.png"
+  0.15
+  "images/yuri/zc.png"
+  0.15
+  "images/yuri/zd.png"
+  0.15
+  repeat
 
 image yuri stab_1 = "yuri/stab/1.png"
 image yuri stab_2 = "yuri/stab/2.png"
@@ -1070,95 +1089,95 @@ image yuri stab_5 = "yuri/stab/5.png"
 image yuri stab_6 = LiveComposite((960,960), (0, 0), "yuri/stab/6-mask.png", (0, 0), "yuri stab_6_eyes", (0, 0), "yuri/stab/6.png")
 
 image yuri stab_6_eyes:
-    "yuri/stab/6-eyes.png"
-    subpixel True
-    parallel:
-        choice:
-            xoffset 0.5
-        choice:
-            xoffset 0
-        choice:
-            xoffset -0.5
-        0.2
-        repeat
-    parallel:
-        choice:
-            yoffset 0.5
-        choice:
-            yoffset 0
-        choice:
-            yoffset -0.5
-        0.2
-        repeat
-    parallel:
-        2.05
-        easeout 1.0 yoffset -15
-        linear 10 yoffset -15
+  "yuri/stab/6-eyes.png"
+  subpixel True
+  parallel:
+    choice:
+      xoffset 0.5
+    choice:
+      xoffset 0
+    choice:
+      xoffset -0.5
+    0.2
+    repeat
+  parallel:
+    choice:
+      yoffset 0.5
+    choice:
+      yoffset 0
+    choice:
+      yoffset -0.5
+    0.2
+    repeat
+  parallel:
+    2.05
+    easeout 1.0 yoffset -15
+    linear 10 yoffset -15
 
 image yuri oneeye = LiveComposite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/oneeye.png", (0, 0), "yuri oneeye2")
 image yuri oneeye2:
-    "yuri/oneeye2.png"
-    subpixel True
-    pause 5.0
-    linear 60 xoffset -50 yoffset 20
+  "yuri/oneeye2.png"
+  subpixel True
+  pause 5.0
+  linear 60 xoffset -50 yoffset 20
 
 image yuri glitch:
-    "yuri/glitch1.png"
-    pause 0.1
-    "yuri/glitch2.png"
-    pause 0.1
-    "yuri/glitch3.png"
-    pause 0.1
-    "yuri/glitch4.png"
-    pause 0.1
-    "yuri/glitch5.png"
-    pause 0.1
-    repeat
+  "yuri/glitch1.png"
+  pause 0.1
+  "yuri/glitch2.png"
+  pause 0.1
+  "yuri/glitch3.png"
+  pause 0.1
+  "yuri/glitch4.png"
+  pause 0.1
+  "yuri/glitch5.png"
+  pause 0.1
+  repeat
 image yuri glitch2:
-    "yuri/0a.png"
-    pause 0.1
-    "yuri/0b.png"
-    pause 0.5
-    "yuri/0a.png"
-    pause 0.3
-    "yuri/0b.png"
-    pause 0.3
-    "yuri 1"
+  "yuri/0a.png"
+  pause 0.1
+  "yuri/0b.png"
+  pause 0.5
+  "yuri/0a.png"
+  pause 0.3
+  "yuri/0b.png"
+  pause 0.3
+  "yuri 1"
 
 image yuri eyes = LiveComposite((1280, 720), (0, 0), "yuri/eyes1.png", (0, 0), "yuripupils")
 
 image yuri eyes_base = "yuri/eyes1.png"
 
 image yuripupils:
-    "yuri/eyes2.png"
-    yuripupils_move
+  "yuri/eyes2.png"
+  yuripupils_move
 
 image yuri cuts = "yuri/cuts.png"
 
 image yuri dragon:
-    "yuri 3"
-    0.25
-    parallel:
-        "yuri/dragon1.png"
-        0.01
-        "yuri/dragon2.png"
-        0.01
-        repeat
-    parallel:
-        0.01
-        choice:
-            xoffset -1
-            xoffset -2
-            xoffset -5
-            xoffset -6
-            xoffset -9
-            xoffset -10
-        0.01
-        xoffset 0
-        repeat
-    time 0.55
+  "yuri 3"
+  0.25
+  parallel:
+    "yuri/dragon1.png"
+    0.01
+    "yuri/dragon2.png"
+    0.01
+    repeat
+  parallel:
+    0.01
+    choice:
+      xoffset -1
+      xoffset -2
+      xoffset -5
+      xoffset -6
+      xoffset -9
+      xoffset -10
+    0.01
     xoffset 0
-    "yuri 3"
+    repeat
+  time 0.55
+  xoffset 0
+  "yuri 3"
 
 image monika 1 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
 image monika 2 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
@@ -1246,46 +1265,46 @@ image monika 5a = im.Composite((960, 960), (0, 0), "monika/3a.png")
 image monika 5b = im.Composite((960, 960), (0, 0), "monika/3b.png")
 
 image monika g1:
-    "monika/g1.png"
-    xoffset 35 yoffset 55
-    parallel:
-        zoom 1.00
-        linear 0.10 zoom 1.03
-        repeat
-    parallel:
-        xoffset 35
-        0.20
-        xoffset 0
-        0.05
-        xoffset -10
-        0.05
-        xoffset 0
-        0.05
-        xoffset -80
-        0.05
-        repeat
-    time 1.25
-    xoffset 0 yoffset 0 zoom 1.00
-    "monika 3"
+  "monika/g1.png"
+  xoffset 35 yoffset 55
+  parallel:
+    zoom 1.00
+    linear 0.10 zoom 1.03
+    repeat
+  parallel:
+    xoffset 35
+    0.20
+    xoffset 0
+    0.05
+    xoffset -10
+    0.05
+    xoffset 0
+    0.05
+    xoffset -80
+    0.05
+    repeat
+  time 1.25
+  xoffset 0 yoffset 0 zoom 1.00
+  "monika 3"
 
 image monika g2:
-    block:
-        choice:
-            "monika/g2.png"
-        choice:
-            "monika/g3.png"
-        choice:
-            "monika/g4.png"
-    block:
-        choice:
-            pause 0.05
-        choice:
-            pause 0.1
-        choice:
-            pause 0.15
-        choice:
-            pause 0.2
-    repeat
+  block:
+    choice:
+      "monika/g2.png"
+    choice:
+      "monika/g3.png"
+    choice:
+      "monika/g4.png"
+  block:
+    choice:
+      pause 0.05
+    choice:
+      pause 0.1
+    choice:
+      pause 0.15
+    choice:
+      pause 0.2
+  repeat
 
 define narrator = Character(ctc="ctc", ctc_position="fixed")
 define mc = DynamicCharacter('player', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
