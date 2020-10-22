@@ -112,6 +112,7 @@ label start:
 
       if persistent.demo:
         stop music fadeout 2.0
+
         scene black with dissolve_cg
 
         "End of demo"
