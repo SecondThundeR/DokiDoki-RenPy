@@ -4,6 +4,7 @@ define config.developer = False
 
 python early:
   import singleton
+
   me = singleton.SingleInstance()
 
 init python:
@@ -12,6 +13,7 @@ init python:
   config.keymap['self_voicing'] = []
   config.keymap['clipboard_voicing'] = []
   config.keymap['toggle_skip'] = []
+
   renpy.music.register_channel("music_poem", mixer="music", tight=True)
 
   def get_pos(channel='music'):
@@ -62,9 +64,7 @@ init python:
       delete_character("sayori")
     elif persistent.playthrough == 3:
       delete_character("sayori")
-
       delete_character("natsuki")
-
       delete_character("yuri")
     elif persistent.playthrough == 4:
       delete_character("monika")
@@ -86,7 +86,9 @@ init python:
       return
 
     _windows_hidden = True
+
     renpy.pause(time)
+
     _windows_hidden = False
 
 define audio.t1 = "<loop 22.073>bgm/1.ogg"
