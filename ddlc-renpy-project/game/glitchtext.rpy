@@ -5,7 +5,9 @@ init python:
 
   def glitchtext(length):
     output = ""
+
     for x in range(length):
       output += random.choice(nonunicode)
+
     return output
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
