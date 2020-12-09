@@ -1142,7 +1142,7 @@ label yuri_exclusive2_2_ch23:
 
   play music g1
 
-  y "{cps=70}[gtext]{nw}"
+  y "{cps=70}[gtext]{/cps}{nw}"
 
   stop music
 
