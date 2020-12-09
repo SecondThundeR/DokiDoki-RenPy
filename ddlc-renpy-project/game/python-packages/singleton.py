@@ -26,7 +26,6 @@ class SingleInstance:
     """
 
     def __init__(self, flavor_id=""):
-        import sys
         self.initialized = False
         basename = os.path.splitext(os.path.abspath(sys.argv[0]))[0].replace(
             "/", "-").replace(":", "").replace("\\", "-") + '-%s' % flavor_id + '.lock'
@@ -44,7 +43,7 @@ class SingleInstance:
                 self.fd = os.open(
                     self.lockfile, os.O_CREAT | os.O_EXCL | os.O_RDWR)
             except OSError:
-                type, e, tb = sys.exc_info()
+                x, e, tb = sys.exc_info()
                 if e.errno == 13:
                     logger.error(
                         "Another instance is already running, quitting.")
@@ -64,8 +63,6 @@ class SingleInstance:
         self.initialized = True
 
     def __del__(self):
-        import sys
-        import os
         if not self.initialized:
             return
         try:
@@ -95,7 +92,6 @@ def f(name):
     except SingleInstanceException:
         sys.exit(-1)
     logger.setLevel(tmp)
-    pass
 
 logger = logging.getLogger("tendo.singleton")
 logger.addHandler(logging.StreamHandler())
