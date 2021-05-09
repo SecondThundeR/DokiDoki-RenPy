@@ -33,60 +33,60 @@ default preferences.music_volume = 0.75
 default preferences.sfx_volume = 0.75
 
 init python:
-  if len(renpy.loadsave.location.locations) > 1:
-    del(renpy.loadsave.location.locations[1])
+    if len(renpy.loadsave.location.locations) > 1:
+        del(renpy.loadsave.location.locations[1])
 
-  renpy.game.preferences.pad_enabled = False
+    renpy.game.preferences.pad_enabled = False
 
-  def replace_text(s):
-    s = s.replace('--', u'\u2014')
-    s = s.replace(' - ', u'\u2014')
+    def replace_text(s):
+        s = s.replace('--', u'\u2014')
+        s = s.replace(' - ', u'\u2014')
 
-    return s
+        return s
 
-  config.replace_text = replace_text
+    config.replace_text = replace_text
 
-  def game_menu_check():
-    if quick_menu:
-      renpy.call_in_new_context('_game_menu')
+    def game_menu_check():
+        if quick_menu:
+            renpy.call_in_new_context('_game_menu')
 
-  config.game_menu_action = game_menu_check
+    config.game_menu_action = game_menu_check
 
-  def force_integer_multiplier(width, height):
-    if float(width) / float(height) < float(config.screen_width) / float(config.screen_height):
-      return (width, float(width) / (float(config.screen_width) / float(config.screen_height)))
-    else:
-      return (float(height) * (float(config.screen_width) / float(config.screen_height)), height)
+    def force_integer_multiplier(width, height):
+        if float(width) / float(height) < float(config.screen_width) / float(config.screen_height):
+            return (width, float(width) / (float(config.screen_width) / float(config.screen_height)))
+        else:
+            return (float(height) * (float(config.screen_width) / float(config.screen_height)), height)
 
 init python:
-  build.archive("scripts", "all")
-  build.archive("images", "all")
-  build.archive("audio", "all")
-  build.archive("fonts", "all")
-  build.classify("game/**.jpg", "images")
-  build.classify("game/**.png", "images")
-  build.classify("game/**.rpyc", "scripts")
-  build.classify("game/**.txt", "scripts")
-  build.classify("game/**.chr", "scripts")
-  build.classify("game/**.wav", "audio")
-  build.classify("game/**.mp3", "audio")
-  build.classify("game/**.ogg", "audio")
-  build.classify("game/**.ttf", "fonts")
-  build.classify("game/**.otf", "fonts")
-  build.classify('**~', None)
-  build.classify('**.bak', None)
-  build.classify('**/.**', None)
-  build.classify('**/#**', None)
-  build.classify('**/thumbs.db', None)
-  build.classify('**.rpy', None)
-  build.classify('**.psd', None)
-  build.classify('**.sublime-project', None)
-  build.classify('**.sublime-workspace', None)
-  build.classify('/music/*.*', None)
-  build.classify('script-regex.txt', None)
-  build.classify('/game/10', None)
-  build.classify('/game/cache/*.*', None)
-  build.documentation('*.html')
-  build.documentation('*.txt')
-  build.include_old_themes = False
+    build.archive("scripts", "all")
+    build.archive("images", "all")
+    build.archive("audio", "all")
+    build.archive("fonts", "all")
+    build.classify("game/**.jpg", "images")
+    build.classify("game/**.png", "images")
+    build.classify("game/**.rpyc", "scripts")
+    build.classify("game/**.txt", "scripts")
+    build.classify("game/**.chr", "scripts")
+    build.classify("game/**.wav", "audio")
+    build.classify("game/**.mp3", "audio")
+    build.classify("game/**.ogg", "audio")
+    build.classify("game/**.ttf", "fonts")
+    build.classify("game/**.otf", "fonts")
+    build.classify('**~', None)
+    build.classify('**.bak', None)
+    build.classify('**/.**', None)
+    build.classify('**/#**', None)
+    build.classify('**/thumbs.db', None)
+    build.classify('**.rpy', None)
+    build.classify('**.psd', None)
+    build.classify('**.sublime-project', None)
+    build.classify('**.sublime-workspace', None)
+    build.classify('/music/*.*', None)
+    build.classify('script-regex.txt', None)
+    build.classify('/game/10', None)
+    build.classify('/game/cache/*.*', None)
+    build.documentation('*.html')
+    build.documentation('*.txt')
+    build.include_old_themes = False
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

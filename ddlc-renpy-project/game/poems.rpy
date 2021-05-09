@@ -1,16 +1,16 @@
 init python:
-  class Poem:
-    def __init__(self, author="", title="", text="", yuri_2=False, yuri_3=False):
-      self.author = author
-      self.title = title
-      self.text = text
-      self.yuri_2 = yuri_2
-      self.yuri_3 = yuri_3
+    class Poem:
+        def __init__(self, author="", title="", text="", yuri_2=False, yuri_3=False):
+            self.author = author
+            self.title = title
+            self.text = text
+            self.yuri_2 = yuri_2
+            self.yuri_3 = yuri_3
 
-  poem_y1 = Poem(
-  author = "yuri",
-  title = "Ghost Under the Light",
-  text = """\
+    poem_y1 = Poem(
+    author = "yuri",
+    title = "Ghost Under the Light",
+    text = """\
 The tendrils of my hair illuminate beneath the amber glow.
 Bathing.
 It must be this one.
@@ -19,12 +19,12 @@ the last yet to be replaced by the sickening blue-green hue of the future.
 I bathe. Calm; breathing air of the present but living in the past.
 The light flickers.
 I flicker back."""
-  )
+    )
 
-  poem_y2 = Poem(
-  author = "yuri",
-  title = "The Raccoon",
-  text = """\
+    poem_y2 = Poem(
+    author = "yuri",
+    title = "The Raccoon",
+    text = """\
 It happened in the dead of night while I was slicing bread for a guilty snack.
 My attention was caught by the scuttering of a raccoon outside my window.
 That was, I believe, the first time I noticed my strange tendencies as an unordinary human.
@@ -45,12 +45,12 @@ The raccoon becomes hungry more and more frequently, so my bread is always handy
 Every time I brandish my cutting knife, the raccoon shows me its excitement.
 A rush of blood. Classic Pavlovian conditioning. I slice the bread.
 And I feed myself again."""
-  )
+    )
 
-  poem_y3 = Poem(
-  author = "yuri",
-  title = "Beach",
-  text = """\
+    poem_y3 = Poem(
+    author = "yuri",
+    title = "Beach",
+    text = """\
 A marvel millions of years in the making.
 Where the womb of Earth chaotically meets the surface.
 Under a clear blue sky, an expanse of bliss--
@@ -72,12 +72,12 @@ The breeze is gentle, yet powerful.
 I sink my toes into the ultimate boundary line, tempted by the foamy tendrils.
 Turn back, and I abandon my peace to erode at the shore.
 Drift forward, and I return to Earth forevermore."""
-  )
+    )
 
-  poem_y3b = Poem(
-  author = "yuri",
-  title = "Ghost Under the Light pt. 2",
-  text = """\
+    poem_y3b = Poem(
+    author = "yuri",
+    title = "Ghost Under the Light pt. 2",
+    text = """\
 The tendrils of my hair illuminate beneath the amber glow.
 Bathing.
 In the distance, a blue-green light flickers.
@@ -98,13 +98,13 @@ Giving up on understanding, I laugh.
 Understanding is overrated.
 I touch his hand. The flickering stops.
 Ghosts are blue-green. My heart is amber."""
-  )
+    )
 
-  poem_y22 = Poem(
-  author = "yuri",
-  yuri_2 = True,
-  title = "Wheel",
-  text = """\
+    poem_y22 = Poem(
+    author = "yuri",
+    yuri_2 = True,
+    title = "Wheel",
+    text = """\
 A rotating wheel. Turning an axle. Grinding. Bolthead. Linear gearbox. Falling sky. Seven holy stakes. \
 A docked ship. A portal to another world. A thin rope tied to a thick rope. A torn harness. Parabolic gearbox. \
 Expanding universe. Time controlled by slipping cogwheels. Existence of God. Swimming with open water in all directions. \
@@ -117,13 +117,13 @@ the existence of a docked ship to another world. A kaleidoscope of blood written
 prayer connecting a sky of forty gears and open human eyes in all directions. Breathing gearbox. Breathing bolthead. \
 Breathing ship. Breathing portal. Breathing snakes. Breathing God. Breathing blood. Breathing holy stakes. \
 Breathing human eyes. Breathing time. Breathing prayer. Breathing sky. Breathing wheel."""
-  )
+    )
 
-  poem_y23 = Poem(
-    author = "yuri",
-    yuri_3 = True,
-    title = "mdpnfbo,jrfp",
-    text = """\
+    poem_y23 = Poem(
+        author = "yuri",
+        yuri_3 = True,
+        title = "mdpnfbo,jrfp",
+        text = """\
 ed,,zinger suivante,,tels handknits finish,,cagefuls basinlike bag octopodan,,imboss\
 ing vaporettos rorid easygoingnesses nalorphines,,benzol respond washerwomen bris\
 tlecone,,parajournalism herringbone farnarkeled,,episodically cooties,,initiallers \
@@ -172,12 +172,12 @@ Shooting pain assaults my mind along with my thoughts. This is disgusting. Absol
  disgusting. How could I ever let myself think these things? But it’s unmistakable. \
 The lust continues to linger through my veins. An ache in my muscles stems from the \
 unreleased tension experienced by my entire body. Her Third Eye is drawing me closer."""
-  )
+    )
 
-  poem_n1 = Poem(
-  author = "natsuki",
-  title = "Eagles Can Fly",
-  text = """\
+    poem_n1 = Poem(
+    author = "natsuki",
+    title = "Eagles Can Fly",
+    text = """\
 Monkeys can climb
 Crickets can leap
 Horses can race
@@ -186,12 +186,12 @@ Cheetahs can run
 Eagles can fly
 People can try
 But that's about it."""
-  )
+    )
 
-  poem_n2 = Poem(
-  author = "natsuki",
-  title = "Amy Likes Spiders",
-  text = """\
+    poem_n2 = Poem(
+    author = "natsuki",
+    title = "Amy Likes Spiders",
+    text = """\
 You know what I heard about Amy?
 Amy likes spiders.
 Icky, wriggly, hairy, ugly spiders!
@@ -224,12 +224,12 @@ She's gross.
 The world is better off without spider lovers.
 
 And I'm gonna tell everyone."""
-  )
+    )
 
-  poem_n2b = Poem(
-  author = "natsuki",
-  title = "T3BlbiBZb3VyIFRoaXJkIEV5ZQ==",
-  text = """\
+    poem_n2b = Poem(
+    author = "natsuki",
+    title = "T3BlbiBZb3VyIFRoaXJkIEV5ZQ==",
+    text = """\
 SSBjYW4gZmVlbCB0aGUgdGVuZGVybmVz
 cyBvZiBoZXIgc2tpbiB0aHJvdWdoIHRo
 ZSBrbmlmZSwgYXMgaWYgaXQgd2VyZSBh
@@ -244,12 +244,12 @@ biBhbHJlYWR5IHRlbGwgdGhhdCBJJ20g
 YmVpbmcgcHVzaGVkIG92ZXIgdGhlIGVk
 Z2UuIEkgY2FuJ3QuLi5JIGNhbid0IHN0
 b3AgbXlzZWxmLg=="""
-  )
+    )
 
-  poem_n3 = Poem(
-  author = "natsuki",
-  title = "I'll Be Your Beach",
-  text = """\
+    poem_n3 = Poem(
+    author = "natsuki",
+    title = "I'll Be Your Beach",
+    text = """\
 Your mind is so full of troubles and fears
 That diminished your wonder over the years
 But today I have a special place
@@ -283,12 +283,12 @@ In a way you thought had left you long ago.
 But if you let me by your side
 Your own beach, your own escape
 You'll learn to love yourself again."""
-  )
+    )
 
-  poem_n3b = Poem(
-  author = "natsuki",
-  title = "Because You",
-  text = """\
+    poem_n3b = Poem(
+    author = "natsuki",
+    title = "Because You",
+    text = """\
 Tomorrow will be brighter with me around
 But when today is dim, I can only look down.
 My looking is a little more forward
@@ -315,12 +315,12 @@ My poems are a little bit dearer
 Because you think of me.
 
 Because you, because you, because you."""
-  )
+    )
 
-  poem_n23 = Poem(
-  author = "natsuki",
-  title = "",
-  text = """\
+    poem_n23 = Poem(
+    author = "natsuki",
+    title = "",
+    text = """\
 I don't know how else to bring this up. But there's been something I've been worried about. \
 Yuri has been acting kind of strange lately. You've only been here a few days, so you may \
 not know what I mean. But she's not normally like this. She's always been quiet and polite \
@@ -341,12 +341,12 @@ As for Monika... I don't know why, but she's been really dismissive about this. 
 to ignore it. So I'm mad at her right now, and that's why I'm coming to you about this. \
 DON'T LET HER KNOW I WROTE THIS!!!! Just pretend like I gave you a really good poem, okay? \
 I'm counting on you. Thanks for reading."""
-  )
+    )
 
-  poem_s1 = Poem(
-  author = "sayori",
-  title = "Dear Sunshine",
-  text = """\
+    poem_s1 = Poem(
+    author = "sayori",
+    title = "Dear Sunshine",
+    text = """\
 The way you glow through my blinds in the morning
 It makes me feel like you missed me.
 Kissing my forehead to help me out of bed.
@@ -361,12 +361,12 @@ If it wasn't for you, I could sleep forever.
 But I'm not mad.
 
 I want breakfast."""
-  )
+    )
 
-  poem_s2 = Poem(
-  author = "sayori",
-  title = "Bottles",
-  text = """\
+    poem_s2 = Poem(
+    author = "sayori",
+    title = "Bottles",
+    text = """\
 I pop off my scalp like the lid of a cookie jar.
 It's the secret place where I keep all my dreams.
 Little balls of sunshine, all rubbing together like a bundle of kittens.
@@ -405,12 +405,12 @@ They were supposed to be for my friends, my friends who aren't smiling.
 They're all shouting, pleading. Something.
 But all I hear is echo, echo, echo, echo, echo
 Inside my head."""
-  )
+    )
 
-  poem_s3 = Poem(
-  author = "sayori",
-  title = "%",
-  text = """\
+    poem_s3 = Poem(
+    author = "sayori",
+    title = "%",
+    text = """\
 Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of
 Get.
 Out.
@@ -423,12 +423,12 @@ Get out of my head before I show you how much I love you.
 Get out of my head before I finish writing this poem.\n\n\n\n\n\n\n
 But a poem is never actually finished.
 It just stops moving."""
-  )
+    )
 
-  poem_m1 = Poem(
-  author = "monika",
-  title = "Hole in Wall",
-  text = """\
+    poem_m1 = Poem(
+    author = "monika",
+    title = "Hole in Wall",
+    text = """\
 It couldn't have been me.
 See, the direction the spackle protrudes.
 A noisy neighbor? An angry boyfriend? I'll never know. I wasn't home.
@@ -443,12 +443,12 @@ A hole of infinite choices.
 I realize now, that I wasn't looking in.
 I was looking out.
 And he, on the other side, was looking in."""
-  )
+    )
 
-  poem_m21 = Poem(
-  author = "monika",
-  title = "Hole in Wall",
-  text = """\
+    poem_m21 = Poem(
+    author = "monika",
+    title = "Hole in Wall",
+    text = """\
 But he wasn't looking at me.
 Confused, I frantically glance at my surroundings.
 But my burned eyes can no longer see color.
@@ -462,12 +462,12 @@ I panic. There must be a way out.
 It's right there. He's right there.
 
 Swallowing my fears, I brandish my pen."""
-  )
+    )
 
-  poem_m2 = Poem(
-  author = "monika",
-  title = "Save Me",
-  text = """\
+    poem_m2 = Poem(
+    author = "monika",
+    title = "Save Me",
+    text = """\
 The colors, they won't stop.
 Bright, beautiful colors
 Flashing, expanding, piercing
@@ -482,24 +482,24 @@ The noise, it won't stop.
 Violent, grating waveforms
 Squeaking, screeching, piercing
 Sine, cosine, tangent
-    Like playing a chalkboard on a turntable
-        Like playing a vinyl on a pizza crust
+        Like playing a chalkboard on a turntable
+                Like playing a vinyl on a pizza crust
 An endless
 poem
 Of meaningless\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 Load Me
-    """
-  )
+        """
+    )
 
-  poem_m22 = Poem(
-  author = "monika",
-  title = "Save Me",
-  text = """\
+    poem_m22 = Poem(
+    author = "monika",
+    title = "Save Me",
+    text = """\
 The colors, they won't
 Bright, bea t ful c l rs
 Flash ng, exp nd ng, piercing
 Red, green, blue
-An  ndless
+An    ndless
 CACOPHONY
 Of meaningless
 noise
@@ -509,19 +509,19 @@ The noise, it won't STOP.
 Viol nt, grating w vef rms
 Sq e king, screech ng, piercing
 SINE, COSINE, TANGENT
-    Like play ng a ch lkboard on a t rntable
-        Like playing a KNIFE on a BREATHING RIBCAGE
- n  ndl ss
-p  m
-Of m  n ngl ss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        Like play ng a ch lkboard on a t rntable
+                Like playing a KNIFE on a BREATHING RIBCAGE
+ n    ndl ss
+p    m
+Of m    n ngl ss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 Delete Her
-    """
-  )
+        """
+    )
 
-  poem_m3 = Poem(
-  author = "monika",
-  title = "The Lady who Knows Everything",
-  text = """\
+    poem_m3 = Poem(
+    author = "monika",
+    title = "The Lady who Knows Everything",
+    text = """\
 An old tale tells of a lady who wanders Earth.
 The Lady who Knows Everything.
 A beautiful lady who has found every answer,
@@ -532,7 +532,7 @@ And all that was ever sought.
 And here I am,
 
 
-              a feather
+                            a feather
 
 
 Lost adrift the sky, victim of the currents of the wind.
@@ -563,12 +563,12 @@ I am not your legend.
 Your legend does not exist."
 
 And with a breath, she blows me back afloat, and I pick up a gust of wind."""
-  )
+    )
 
-  poem_m4 = Poem(
-  author = "monika",
-  title = "Happy End",
-  text = """\
+    poem_m4 = Poem(
+    author = "monika",
+    title = "Happy End",
+    text = """\
 Pen in hand, I find my strength.
 The courage endowed upon me by my one and only love.
 Together, let us dismantle this crumbling world
@@ -579,169 +579,169 @@ In a world of infinite choices, behold this special day.
 
 After all,
 Not all good times must come to an end."""
-  )
+    )
 
 image paper = "images/bg/poem.jpg"
 image paper_glitch = LiveComposite((1280, 720), (0, 0), "paper_glitch1", (0, 0), "paper_glitch2")
 image paper_glitch1 = "images/bg/poem-glitch1.png"
 image paper_glitch2:
-  "images/bg/poem-glitch2.png"
-  block:
-    yoffset 0
-    0.05
-    yoffset 20
-    0.05
-    repeat
+    "images/bg/poem-glitch2.png"
+    block:
+        yoffset 0
+        0.05
+        yoffset 20
+        0.05
+        repeat
 
 transform paper_in:
-  truecenter
-  alpha 0
-  linear 1.0 alpha 1
+    truecenter
+    alpha 0
+    linear 1.0 alpha 1
 
 transform paper_out:
-  alpha 1
-  linear 1.0 alpha 0
+    alpha 1
+    linear 1.0 alpha 0
 
 screen poem(currentpoem, paper="paper"):
-  style_prefix "poem"
-  vbox:
-    add paper
-  viewport id "vp":
-    child_size (710, None)
-    mousewheel True
-    draggable True
-    has vbox
-    null height 40
+    style_prefix "poem"
+    vbox:
+        add paper
+    viewport id "vp":
+        child_size (710, None)
+        mousewheel True
+        draggable True
+        has vbox
+        null height 40
 
-    if currentpoem.author == "yuri":
-      if currentpoem.yuri_2:
-        text "[currentpoem.title]\n\n[currentpoem.text]" style "yuri_text"
-      elif currentpoem.yuri_3:
-        text "[currentpoem.title]\n\n[currentpoem.text]" style "yuri_text_3"
-      else:
-        text "[currentpoem.title]\n\n[currentpoem.text]" style "yuri_text"
-    elif currentpoem.author == "sayori":
-      text "[currentpoem.title]\n\n[currentpoem.text]" style "sayori_text"
-    elif currentpoem.author == "natsuki":
-      text "[currentpoem.title]\n\n[currentpoem.text]" style "natsuki_text"
-    elif currentpoem.author == "monika":
-      text "[currentpoem.title]\n\n[currentpoem.text]" style "monika_text"
+        if currentpoem.author == "yuri":
+            if currentpoem.yuri_2:
+                text "[currentpoem.title]\n\n[currentpoem.text]" style "yuri_text"
+            elif currentpoem.yuri_3:
+                text "[currentpoem.title]\n\n[currentpoem.text]" style "yuri_text_3"
+            else:
+                text "[currentpoem.title]\n\n[currentpoem.text]" style "yuri_text"
+        elif currentpoem.author == "sayori":
+            text "[currentpoem.title]\n\n[currentpoem.text]" style "sayori_text"
+        elif currentpoem.author == "natsuki":
+            text "[currentpoem.title]\n\n[currentpoem.text]" style "natsuki_text"
+        elif currentpoem.author == "monika":
+            text "[currentpoem.title]\n\n[currentpoem.text]" style "monika_text"
 
-    null height 100
+        null height 100
 
-  vbar value YScrollValue(viewport="vp") style "poem_vbar"
+    vbar value YScrollValue(viewport="vp") style "poem_vbar"
 
 style poem_vbox:
-  xalign 0.5
+    xalign 0.5
 
 style poem_viewport:
-  xanchor 0
-  xsize 720
-  xpos 280
+    xanchor 0
+    xsize 720
+    xpos 280
 
 style poem_vbar is vscrollbar:
-  xpos 1000
-  yalign 0.5
+    xpos 1000
+    yalign 0.5
 
-  ysize 700
+    ysize 700
 
 style yuri_text:
-  font "gui/font/y1.ttf"
-  size 32
-  color "#000"
-  outlines []
+    font "gui/font/y1.ttf"
+    size 32
+    color "#000"
+    outlines []
 
 style yuri_text_2:
-  font "gui/font/y2.ttf"
-  size 40
-  color "#000"
-  outlines []
+    font "gui/font/y2.ttf"
+    size 40
+    color "#000"
+    outlines []
 
 style yuri_text_3:
-  font "gui/font/y3.ttf"
-  size 18
-  color "#000"
-  outlines []
-  kerning -8
-  justify True
+    font "gui/font/y3.ttf"
+    size 18
+    color "#000"
+    outlines []
+    kerning -8
+    justify True
 
 style natsuki_text:
-  font "gui/font/n1.ttf"
-  size 28
-  color "#000"
-  outlines []
-  line_leading 1
+    font "gui/font/n1.ttf"
+    size 28
+    color "#000"
+    outlines []
+    line_leading 1
 
 style sayori_text:
-  font "gui/font/s1.ttf"
-  size 34
-  color "#000"
-  outlines []
+    font "gui/font/s1.ttf"
+    size 34
+    color "#000"
+    outlines []
 
 style monika_text:
-  font "gui/font/m1.ttf"
-  size 34
-  color "#000"
-  outlines []
+    font "gui/font/m1.ttf"
+    size 34
+    color "#000"
+    outlines []
 
 label showpoem(poem=None, music=True, track=None, revert_music=True, img=None, where=i11, paper=None):
 
-  if poem == None:
-    return
+    if poem == None:
+        return
 
-  play sound page_turn
+    play sound page_turn
 
-  if music:
-    $ currentpos = get_pos()
+    if music:
+        $ currentpos = get_pos()
 
-    if track:
-      $ audio.t5b = "<from " + str(currentpos) + " loop 4.444>" + track
+        if track:
+            $ audio.t5b = "<from " + str(currentpos) + " loop 4.444>" + track
+        else:
+            $ audio.t5b = "<from " + str(currentpos) + " loop 4.444>bgm/5_" + poem.author + ".ogg"
+
+        stop music fadeout 2.0
+
+        $ renpy.music.play(audio.t5b, channel="music_poem", fadein=2.0, tight=True)
+
+    window hide
+
+    $ renpy.game.preferences.afm_enable = False
+
+    if paper:
+        show screen poem(poem, paper=paper)
     else:
-      $ audio.t5b = "<from " + str(currentpos) + " loop 4.444>bgm/5_" + poem.author + ".ogg"
+        show screen poem(poem)
 
-    stop music fadeout 2.0
+    if not persistent.first_poem:
+        $ persistent.first_poem = True
 
-    $ renpy.music.play(audio.t5b, channel="music_poem", fadein=2.0, tight=True)
+        $ renpy.save_persistent()
 
-  window hide
+        show expression "gui/poem_dismiss.png" as poem_dismiss:
+            xpos 1050 ypos 590
+    with Dissolve(1)
 
-  $ renpy.game.preferences.afm_enable = False
+    $ pause()
 
-  if paper:
-    show screen poem(poem, paper=paper)
-  else:
-    show screen poem(poem)
+    if img:
+        $ renpy.hide(poem.author)
 
-  if not persistent.first_poem:
-    $ persistent.first_poem = True
+        $ renpy.show(img, at_list=[where])
 
-    $ renpy.save_persistent()
+    hide screen poem
+    hide poem_dismiss
+    with Dissolve(.5)
 
-    show expression "gui/poem_dismiss.png" as poem_dismiss:
-      xpos 1050 ypos 590
-  with Dissolve(1)
+    window auto
 
-  $ pause()
+    if music and revert_music:
+        $ currentpos = get_pos(channel="music_poem")
 
-  if img:
-    $ renpy.hide(poem.author)
+        $ audio.t5c = "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
 
-    $ renpy.show(img, at_list=[where])
+        stop music_poem fadeout 2.0
 
-  hide screen poem
-  hide poem_dismiss
-  with Dissolve(.5)
+        $ renpy.music.play(audio.t5c, fadein=2.0)
 
-  window auto
-
-  if music and revert_music:
-    $ currentpos = get_pos(channel="music_poem")
-
-    $ audio.t5c = "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
-
-    stop music_poem fadeout 2.0
-
-    $ renpy.music.play(audio.t5c, fadein=2.0)
-
-  return
+    return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

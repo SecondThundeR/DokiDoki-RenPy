@@ -1,2804 +1,2804 @@
 label ch4_main:
 
-  stop music fadeout 2.0
+    stop music fadeout 2.0
 
-  scene bg residential_day
-  with dissolve_scene_full
+    scene bg residential_day
+    with dissolve_scene_full
 
-  play music t6
+    play music t6
 
-  "It's already Sunday."
+    "It's already Sunday."
 
-  if ch4_scene == "natsuki":
-    "I've been getting increasingly anxious about Natsuki's upcoming visit."
+    if ch4_scene == "natsuki":
+        "I've been getting increasingly anxious about Natsuki's upcoming visit."
 
-    "I keep telling myself there's no reason to be nervous, but it doesn't help much."
+        "I keep telling myself there's no reason to be nervous, but it doesn't help much."
 
-    "I wonder if she'll act any different when it's just the two of us?"
+        "I wonder if she'll act any different when it's just the two of us?"
 
-    "Meanwhile, she's been texting me a lot."
+        "Meanwhile, she's been texting me a lot."
 
-    "We sent each other one after exchanging numbers to double-check, but it turned into conversation."
+        "We sent each other one after exchanging numbers to double-check, but it turned into conversation."
 
-    "She's almost a different personality on the phone, using tons of emoji and cute language."
+        "She's almost a different personality on the phone, using tons of emoji and cute language."
 
-    "She also really likes complaining about things, but I kind of saw that one coming."
+        "She also really likes complaining about things, but I kind of saw that one coming."
 
-    "But putting Natsuki aside..."
-  else:
-    "I've been getting increasingly anxious about Yuri's upcoming visit."
+        "But putting Natsuki aside..."
+    else:
+        "I've been getting increasingly anxious about Yuri's upcoming visit."
 
-    "I keep telling myself there's no reason to be nervous, but it doesn't help much."
+        "I keep telling myself there's no reason to be nervous, but it doesn't help much."
 
-    "Yuri is clearly an introvert and also an intimate person in general."
+        "Yuri is clearly an introvert and also an intimate person in general."
 
-    "There's no doubt that she'll open up a little bit when it's just the two of us."
+        "There's no doubt that she'll open up a little bit when it's just the two of us."
 
-    "Meanwhile, we've even been texting occasionally."
+        "Meanwhile, we've even been texting occasionally."
 
-    "She was extremely apprehensive at first, but it wasn't long before I was already learning more about her."
+        "She was extremely apprehensive at first, but it wasn't long before I was already learning more about her."
 
-    "But putting Yuri aside..."
+        "But putting Yuri aside..."
 
-  "I haven't heard a thing from Sayori since she left club early the other day."
+    "I haven't heard a thing from Sayori since she left club early the other day."
 
-  "It's not like we text each other all the time or anything..."
+    "It's not like we text each other all the time or anything..."
 
-  "But I've been worried about her in the back of my mind."
+    "But I've been worried about her in the back of my mind."
 
-  "Between what Sayori said, and what Monika said..."
+    "Between what Sayori said, and what Monika said..."
 
-  "Is it really okay for me to put Sayori's feelings aside when she might need me?"
+    "Is it really okay for me to put Sayori's feelings aside when she might need me?"
 
-  stop music fadeout 2.0
+    stop music fadeout 2.0
 
-  scene bg house
-  with wipeleft_scene
+    scene bg house
+    with wipeleft_scene
 
-  "I decide to visit Sayori before [ch4_name] comes over."
+    "I decide to visit Sayori before [ch4_name] comes over."
 
-  "Rather than asking, I simply tell her \"I'm coming over\", much like we've done in the past."
+    "Rather than asking, I simply tell her \"I'm coming over\", much like we've done in the past."
 
-  "Once I reach Sayori's house, I knock on the door before entering it myself."
+    "Once I reach Sayori's house, I knock on the door before entering it myself."
 
-  "Again, we used to play so often that we've made it a habit of simply entering each other's houses like we were family."
+    "Again, we used to play so often that we've made it a habit of simply entering each other's houses like we were family."
 
-  scene black with wipeleft
+    scene black with wipeleft
 
-  "The house is quiet."
+    "The house is quiet."
 
-  "Sayori isn't anywhere on the first floor, so I assume she's up in her room."
+    "Sayori isn't anywhere on the first floor, so I assume she's up in her room."
 
-  "It's already strange of her not to run down and greet me."
+    "It's already strange of her not to run down and greet me."
 
-  "I head up to her bedroom, where I finally find her."
+    "I head up to her bedroom, where I finally find her."
 
-  scene bg sayori_bedroom with wipeleft
+    scene bg sayori_bedroom with wipeleft
 
-  mc "Sayori?"
+    mc "Sayori?"
 
-  play music t10
+    play music t10
 
-  show sayori 1ba zorder 2 at t11
+    show sayori 1ba zorder 2 at t11
 
-  s "Hi [player]~"
+    s "Hi [player]~"
 
-  show sayori 1by
+    show sayori 1by
 
-  "I sit down in her room."
+    "I sit down in her room."
 
-  "Sayori forces a smile, but it's easy to tell that she's different."
+    "Sayori forces a smile, but it's easy to tell that she's different."
 
-  "There's a minute of silence between us."
+    "There's a minute of silence between us."
 
-  s "You haven't come over like this in a long time, have you?"
+    s "You haven't come over like this in a long time, have you?"
 
-  mc "Ah... I guess you're right."
+    mc "Ah... I guess you're right."
 
-  mc "It has been a long time."
+    mc "It has been a long time."
 
-  mc "Not much has really changed, has it?"
+    mc "Not much has really changed, has it?"
 
-  "Sayori's room is as messy as it's always been."
+    "Sayori's room is as messy as it's always been."
 
-  "I also recognize the same stuffed animals and wall decorations that she's had for years now."
+    "I also recognize the same stuffed animals and wall decorations that she's had for years now."
 
-  s 2bl "Ehehe~"
+    s 2bl "Ehehe~"
 
-  s "If you came over more often, it wouldn't be such a mess."
+    s "If you came over more often, it wouldn't be such a mess."
 
-  mc "That's because I end up cleaning it for you..."
+    mc "That's because I end up cleaning it for you..."
 
-  s 1bb "How come you suddenly wanted to come over today?"
+    s 1bb "How come you suddenly wanted to come over today?"
 
-  s "Aren't you supposed to see [ch4_name] today?"
+    s "Aren't you supposed to see [ch4_name] today?"
 
-  mc "Yeah, but..."
+    mc "Yeah, but..."
 
-  mc "...Wait, how did you know that?"
+    mc "...Wait, how did you know that?"
 
-  "Sayori had already left by the time we decided that last meeting."
+    "Sayori had already left by the time we decided that last meeting."
 
-  s 1ba "Monika told me."
+    s 1ba "Monika told me."
 
-  s "It's only natural for her to keep me informed about the festival preparations, right?"
+    s "It's only natural for her to keep me informed about the festival preparations, right?"
 
-  mc "Ah, that's true..."
+    mc "Ah, that's true..."
 
-  mc "But what about you?"
+    mc "But what about you?"
 
-  mc "Aren't you going to be helping Monika today?"
+    mc "Aren't you going to be helping Monika today?"
 
-  s 4bb "Of course!"
+    s 4bb "Of course!"
 
-  s "But I'm just helping her online."
+    s "But I'm just helping her online."
 
-  s "We didn't plan to meet up or anything."
+    s "We didn't plan to meet up or anything."
 
-  mc "Ah, so it's just me and [ch4_name], then..."
+    mc "Ah, so it's just me and [ch4_name], then..."
 
-  s 1ba "Yep~"
+    s 1ba "Yep~"
 
-  "There's more silence between us."
+    "There's more silence between us."
 
-  show sayori 1bk
+    show sayori 1bk
 
-  "Sayori stares in a random direction."
+    "Sayori stares in a random direction."
 
-  "Everything about her behavior is really uncharacteristic."
+    "Everything about her behavior is really uncharacteristic."
 
-  "I finally get to the point."
+    "I finally get to the point."
 
-  mc "I just...wanted to see how you were doing."
+    mc "I just...wanted to see how you were doing."
 
-  mc "After you left on Friday."
+    mc "After you left on Friday."
 
-  mc "When something's wrong, you can't hide it from me!"
+    mc "When something's wrong, you can't hide it from me!"
 
-  mc "I know you too well."
+    mc "I know you too well."
 
-  mc "So..."
+    mc "So..."
 
-  "Sayori smiles, shaking her head."
+    "Sayori smiles, shaking her head."
 
-  s 1bd "That's no good, [player]."
+    s 1bd "That's no good, [player]."
 
-  mc "Eh?"
+    mc "Eh?"
 
-  s "Why can't it just be like it's always been?"
+    s "Why can't it just be like it's always been?"
 
-  s 1by "This is all my fault."
+    s 1by "This is all my fault."
 
-  s "If I didn't get so weak and accidentally express my feelings..."
+    s "If I didn't get so weak and accidentally express my feelings..."
 
-  s 1bk "If I didn't make that stupid mistake..."
+    s 1bk "If I didn't make that stupid mistake..."
 
-  s "Then you wouldn't have been worried about me at all."
+    s "Then you wouldn't have been worried about me at all."
 
-  s "You wouldn't have come here."
+    s "You wouldn't have come here."
 
-  s 1bd "You wouldn't have even been thinking about me right now."
+    s 1bd "You wouldn't have even been thinking about me right now."
 
-  s "But this...is just my punishment, isn't it?"
+    s "But this...is just my punishment, isn't it?"
 
-  s "I'm getting punished for being so selfish."
+    s "I'm getting punished for being so selfish."
 
-  s "I think that's why the world decided to have you come over today."
+    s "I think that's why the world decided to have you come over today."
 
-  s "It just wants to torture me."
+    s "It just wants to torture me."
 
-  s 4bq "Ehehe~"
+    s 4bq "Ehehe~"
 
-  mc "Sayori!"
+    mc "Sayori!"
 
-  show sayori 4bb
+    show sayori 4bb
 
-  "I grab Sayori by the shoulders."
+    "I grab Sayori by the shoulders."
 
-  mc "What on Earth are you saying?!"
+    mc "What on Earth are you saying?!"
 
-  mc "Are you listening to yourself right now?"
+    mc "Are you listening to yourself right now?"
 
-  mc "I know something happened to you."
+    mc "I know something happened to you."
 
-  mc "There's no other explanation for you to be like this."
+    mc "There's no other explanation for you to be like this."
 
-  mc "So tell me, already...!"
+    mc "So tell me, already...!"
 
-  mc "Until I know, I won't be able to stop thinking about it!"
+    mc "Until I know, I won't be able to stop thinking about it!"
 
-  s 4bl "Ah..."
+    s 4bl "Ah..."
 
-  s "Ahaha..."
+    s "Ahaha..."
 
-  "Sayori gives me an empty smile."
+    "Sayori gives me an empty smile."
 
-  s 4by "You really put me in a trap, [player]."
+    s 4by "You really put me in a trap, [player]."
 
-  s "But..."
+    s "But..."
 
-  s 1ba "You're wrong."
+    s 1ba "You're wrong."
 
-  s "Nothing happened to me."
+    s "Nothing happened to me."
 
-  s "I've always been like this."
+    s "I've always been like this."
 
-  s "You're just seeing it for the first time."
+    s "You're just seeing it for the first time."
 
-  mc "Seeing what?"
+    mc "Seeing what?"
 
-  mc "What are you talking about, Sayori?"
+    mc "What are you talking about, Sayori?"
 
-  s 1bq "Ehehe~"
+    s 1bq "Ehehe~"
 
-  s 1ba "You're really just going to make me say it, aren't you, [player]?"
+    s 1ba "You're really just going to make me say it, aren't you, [player]?"
 
-  s "I guess I have no choice this time."
+    s "I guess I have no choice this time."
 
-  s 1bc "The thing is..."
+    s 1bc "The thing is..."
 
-  s "I've had really bad depression my whole life."
+    s "I've had really bad depression my whole life."
 
-  s 1bb "Did you know that?"
+    s 1bb "Did you know that?"
 
-  s "Why do you think I'm late to school every day?"
+    s "Why do you think I'm late to school every day?"
 
-  s "Because most days, I can't even find a reason to get out of bed."
+    s "Because most days, I can't even find a reason to get out of bed."
 
-  s 1by "What reason is there to do anything when I fully know how worthless I am?"
+    s 1by "What reason is there to do anything when I fully know how worthless I am?"
 
-  s "Why go to school?"
+    s "Why go to school?"
 
-  s "Why eat?"
+    s "Why eat?"
 
-  s "Why make friends?"
+    s "Why make friends?"
 
-  s "Why make other people put their energy and caring to waste by having them spend it on me?"
+    s "Why make other people put their energy and caring to waste by having them spend it on me?"
 
-  s "That's what it feels like."
+    s "That's what it feels like."
 
-  s "And that's why I just want to make everyone happy..."
+    s "And that's why I just want to make everyone happy..."
 
-  s "Without anyone worrying about me."
+    s "Without anyone worrying about me."
 
-  mc "..."
+    mc "..."
 
-  "I'm in shock."
+    "I'm in shock."
 
-  "I can't even figure out how to respond."
+    "I can't even figure out how to respond."
 
-  "How is it possible that Sayori kept this from me the entire time that I've known her?"
+    "How is it possible that Sayori kept this from me the entire time that I've known her?"
 
-  "Did she really want so badly for me to just not think about her?"
+    "Did she really want so badly for me to just not think about her?"
 
-  mc "...Why, Sayori?"
+    mc "...Why, Sayori?"
 
-  s 1bg "Eh...?"
+    s 1bg "Eh...?"
 
-  mc "Why is it that you've never told me about this?"
+    mc "Why is it that you've never told me about this?"
 
-  mc "It almost feels like I've been betrayed as your close friend."
+    mc "It almost feels like I've been betrayed as your close friend."
 
-  mc "Because if I knew, I would have done everything I could to support you!"
+    mc "Because if I knew, I would have done everything I could to support you!"
 
-  mc "Even if there's only so much that I could do..."
+    mc "Even if there's only so much that I could do..."
 
-  mc "I would have tried a little bit harder to make every day a little better for you."
+    mc "I would have tried a little bit harder to make every day a little better for you."
 
-  mc "That's why I'm your friend!"
+    mc "That's why I'm your friend!"
 
-  mc "All you had to do was tell me!"
+    mc "All you had to do was tell me!"
 
-  s 1bk "You don't understand at all, [player]."
+    s 1bk "You don't understand at all, [player]."
 
-  s "Why do you think I didn't tell you?"
+    s "Why do you think I didn't tell you?"
 
-  s 1bd "Because if I told you, then you would have to waste effort caring about me instead of doing important things."
+    s 1bd "Because if I told you, then you would have to waste effort caring about me instead of doing important things."
 
-  s "I don't want to be cared about."
+    s "I don't want to be cared about."
 
-  s "It's bittersweet, when people try to care about me."
+    s "It's bittersweet, when people try to care about me."
 
-  s 1ba "It feels nice sometimes."
+    s 1ba "It feels nice sometimes."
 
-  s "But it also feels like a bat being swung against my head."
+    s "But it also feels like a bat being swung against my head."
 
-  s 4bq "Ahaha~"
+    s 4bq "Ahaha~"
 
-  s 4ba "That's why I wanted so badly for you to make friends with everyone else..."
+    s 4ba "That's why I wanted so badly for you to make friends with everyone else..."
 
-  s "Helping everyone be happy together is the best thing for me."
+    s "Helping everyone be happy together is the best thing for me."
 
-  s 1bb "But then, I discovered something else, too."
+    s 1bb "But then, I discovered something else, too."
 
-  s "Seeing you make friends and get closer with everyone in the club..."
+    s "Seeing you make friends and get closer with everyone in the club..."
 
-  s 1bk "It feels like a spear going through my heart."
+    s 1bk "It feels like a spear going through my heart."
 
-  s "So, that's why."
+    s "So, that's why."
 
-  s "That's why I decided the world just wants to torture me."
+    s "That's why I decided the world just wants to torture me."
 
-  s 1by "Every path leads to nothing but hurt."
+    s 1by "Every path leads to nothing but hurt."
 
-  s "Ahaha~"
+    s "Ahaha~"
 
-  mc "You're right that I don't understand..."
+    mc "You're right that I don't understand..."
 
-  mc "I don't understand your feelings at all, Sayori."
+    mc "I don't understand your feelings at all, Sayori."
 
-  mc "But I don't need to understand."
+    mc "But I don't need to understand."
 
-  mc "Whatever it takes for me to help you stop hurting..."
+    mc "Whatever it takes for me to help you stop hurting..."
 
-  mc "That's what I'll do."
+    mc "That's what I'll do."
 
-  s 1bd "No, [player]."
+    s 1bd "No, [player]."
 
-  s "There's nothing."
+    s "There's nothing."
 
-  s "Nothing at all."
+    s "Nothing at all."
 
-  s "The only thing that could have helped is if everything could be like it always was."
+    s "The only thing that could have helped is if everything could be like it always was."
 
-  s 1bk "But I was selfish."
+    s 1bk "But I was selfish."
 
-  s "I finally showed you what a horrible person I am."
+    s "I finally showed you what a horrible person I am."
 
-  "Tears streak down Sayori's face."
+    "Tears streak down Sayori's face."
 
-  s 1bv "I made you join the literature club because I was selfish."
+    s 1bv "I made you join the literature club because I was selfish."
 
-  s "And I was punished by my heart hurting in a way that I couldn't understand."
+    s "And I was punished by my heart hurting in a way that I couldn't understand."
 
-  s "And now you came here and I made you hurt, too."
+    s "And now you came here and I made you hurt, too."
 
-  s 1bt "I'm just weak and selfish."
+    s 1bt "I'm just weak and selfish."
 
-  s "That's all I am."
+    s "That's all I am."
 
-  s "And that's why I'm going to accept these punishments."
+    s "And that's why I'm going to accept these punishments."
 
-  s 1bv "Because I deserve every last one...!"
+    s 1bv "Because I deserve every last one...!"
 
-  "Without thinking, I once again grab Sayori's shoulders."
+    "Without thinking, I once again grab Sayori's shoulders."
 
-  "This time, I pull her into a tight embrace."
+    "This time, I pull her into a tight embrace."
 
-  scene black with dissolve_cg
+    scene black with dissolve_cg
 
-  s "A-Ah--"
+    s "A-Ah--"
 
-  s "[player]..."
+    s "[player]..."
 
-  mc "Sayori."
+    mc "Sayori."
 
-  mc "I don't care if you feel selfish."
+    mc "I don't care if you feel selfish."
 
-  mc "I'm really happy that you convinced me to join the club."
+    mc "I'm really happy that you convinced me to join the club."
 
-  mc "Seeing you every day makes it worthwhile enough."
+    mc "Seeing you every day makes it worthwhile enough."
 
-  mc "If I make friends with everyone else, then that's just a bonus."
+    mc "If I make friends with everyone else, then that's just a bonus."
 
-  mc "But please never underestimate how much I care about you."
+    mc "But please never underestimate how much I care about you."
 
-  mc "I wouldn't have it any other way."
+    mc "I wouldn't have it any other way."
 
-  s "[player]..."
+    s "[player]..."
 
-  "Sayori isn't hugging me back."
+    "Sayori isn't hugging me back."
 
-  "Despite my arms being wrapped around her, Sayori's arms remain at her sides."
+    "Despite my arms being wrapped around her, Sayori's arms remain at her sides."
 
-  "She starts sobbing next to my ear."
+    "She starts sobbing next to my ear."
 
-  s "No..."
+    s "No..."
 
-  s "Don't do this...to me..."
+    s "Don't do this...to me..."
 
-  s "Please don't do this..."
+    s "Please don't do this..."
 
-  s "[player]..."
+    s "[player]..."
 
-  s "I..."
+    s "I..."
 
-  "Sayori barely manages to speak between her sobs."
+    "Sayori barely manages to speak between her sobs."
 
-  "I don't know if I'm doing the right thing."
+    "I don't know if I'm doing the right thing."
 
-  "But all I want is for her to know that I care."
+    "But all I want is for her to know that I care."
 
-  mc "If you have it in you to call yourself selfish, then you have to let me be selfish too."
+    mc "If you have it in you to call yourself selfish, then you have to let me be selfish too."
 
-  mc "No matter what it takes, I'll figure out what needs to change."
+    mc "No matter what it takes, I'll figure out what needs to change."
 
-  mc "I'll make these feelings go away."
+    mc "I'll make these feelings go away."
 
-  mc "And if there's anything that you need me to do..."
+    mc "And if there's anything that you need me to do..."
 
-  mc "Then you'd better tell me."
+    mc "Then you'd better tell me."
 
-  mc "I'll get mad if you don't."
+    mc "I'll get mad if you don't."
 
-  s "..."
+    s "..."
 
-  s "I...don't know..."
+    s "I...don't know..."
 
-  s "I don't know..."
+    s "I don't know..."
 
-  s "I don't know."
+    s "I don't know."
 
-  "Gently, Sayori finally puts her arms around me in return."
+    "Gently, Sayori finally puts her arms around me in return."
 
-  s "I don't know anything."
+    s "I don't know anything."
 
-  s "It's all really scary..."
+    s "It's all really scary..."
 
-  s "I don't understand any of my feelings, [player]..."
+    s "I don't understand any of my feelings, [player]..."
 
-  s "The only time I'm not feeling nothing is when I'm feeling pain."
+    s "The only time I'm not feeling nothing is when I'm feeling pain."
 
-  s "But..."
+    s "But..."
 
-  s "Your hugs are so warm..."
+    s "Your hugs are so warm..."
 
-  s "...And that's really scary, too."
+    s "...And that's really scary, too."
 
-  scene bg sayori_bedroom
-  show sayori 1bv zorder 2 at i11
-  with dissolve_cg
+    scene bg sayori_bedroom
+    show sayori 1bv zorder 2 at i11
+    with dissolve_cg
 
-  "Sayori lets me go."
+    "Sayori lets me go."
 
-  "As she does so, I let her go as well."
+    "As she does so, I let her go as well."
 
-  mc "The festival is tomorrow."
+    mc "The festival is tomorrow."
 
-  s 1bk "Yeah..."
+    s 1bk "Yeah..."
 
-  mc "It's going to be fun, right?"
+    mc "It's going to be fun, right?"
 
-  s "Yeah."
+    s "Yeah."
 
-  mc "How would you like for me to spend it all with you?"
+    mc "How would you like for me to spend it all with you?"
 
-  s 1bh "U-Um..."
+    s 1bh "U-Um..."
 
-  s "Ah--"
+    s "Ah--"
 
-  mc "It's what I want."
+    mc "It's what I want."
 
-  mc "I promise."
+    mc "I promise."
 
-  s 1bk "I..."
+    s 1bk "I..."
 
-  s "I think that would be nice, then..."
+    s "I think that would be nice, then..."
 
-  mc "Yeah."
+    mc "Yeah."
 
-  "Sayori wipes her eyes."
+    "Sayori wipes her eyes."
 
-  "If I could spend the whole day here, I would."
+    "If I could spend the whole day here, I would."
 
-  mc "Of all days, this has to be the one where I have other plans..."
+    mc "Of all days, this has to be the one where I have other plans..."
 
-  mc "Maybe I should cancel--"
+    mc "Maybe I should cancel--"
 
-  s 1bh "No, don't--!"
+    s 1bh "No, don't--!"
 
-  s 1bg "Please don't..."
+    s 1bg "Please don't..."
 
-  s "If you did that...then I really wouldn't forgive you."
+    s "If you did that...then I really wouldn't forgive you."
 
-  mc "But..."
+    mc "But..."
 
-  mc "It's almost time for [ch4_name] to meet me at my house..."
+    mc "It's almost time for [ch4_name] to meet me at my house..."
 
-  mc "At the very least, do you want to come along and help out?"
+    mc "At the very least, do you want to come along and help out?"
 
-  mc "It would be fun."
+    mc "It would be fun."
 
-  "To my surprise, Sayori shakes her head."
+    "To my surprise, Sayori shakes her head."
 
-  s 1bd "I'm sorry."
+    s 1bd "I'm sorry."
 
-  s "I don't know if that would be very good for me today."
+    s "I don't know if that would be very good for me today."
 
-  s "You understand, right?"
+    s "You understand, right?"
 
-  mc "Ah..."
+    mc "Ah..."
 
-  mc "It's...kind of hard for me to fully understand."
+    mc "It's...kind of hard for me to fully understand."
 
-  mc "But I'm trying my hardest."
+    mc "But I'm trying my hardest."
 
-  s "It's okay."
+    s "It's okay."
 
-  s "Don't worry too much about it."
+    s "Don't worry too much about it."
 
-  s 4ba "I'll see you tomorrow, okay?"
+    s 4ba "I'll see you tomorrow, okay?"
 
-  mc "...Alright."
+    mc "...Alright."
 
-  mc "I look forward to it."
+    mc "I look forward to it."
 
-  scene bg residential_day with wipeleft_scene
+    scene bg residential_day with wipeleft_scene
 
-  "I say goodbye to Sayori and exit her house."
+    "I say goodbye to Sayori and exit her house."
 
-  "On the way home, I find myself still feeling uneasy."
+    "On the way home, I find myself still feeling uneasy."
 
-  "But it's hard for me to keep thinking about it when [ch4_name] is about to come over, too..."
+    "But it's hard for me to keep thinking about it when [ch4_name] is about to come over, too..."
 
-  "I think Sayori is right."
+    "I think Sayori is right."
 
-  "I shouldn't be worrying too much, and we're definitely going to have a great time tomorrow."
+    "I shouldn't be worrying too much, and we're definitely going to have a great time tomorrow."
 
-  "I should just focus on what's ahead of me!"
+    "I should just focus on what's ahead of me!"
 
-  call expression "ch4_exclusive_" + ch4_scene
+    call expression "ch4_exclusive_" + ch4_scene
 
-  call ch4_end
+    call ch4_end
 
-  return
+    return
 
 label ch4_exclusive_natsuki:
 
-  play music t6 fadeout 2.0
+    play music t6 fadeout 2.0
 
-  scene bg house with wipeleft_scene
+    scene bg house with wipeleft_scene
 
-  "I spend only a few minutes back at home anxiously awaiting Natsuki's arrival."
+    "I spend only a few minutes back at home anxiously awaiting Natsuki's arrival."
 
-  "Before I know it, she texts me to let me know she's outside the front door."
+    "Before I know it, she texts me to let me know she's outside the front door."
 
-  "Without delay, I open the front door to let her in."
+    "Without delay, I open the front door to let her in."
 
-  show natsuki 2bj zorder 2 at t11
+    show natsuki 2bj zorder 2 at t11
 
-  mc "..."
+    mc "..."
 
-  n "'Sup?"
+    n "'Sup?"
 
-  mc "...Hey."
+    mc "...Hey."
 
-  "I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off."
+    "I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off."
 
-  "Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison."
+    "Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison."
 
-  n 4bc "Jeez, don't make it feel so awkward already!"
+    n 4bc "Jeez, don't make it feel so awkward already!"
 
-  n "It's gonna be a long afternoon, so don't be weird just because you're not used to seeing me outside of school."
+    n "It's gonna be a long afternoon, so don't be weird just because you're not used to seeing me outside of school."
 
-  n "Anyway, I'm coming in."
+    n "Anyway, I'm coming in."
 
-  scene bg kitchen
-  show natsuki 1bj zorder 2 at t11
-  with wipeleft
+    scene bg kitchen
+    show natsuki 1bj zorder 2 at t11
+    with wipeleft
 
-  mc "I see you brought a lot of stuff..."
+    mc "I see you brought a lot of stuff..."
 
-  "Natsuki is carrying a large bag that is probably full of baking supplies."
+    "Natsuki is carrying a large bag that is probably full of baking supplies."
 
-  n 2bj "Well, I didn't want to come all this way to find out that your kitchen isn't equipped for the job."
+    n 2bj "Well, I didn't want to come all this way to find out that your kitchen isn't equipped for the job."
 
-  n "You bought everything I asked you to, right?"
+    n "You bought everything I asked you to, right?"
 
-  mc "Yeah, I did."
+    mc "Yeah, I did."
 
-  "Yesterday, Natsuki asked me to buy a bunch of ingredients if I didn't already have them at home."
+    "Yesterday, Natsuki asked me to buy a bunch of ingredients if I didn't already have them at home."
 
-  n 2bl "Good!"
+    n 2bl "Good!"
 
-  n "Glad I could count on you to do your part."
+    n "Glad I could count on you to do your part."
 
-  mc "Well...of course."
+    mc "Well...of course."
 
-  "I'm surprised to hear Natsuki suddenly say that, rather than something snarky like she usually does."
+    "I'm surprised to hear Natsuki suddenly say that, rather than something snarky like she usually does."
 
-  "Could it be that she is a little different outside of school after all?"
+    "Could it be that she is a little different outside of school after all?"
 
-  mc "Anyway, let's go to the kitchen..."
+    mc "Anyway, let's go to the kitchen..."
 
-  n 2by "What, you're not even gonna offer to take this heavy bag from me?"
+    n 2by "What, you're not even gonna offer to take this heavy bag from me?"
 
-  n "Where's your hospitality, [player]?"
+    n "Where's your hospitality, [player]?"
 
-  mc "Come on..."
+    mc "Come on..."
 
-  mc "Since when did I need to be a gentleman?"
+    mc "Since when did I need to be a gentleman?"
 
-  "I grab the bag Natsuki holds out to me."
+    "I grab the bag Natsuki holds out to me."
 
-  mc "Ghk--"
+    mc "Ghk--"
 
-  mc "This is ridiculously heavy--!"
+    mc "This is ridiculously heavy--!"
 
-  n 4bz "Ahaha!"
+    n 4bz "Ahaha!"
 
-  n "I carried that all the way here."
+    n "I carried that all the way here."
 
-  n 4bl "Are you impressed?"
+    n 4bl "Are you impressed?"
 
-  mc "I see now..."
+    mc "I see now..."
 
-  mc "Yeah, I am impressed, Natsuki."
+    mc "Yeah, I am impressed, Natsuki."
 
-  mc "It seems like I always underestimate you."
+    mc "It seems like I always underestimate you."
 
-  n 4by "Ehehe~"
+    n 4by "Ehehe~"
 
-  n "It's because I'm so small, isn't it?"
+    n "It's because I'm so small, isn't it?"
 
-  n 4ba "You jerk."
+    n 4ba "You jerk."
 
-  "Natsuki hits a fist into my chest."
+    "Natsuki hits a fist into my chest."
 
-  mc "Hey, hey."
+    mc "Hey, hey."
 
-  mc "Your size has nothing to do with it."
+    mc "Your size has nothing to do with it."
 
-  mc "Do you really hate being small that much?"
+    mc "Do you really hate being small that much?"
 
-  n 1bk "Eh?"
+    n 1bk "Eh?"
 
-  n "Um..."
+    n "Um..."
 
-  n 1bc "It's not like I hate it..."
+    n 1bc "It's not like I hate it..."
 
-  n "I mean, sometimes I like proving people wrong when they only think I'm worth my size."
+    n "I mean, sometimes I like proving people wrong when they only think I'm worth my size."
 
-  n 1ba "It's fun when I get to be small and also better than other people."
+    n 1ba "It's fun when I get to be small and also better than other people."
 
-  n "But..."
+    n "But..."
 
-  n 5bw "...Jeez, never mind!"
+    n 5bw "...Jeez, never mind!"
 
-  n "What are you making me say?"
+    n "What are you making me say?"
 
-  n 5bq "Don't think you can make me talk about weird things just because we're not at school!"
+    n 5bq "Don't think you can make me talk about weird things just because we're not at school!"
 
-  n "Are we getting started, or what? There's a lot of stuff I gotta teach you."
+    n "Are we getting started, or what? There's a lot of stuff I gotta teach you."
 
-  mc "Ahaha."
+    mc "Ahaha."
 
-  n 5bn "What??"
+    n 5bn "What??"
 
-  mc "That's a little bit more like you."
+    mc "That's a little bit more like you."
 
-  mc "You're more fun when you just speak your mind like that."
+    mc "You're more fun when you just speak your mind like that."
 
-  n 1bm "H-Hey!"
+    n 1bm "H-Hey!"
 
-  n "Now you {i}are{/i} treating me like a kid!"
+    n "Now you {i}are{/i} treating me like a kid!"
 
-  n "I was just trying to be a little nicer to you, you know."
+    n "I was just trying to be a little nicer to you, you know."
 
-  n 1br "And just because I don't have a mature and sexy figure like Yuri doesn't mean you should treat me like--"
+    n 1br "And just because I don't have a mature and sexy figure like Yuri doesn't mean you should treat me like--"
 
-  n 1bo "A-Ah--"
+    n 1bo "A-Ah--"
 
-  "Natsuki catches her words, and her face turns red."
+    "Natsuki catches her words, and her face turns red."
 
-  mc "Natsuki..."
+    mc "Natsuki..."
 
-  n 1bp "Forget it!"
+    n 1bp "Forget it!"
 
-  n "I didn't say anything!"
+    n "I didn't say anything!"
 
-  mc "I should apologize."
+    mc "I should apologize."
 
-  n 1bh "Eh?"
+    n 1bh "Eh?"
 
-  mc "I appreciate that you were trying to be nicer."
+    mc "I appreciate that you were trying to be nicer."
 
-  mc "I should have been a little more considerate, too."
+    mc "I should have been a little more considerate, too."
 
-  mc "But also..."
+    mc "But also..."
 
-  mc "If that's what you're thinking, then you should know that there are tons of guys who are into body types like yours."
+    mc "If that's what you're thinking, then you should know that there are tons of guys who are into body types like yours."
 
-  n 1bq "Ah..."
+    n 1bq "Ah..."
 
-  n "How would...you know that, anyway?"
+    n "How would...you know that, anyway?"
 
-  mc "Just trust me on this one."
+    mc "Just trust me on this one."
 
-  n "..."
+    n "..."
 
-  n 5bx "...Gross."
+    n 5bx "...Gross."
 
-  mc "Hey!"
+    mc "Hey!"
 
-  mc "Was that to me?"
+    mc "Was that to me?"
 
-  n 5bw "Who else?"
+    n 5bw "Who else?"
 
-  mc "Man..."
+    mc "Man..."
 
-  mc "Let's just get started already."
+    mc "Let's just get started already."
 
-  n 2bl "Ahaha!"
+    n 2bl "Ahaha!"
 
-  n "You get all sour when a girl calls you gross."
+    n "You get all sour when a girl calls you gross."
 
-  n 2bd "I finally found your weakness, [player]."
+    n 2bd "I finally found your weakness, [player]."
 
-  "Natsuki smiles deviously."
+    "Natsuki smiles deviously."
 
-  mc "Please spare me..."
+    mc "Please spare me..."
 
-  "Well, if Natsuki decides to dish out more insults like that, there's no way I'm not fighting back."
+    "Well, if Natsuki decides to dish out more insults like that, there's no way I'm not fighting back."
 
-  "But she's satisfied enough for now, finally starting to pull things out of her bag so we can get started."
+    "But she's satisfied enough for now, finally starting to pull things out of her bag so we can get started."
 
-  scene bg kitchen
-  with wipeleft_scene
+    scene bg kitchen
+    with wipeleft_scene
 
-  "Before long, the whole kitchen is a mess."
+    "Before long, the whole kitchen is a mess."
 
-  "Spoons, dirty bowls, flour, spilled fluid, and plastic bags are strewn about every countertop."
+    "Spoons, dirty bowls, flour, spilled fluid, and plastic bags are strewn about every countertop."
 
-  "The mixer isn't big enough to make all the batter at once, so we've had to do it several times."
+    "The mixer isn't big enough to make all the batter at once, so we've had to do it several times."
 
-  "Meanwhile, Natsuki is babysitting all of my movements to make sure I don't mess up her precious baking."
+    "Meanwhile, Natsuki is babysitting all of my movements to make sure I don't mess up her precious baking."
 
-  show natsuki 2bk zorder 2 at t11
+    show natsuki 2bk zorder 2 at t11
 
-  n "[player], where did you put the food coloring?"
+    n "[player], where did you put the food coloring?"
 
-  n "The batter's going in the oven soon, so I need to fill the trays."
+    n "The batter's going in the oven soon, so I need to fill the trays."
 
-  mc "I think it's still in the bag next to the table."
+    mc "I think it's still in the bag next to the table."
 
-  mc "What are you using it for?"
+    mc "What are you using it for?"
 
-  n 4bl "To color the batter, of course!"
+    n 4bl "To color the batter, of course!"
 
-  n 4bj "I'm making each tray a different color."
+    n 4bj "I'm making each tray a different color."
 
-  n "That way, even if the flavors aren't different, everyone can still pick their favorite."
+    n "That way, even if the flavors aren't different, everyone can still pick their favorite."
 
-  mc "Ah, that's a cute idea."
+    mc "Ah, that's a cute idea."
 
-  mc "Are we doing anything like that with the icing?"
+    mc "Are we doing anything like that with the icing?"
 
-  n 4bk "Do you want to?"
+    n 4bk "Do you want to?"
 
-  mc "Ah..."
+    mc "Ah..."
 
-  mc "You're asking me?"
+    mc "You're asking me?"
 
-  mc "I don't really have a preference, so..."
+    mc "I don't really have a preference, so..."
 
-  n 1bm "Come on..."
+    n 1bm "Come on..."
 
-  n "You're not putting any heart into this at all!"
+    n "You're not putting any heart into this at all!"
 
-  n "Can't you at least try to have fun?"
+    n "Can't you at least try to have fun?"
 
-  mc "I'm having fun..."
+    mc "I'm having fun..."
 
-  "I'm not really sure what Natsuki is trying to get out of me."
+    "I'm not really sure what Natsuki is trying to get out of me."
 
-  "Meanwhile, I see her separate the batter into smaller bowls and put a few drops of food coloring into each."
+    "Meanwhile, I see her separate the batter into smaller bowls and put a few drops of food coloring into each."
 
-  mc "Ah, that does look pretty cool."
+    mc "Ah, that does look pretty cool."
 
-  n 2bj "See?"
+    n 2bj "See?"
 
-  n "It's not like baking is just about following instructions."
+    n "It's not like baking is just about following instructions."
 
-  n "The presentation is where you get to be creative and have the most fun."
+    n "The presentation is where you get to be creative and have the most fun."
 
-  n "It's a million times more worth it in the end if just looking at it makes everyone's eyes lighten up."
+    n "It's a million times more worth it in the end if just looking at it makes everyone's eyes lighten up."
 
-  mc "Like the ones you made on my first day, huh?"
+    mc "Like the ones you made on my first day, huh?"
 
-  "I recall Natsuki proudly presenting her cat-shaped cupcakes, and Sayori and Monika's delighted expressions."
+    "I recall Natsuki proudly presenting her cat-shaped cupcakes, and Sayori and Monika's delighted expressions."
 
-  "I wonder if I can make Natsuki proud like that, too."
+    "I wonder if I can make Natsuki proud like that, too."
 
-  mc "Yeah..."
+    mc "Yeah..."
 
-  mc "Maybe I will use the food coloring, then."
+    mc "Maybe I will use the food coloring, then."
 
-  n "Sounds like you're starting to understand."
+    n "Sounds like you're starting to understand."
 
-  n "Just make sure you completely finish mixing the icing before you mess with the food coloring."
+    n "Just make sure you completely finish mixing the icing before you mess with the food coloring."
 
-  mc "Yeah, it's getting there."
+    mc "Yeah, it's getting there."
 
-  "We were using the electric mixer for the batter, so I got stuck with a whisk and a huge bowl for the icing."
+    "We were using the electric mixer for the batter, so I got stuck with a whisk and a huge bowl for the icing."
 
-  n 4bc "Eh?"
+    n 4bc "Eh?"
 
-  n "The icing's still all lumpy!"
+    n "The icing's still all lumpy!"
 
-  n "Are you even trying?"
+    n "Are you even trying?"
 
-  mc "Well, yeah..."
+    mc "Well, yeah..."
 
-  mc "It'll just take a little longer."
+    mc "It'll just take a little longer."
 
-  n 4bg "Jeez, I'll be here all night if you do it like that."
+    n 4bg "Jeez, I'll be here all night if you do it like that."
 
-  n "Here, look."
+    n "Here, look."
 
-  "Natsuki grabs the whisk from me and uses her other hand to tilt the bowl back."
+    "Natsuki grabs the whisk from me and uses her other hand to tilt the bowl back."
 
-  n 4be "You really need to...beat...the crap out of it!"
+    n 4be "You really need to...beat...the crap out of it!"
 
-  "After a few seconds, the consistency of the icing has already improved."
+    "After a few seconds, the consistency of the icing has already improved."
 
-  n 4ba "See?"
+    n 4ba "See?"
 
-  "As if to emphasize, Natsuki sticks a finger in the icing and pops it in her mouth."
+    "As if to emphasize, Natsuki sticks a finger in the icing and pops it in her mouth."
 
-  "I reluctantly start to do the same."
+    "I reluctantly start to do the same."
 
-  n 1bh "Hey!"
+    n 1bh "Hey!"
 
-  "Natsuki suddenly grabs my wrist."
+    "Natsuki suddenly grabs my wrist."
 
-  n 4bh "I don't want {i}your{/i} gross fingers in my icing."
+    n 4bh "I don't want {i}your{/i} gross fingers in my icing."
 
-  mc "Your icing, eh?"
+    mc "Your icing, eh?"
 
-  mc "Are you forgetting who did all the work?"
+    mc "Are you forgetting who did all the work?"
 
-  "I start to fight back, trying to inch my finger toward the bowl."
+    "I start to fight back, trying to inch my finger toward the bowl."
 
-  n 4by "Don't make me beat the crap out of you next!"
+    n 4by "Don't make me beat the crap out of you next!"
 
-  mc "I'd like to see you try!"
+    mc "I'd like to see you try!"
 
-  "I push harder, just enough for my finger to reach the icing."
+    "I push harder, just enough for my finger to reach the icing."
 
-  "I triumphantly scoop some with my finger just as Natsuki tugs with all her might."
+    "I triumphantly scoop some with my finger just as Natsuki tugs with all her might."
 
-  mc "Ah--!"
+    mc "Ah--!"
 
-  "The force of Natsuki pulling me causes me to stumble, making her stumble in turn."
+    "The force of Natsuki pulling me causes me to stumble, making her stumble in turn."
 
-  n 1bx "Gross!"
+    n 1bx "Gross!"
 
-  n "You got it on my face!"
+    n "You got it on my face!"
 
-  mc "Whose fault is that?!"
+    mc "Whose fault is that?!"
 
-  "There's a big glob of icing on Natsuki's cheek."
+    "There's a big glob of icing on Natsuki's cheek."
 
-  n 1bw "Nnn--"
+    n 1bw "Nnn--"
 
-  "She tries to reach it with her tongue, but it's too far away."
+    "She tries to reach it with her tongue, but it's too far away."
 
-  n 1br "Jeez..."
+    n 1br "Jeez..."
 
-  n "You know what?"
+    n "You know what?"
 
-  n 4bd "Take this!"
+    n 4bd "Take this!"
 
-  "Natsuki instead wipes it off with her finger before shoving her finger toward my own face."
+    "Natsuki instead wipes it off with her finger before shoving her finger toward my own face."
 
-  mc "You wish--!"
+    mc "You wish--!"
 
-  "I'm faster."
+    "I'm faster."
 
-  "I grab her wrist with my hand before it reaches my face."
+    "I grab her wrist with my hand before it reaches my face."
 
-  "Natsuki tries to use her other hand to fight back, but I grab that one as well."
+    "Natsuki tries to use her other hand to fight back, but I grab that one as well."
 
-  $ persistent.clear[4] = True
-  $ renpy.save_persistent()
+    $ persistent.clear[4] = True
+    $ renpy.save_persistent()
 
-  scene n_cg3_base
-  show n_cg3_exp1
-  show n_cg3_cake
-  with dissolve_cg
+    scene n_cg3_base
+    show n_cg3_exp1
+    show n_cg3_cake
+    with dissolve_cg
 
-  n "Ahahaha! Stop!"
+    n "Ahahaha! Stop!"
 
-  mc "Not until you apologize for calling me gross!"
+    mc "Not until you apologize for calling me gross!"
 
-  n "Fine, fine!"
+    n "Fine, fine!"
 
-  n "I'm sorry for calling you gross."
+    n "I'm sorry for calling you gross."
 
-  n "You know I don't mean it."
+    n "You know I don't mean it."
 
-  n "It's just fun seeing you react to it."
+    n "It's just fun seeing you react to it."
 
-  n "...You do that to me all the time, you know!"
+    n "...You do that to me all the time, you know!"
 
-  n "Saying dumb things just to get a reaction out of me."
+    n "Saying dumb things just to get a reaction out of me."
 
-  n "You really shouldn't tease girls like that."
+    n "You really shouldn't tease girls like that."
 
-  mc "Is that so?"
+    mc "Is that so?"
 
-  mc "In that case, I probably shouldn't do this, either..."
+    mc "In that case, I probably shouldn't do this, either..."
 
-  show n_cg3_cake at cgfade
-  hide n_cg3_cake
+    show n_cg3_cake at cgfade
+    hide n_cg3_cake
 
-  "I take Natsuki's finger and put it in my mouth, licking off the icing."
+    "I take Natsuki's finger and put it in my mouth, licking off the icing."
 
-  show n_cg3_exp1 at cgfade
-  show n_cg3_exp2 at cgfade
-  hide n_cg3_exp1
+    show n_cg3_exp1 at cgfade
+    show n_cg3_exp2 at cgfade
+    hide n_cg3_exp1
 
-  n "W-W-What--?"
+    n "W-W-What--?"
 
-  n "D-Did you seriously just--"
+    n "D-Did you seriously just--"
 
-  n "A-Ah--"
+    n "A-Ah--"
 
-  "Natsuki is so surprised that she can't even figure out how to get mad at me."
+    "Natsuki is so surprised that she can't even figure out how to get mad at me."
 
-  "Her face is entirely red."
+    "Her face is entirely red."
 
-  hide n_cg3_exp2
+    hide n_cg3_exp2
 
-  n "[player]..."
+    n "[player]..."
 
-  n "You really shouldn't do that kind of thing to girls...unless you really like them..."
+    n "You really shouldn't do that kind of thing to girls...unless you really like them..."
 
-  n "You know that...right?"
+    n "You know that...right?"
 
-  mc "..."
+    mc "..."
 
-  "What kind of question is she asking me, just like that?"
+    "What kind of question is she asking me, just like that?"
 
-  "How did the mood turn to this so quickly?"
+    "How did the mood turn to this so quickly?"
 
-  mc "I..."
+    mc "I..."
 
-  "Natsuki gazes at me in silence."
+    "Natsuki gazes at me in silence."
 
-  "I notice her shallow breaths."
+    "I notice her shallow breaths."
 
-  "Why am I starting to feel dizzy...?"
+    "Why am I starting to feel dizzy...?"
 
-  n "Eh?!"
+    n "Eh?!"
 
-  scene bg kitchen with dissolve_cg
+    scene bg kitchen with dissolve_cg
 
-  "Out of nowhere, the fire alarm starts going off."
+    "Out of nowhere, the fire alarm starts going off."
 
-  "Natsuki rushes over to the oven."
+    "Natsuki rushes over to the oven."
 
-  mc "Is something burning?"
+    mc "Is something burning?"
 
-  mc "I thought you didn't put the cupcakes in yet."
+    mc "I thought you didn't put the cupcakes in yet."
 
-  show natsuki 1bw zorder 2 at t11
+    show natsuki 1bw zorder 2 at t11
 
-  n "{i}*Cough*{/i}"
+    n "{i}*Cough*{/i}"
 
-  n "No wonder..."
+    n "No wonder..."
 
-  n 1bb "You left a dirty tray in here, dummy!"
+    n 1bb "You left a dirty tray in here, dummy!"
 
-  n "How could you make a mistake like that?"
+    n "How could you make a mistake like that?"
 
-  mc "You should have checked before turning the oven on!"
+    mc "You should have checked before turning the oven on!"
 
-  n 1bs "Don't blame me for your mistakes!"
+    n 1bs "Don't blame me for your mistakes!"
 
-  n "Jeez..."
+    n "Jeez..."
 
-  "Natsuki uses an oven mitt to grab the blackened tray out of the oven."
+    "Natsuki uses an oven mitt to grab the blackened tray out of the oven."
 
-  "She sets it on top of the stove."
+    "She sets it on top of the stove."
 
-  "In another moment, the fire alarm stops."
+    "In another moment, the fire alarm stops."
 
-  n 1bq "Anyway..."
+    n 1bq "Anyway..."
 
-  n "I'm...putting them in the oven now."
+    n "I'm...putting them in the oven now."
 
-  mc "Yeah..."
+    mc "Yeah..."
 
-  "The tension from the moment before still lingers over our heads."
+    "The tension from the moment before still lingers over our heads."
 
-  "But the moment has already been lost."
+    "But the moment has already been lost."
 
-  "I watch as Natsuki slides the cupcake trays into the oven."
+    "I watch as Natsuki slides the cupcake trays into the oven."
 
-  "Then, I reluctantly pick up the whisk and continue with the icing, like nothing ever happened."
+    "Then, I reluctantly pick up the whisk and continue with the icing, like nothing ever happened."
 
-  scene bg kitchen
-  show natsuki 4bz zorder 2 at t11
-  with wipeleft_scene
+    scene bg kitchen
+    show natsuki 4bz zorder 2 at t11
+    with wipeleft_scene
 
-  n "Ahh, that smells so good!"
+    n "Ahh, that smells so good!"
 
-  "The cupcakes are ready to be pulled out of the oven."
+    "The cupcakes are ready to be pulled out of the oven."
 
-  "As soon as Natsuki opens the oven door, a blast of sweet-smelling warm air fills the room."
+    "As soon as Natsuki opens the oven door, a blast of sweet-smelling warm air fills the room."
 
-  n 4bl "Look at how cute they all look!"
+    n 4bl "Look at how cute they all look!"
 
-  "She proudly shows off the different-colored cupcakes in each of the trays."
+    "She proudly shows off the different-colored cupcakes in each of the trays."
 
-  mc "They'll look even better once we add the icing."
+    mc "They'll look even better once we add the icing."
 
-  n 2ba "Not like you need to tell {i}me{/i} that!"
+    n 2ba "Not like you need to tell {i}me{/i} that!"
 
-  n "I brought decorating stuff, so I hope you can get creative."
+    n "I brought decorating stuff, so I hope you can get creative."
 
-  n "Here, scoop the icing into these bags."
+    n "Here, scoop the icing into these bags."
 
-  "Natsuki hands me some plastic bags."
+    "Natsuki hands me some plastic bags."
 
-  n 2bj "I have these nozzles that will make it look nice and fluffy."
+    n 2bj "I have these nozzles that will make it look nice and fluffy."
 
-  n "This one can even make flowers!"
+    n "This one can even make flowers!"
 
-  n "We probably won't be using it this time, though."
+    n "We probably won't be using it this time, though."
 
-  mc "What's this one for?"
+    mc "What's this one for?"
 
-  "I pick up one of the nozzles that has a much thinner tip than the others."
+    "I pick up one of the nozzles that has a much thinner tip than the others."
 
-  n 4bk "That one's really thin, so you can use it to make stripes or other patterns."
+    n 4bk "That one's really thin, so you can use it to make stripes or other patterns."
 
-  n "But you can also use it to write stuff on a cake."
+    n "But you can also use it to write stuff on a cake."
 
-  n "Like, 'happy birthday!' or whatever."
+    n "Like, 'happy birthday!' or whatever."
 
-  mc "Huh, I see..."
+    mc "Huh, I see..."
 
-  mc "That gives me an idea, actually."
+    mc "That gives me an idea, actually."
 
-  n "Eh?"
+    n "Eh?"
 
-  mc "Well, it's a literature event, right?"
+    mc "Well, it's a literature event, right?"
 
-  mc "We could make it more literature-themed by writing a different word on each of the cupcakes."
+    mc "We could make it more literature-themed by writing a different word on each of the cupcakes."
 
-  mc "It would be fun to see people choose their cupcake based on a word they like."
+    mc "It would be fun to see people choose their cupcake based on a word they like."
 
-  n 1bq "Uu..."
+    n 1bq "Uu..."
 
-  mc "Hm?"
+    mc "Hm?"
 
-  n "I was kind of expecting you to say something really stupid..."
+    n "I was kind of expecting you to say something really stupid..."
 
-  n 1bs "But that's actually...a really cute idea, so..."
+    n 1bs "But that's actually...a really cute idea, so..."
 
-  mc "Ahaha."
+    mc "Ahaha."
 
-  mc "Maybe I'm getting it from you."
+    mc "Maybe I'm getting it from you."
 
-  n 5bh "W-What's that supposed to mean?"
+    n 5bh "W-What's that supposed to mean?"
 
-  n "I'm not cute!"
+    n "I'm not cute!"
 
-  mc "Come on..."
+    mc "Come on..."
 
-  mc "We're not at school, nobody's judging."
+    mc "We're not at school, nobody's judging."
 
-  mc "You can't dress and act like this and not expect me to think you're cute."
+    mc "You can't dress and act like this and not expect me to think you're cute."
 
-  n 5bs "W-Well..."
+    n 5bs "W-Well..."
 
-  "Natsuki's voice trails off."
+    "Natsuki's voice trails off."
 
-  n "Same with you..."
+    n "Same with you..."
 
-  mc "Eh?"
+    mc "Eh?"
 
-  mc "Did you say something?"
+    mc "Did you say something?"
 
-  n 1bw "N-No, nothing!"
+    n 1bw "N-No, nothing!"
 
-  n "Let's just do the icing!"
+    n "Let's just do the icing!"
 
-  "Natsuki picks up the pace and fastens a nozzle onto each of the bags."
+    "Natsuki picks up the pace and fastens a nozzle onto each of the bags."
 
-  n 1bh "There's a lot to do, so we shouldn't be wasting time!"
+    n 1bh "There's a lot to do, so we shouldn't be wasting time!"
 
-  n "Here, I'll show you how to do it."
+    n "Here, I'll show you how to do it."
 
-  "Without giving me a chance to think about before, Natsuki quickly moves on."
+    "Without giving me a chance to think about before, Natsuki quickly moves on."
 
-  "She shows me how to apply the icing, and then we each get to work."
+    "She shows me how to apply the icing, and then we each get to work."
 
-  scene bg kitchen with wipeleft_scene
+    scene bg kitchen with wipeleft_scene
 
-  "When we're finally finished, Natsuki puts them all side by side to admire our work."
+    "When we're finally finished, Natsuki puts them all side by side to admire our work."
 
-  show natsuki 4bl zorder 2 at t11
+    show natsuki 4bl zorder 2 at t11
 
-  n "Look at how pretty they are together!"
+    n "Look at how pretty they are together!"
 
-  mc "Yeah, they are, aren't they?"
+    mc "Yeah, they are, aren't they?"
 
-  n 1bm "Uu... I wish I could have one now!"
+    n 1bm "Uu... I wish I could have one now!"
 
-  mc "Well, there's no reason you can't, right?"
+    mc "Well, there's no reason you can't, right?"
 
-  mc "I don't see any harm in that."
+    mc "I don't see any harm in that."
 
-  n 1bc "Well, yeah, but..."
+    n 1bc "Well, yeah, but..."
 
-  n "My dad's making dinner tonight, so I really need to save my appetite."
+    n "My dad's making dinner tonight, so I really need to save my appetite."
 
-  mc "Ahaha."
+    mc "Ahaha."
 
-  mc "Sayori's the exact opposite in that regard."
+    mc "Sayori's the exact opposite in that regard."
 
-  mc "If she was here, we'd probably be down ten cupcakes already."
+    mc "If she was here, we'd probably be down ten cupcakes already."
 
-  mc "And she would still eat dinner."
+    mc "And she would still eat dinner."
 
-  n 4bg "Come on, that's just unhealthy!"
+    n 4bg "Come on, that's just unhealthy!"
 
-  n 4bs "Besides, when my dad cooks, I need to eat as much of it as I can..."
+    n 4bs "Besides, when my dad cooks, I need to eat as much of it as I can..."
 
-  n 4bq "...Well, anyway!"
+    n 4bq "...Well, anyway!"
 
-  n 4bc "I was hoping we would have time for manga, but I need to be home for dinner..."
+    n 4bc "I was hoping we would have time for manga, but I need to be home for dinner..."
 
-  mc "Ah, already?"
+    mc "Ah, already?"
 
-  mc "That's a shame."
+    mc "That's a shame."
 
-  n 1bg "It's your fault for working so slowly!"
+    n 1bg "It's your fault for working so slowly!"
 
-  n "You should have thought about that."
+    n "You should have thought about that."
 
-  n "It's not like you'll always have this chance."
+    n "It's not like you'll always have this chance."
 
-  mc "Man..."
+    mc "Man..."
 
-  "As usual, Natsuki places the blame on me."
+    "As usual, Natsuki places the blame on me."
 
-  n 2bk "You can bring the cupcakes tomorrow, right?"
+    n 2bk "You can bring the cupcakes tomorrow, right?"
 
-  n "If you and Sayori each carry some, then you can probably do it in one trip."
+    n "If you and Sayori each carry some, then you can probably do it in one trip."
 
-  mc "Yeah, I can do that."
+    mc "Yeah, I can do that."
 
-  mc "And don't worry, I won't let her eat any."
+    mc "And don't worry, I won't let her eat any."
 
-  n 2ba "Ahaha."
+    n 2ba "Ahaha."
 
-  n "I wish she would listen to me the way she listens to you."
+    n "I wish she would listen to me the way she listens to you."
 
-  mc "Ah..."
+    mc "Ah..."
 
-  mc "Yeah."
+    mc "Yeah."
 
-  show natsuki zorder 1 at thide
-  hide natsuki
+    show natsuki zorder 1 at thide
+    hide natsuki
 
-  "I again think back to the conversation I had with Sayori earlier today."
+    "I again think back to the conversation I had with Sayori earlier today."
 
-  "I felt so helpless."
+    "I felt so helpless."
 
-  "Sayori always does listen to me, but at that point it felt like she couldn't listen to me at all."
+    "Sayori always does listen to me, but at that point it felt like she couldn't listen to me at all."
 
-  show natsuki 4bl zorder 2 at t11
+    show natsuki 4bl zorder 2 at t11
 
 
-  n "Okay, I'm all packed up."
+    n "Okay, I'm all packed up."
 
-  n "Good work today!"
+    n "Good work today!"
 
-  mc "You too."
+    mc "You too."
 
-  mc "I'll walk you out...I guess."
+    mc "I'll walk you out...I guess."
 
-  scene bg house with wipeleft_scene
+    scene bg house with wipeleft_scene
 
-  "Just like that, Natsuki is already about to leave."
+    "Just like that, Natsuki is already about to leave."
 
-  "It feels like the afternoon went by in a flash."
+    "It feels like the afternoon went by in a flash."
 
-  "More than that..."
+    "More than that..."
 
-  "Did I even take the opportunity to get closer to her, like I wanted?"
+    "Did I even take the opportunity to get closer to her, like I wanted?"
 
-  show natsuki 1bh zorder 2 at t11
+    show natsuki 1bh zorder 2 at t11
 
-  n "Well..."
+    n "Well..."
 
-  n "I guess I'll be off, then..."
+    n "I guess I'll be off, then..."
 
-  n 1bq "Thanks for all the help and everything..."
+    n 1bq "Thanks for all the help and everything..."
 
-  n "I'll see you tomorrow."
+    n "I'll see you tomorrow."
 
-  mc "Wait, Natsuki."
+    mc "Wait, Natsuki."
 
-  n 1bh "Eh?"
+    n 1bh "Eh?"
 
-  mc "What you said before...about not always having this chance."
+    mc "What you said before...about not always having this chance."
 
-  mc "It doesn't have to be that way at all!"
+    mc "It doesn't have to be that way at all!"
 
-  mc "I had fun today."
+    mc "I had fun today."
 
-  mc "You showed me how fun baking can be, like you wanted."
+    mc "You showed me how fun baking can be, like you wanted."
 
-  mc "But aside from that..."
+    mc "But aside from that..."
 
-  mc "You can come over anytime, okay?"
+    mc "You can come over anytime, okay?"
 
-  mc "I think that if possible, I'd like to spend more time like this."
+    mc "I think that if possible, I'd like to spend more time like this."
 
-  mc "If you want to read manga, or go out somewhere--"
+    mc "If you want to read manga, or go out somewhere--"
 
-  n 1bm "Um--"
+    n 1bm "Um--"
 
-  n "Do you...really mean that?"
+    n "Do you...really mean that?"
 
-  "Natsuki looks at me tensely, like she's trying to hide her expression."
+    "Natsuki looks at me tensely, like she's trying to hide her expression."
 
-  mc "Yeah."
+    mc "Yeah."
 
-  mc "I want to spend more time with you."
+    mc "I want to spend more time with you."
 
-  n 1bq "[player]..."
+    n 1bq "[player]..."
 
-  n "I thought you only cared about getting this done..."
+    n "I thought you only cared about getting this done..."
 
-  n 1br "Uu..."
+    n 1br "Uu..."
 
-  n 1bn "I'm sorry I had to leave so early today."
+    n 1bn "I'm sorry I had to leave so early today."
 
-  n "I really didn't want to!"
+    n "I really didn't want to!"
 
-  n "I would really...stay here longer if I could."
+    n "I would really...stay here longer if I could."
 
-  n "I feel the same way as you, so..."
+    n "I feel the same way as you, so..."
 
-  stop music fadeout 2.0
+    stop music fadeout 2.0
 
-  show natsuki 1bi at face with dissolve
+    show natsuki 1bi at face with dissolve
 
-  "Natsuki suddenly gets closer to me."
+    "Natsuki suddenly gets closer to me."
 
-  mc "Wait, Natsuki--"
+    mc "Wait, Natsuki--"
 
-  "Standing inches from me, Natsuki looks up at me."
+    "Standing inches from me, Natsuki looks up at me."
 
-  "I feel her fingers gently clutch at the sides of my shirt, as if holding onto me."
+    "I feel her fingers gently clutch at the sides of my shirt, as if holding onto me."
 
-  "Her rose-colored cheeks and matching eyes fill my vision, along with her slightly-parted lips."
+    "Her rose-colored cheeks and matching eyes fill my vision, along with her slightly-parted lips."
 
-  "What is happening...?"
+    "What is happening...?"
 
-  "My head starts to go dizzy as I feel her soft breaths against me."
+    "My head starts to go dizzy as I feel her soft breaths against me."
 
-  n 1bh "I've felt it..."
+    n 1bh "I've felt it..."
 
-  n "For a while now..."
+    n "For a while now..."
 
-  n 1bo "--!!"
+    n 1bo "--!!"
 
-  show natsuki zorder 2 at t11
+    show natsuki zorder 2 at t11
 
-  "Natsuki suddenly jumps back."
+    "Natsuki suddenly jumps back."
 
-  n "S-Sayori?!"
+    n "S-Sayori?!"
 
-  mc "Eh?!"
+    mc "Eh?!"
 
-  show natsuki zorder 2 at t22
-  show sayori 1bl zorder 3 at f21
+    show natsuki zorder 2 at t22
+    show sayori 1bl zorder 3 at f21
 
-  s "Ah..."
+    s "Ah..."
 
-  s "H-Hi, [player]..."
+    s "H-Hi, [player]..."
 
-  mc "Sayori--!"
+    mc "Sayori--!"
 
-  mc "Just now, we weren't--"
+    mc "Just now, we weren't--"
 
-  s 1bq "Ehehe~"
+    s 1bq "Ehehe~"
 
-  s "It's okay, [player]."
+    s "It's okay, [player]."
 
-  s 1ba "I just stopped by to say hi~"
+    s 1ba "I just stopped by to say hi~"
 
-  show sayori zorder 2 at t21
-  show natsuki zorder 3 at f22
+    show sayori zorder 2 at t21
+    show natsuki zorder 3 at f22
 
-  n 5bq "A-Ah..."
+    n 5bq "A-Ah..."
 
-  n "Well..."
+    n "Well..."
 
-  n 5bw "Y-You should have come a little earlier!"
+    n 5bw "Y-You should have come a little earlier!"
 
-  n "I'm already on my way out, so..."
+    n "I'm already on my way out, so..."
 
-  show natsuki zorder 2 at t22
-  show sayori zorder 3 at f21
+    show natsuki zorder 2 at t22
+    show sayori zorder 3 at f21
 
-  s 1bh "Aw, really?"
+    s 1bh "Aw, really?"
 
-  s "That's too bad..."
+    s "That's too bad..."
 
-  show sayori zorder 2 at t21
-  show natsuki zorder 3 at f22
+    show sayori zorder 2 at t21
+    show natsuki zorder 3 at f22
 
-  n 2bq "Yeah, well..."
+    n 2bq "Yeah, well..."
 
-  n "I'll still see you at the festival tomorrow, so it's fine."
+    n "I'll still see you at the festival tomorrow, so it's fine."
 
-  n 2bb "Just don't eat any cupcakes before then!"
+    n 2bb "Just don't eat any cupcakes before then!"
 
-  n "Anyway, later!"
+    n "Anyway, later!"
 
-  show natsuki at lhide
-  hide natsuki
+    show natsuki at lhide
+    hide natsuki
 
-  "Clearly flustered, Natsuki hurries off, and Sayori waves goodbye."
+    "Clearly flustered, Natsuki hurries off, and Sayori waves goodbye."
 
-  return
+    return
 
 label ch4_exclusive_yuri:
 
-  play music t6 fadeout 2.0
+    play music t6 fadeout 2.0
 
-  scene bg house with wipeleft_scene
+    scene bg house with wipeleft_scene
 
-  "As I approach my house, I see something that makes me feel a moment of panic."
+    "As I approach my house, I see something that makes me feel a moment of panic."
 
-  mc "Yuri--?"
+    mc "Yuri--?"
 
-  show yuri 2bq zorder 2 at t11
+    show yuri 2bq zorder 2 at t11
 
-  y "Ah..."
+    y "Ah..."
 
-  y "Thank goodness..."
+    y "Thank goodness..."
 
-  mc "You're a little early..."
+    mc "You're a little early..."
 
-  mc "I'm sorry I wasn't home yet!"
+    mc "I'm sorry I wasn't home yet!"
 
-  mc "Were you waiting for a long time?"
+    mc "Were you waiting for a long time?"
 
-  y 1bf "No, I just got here."
+    y 1bf "No, I just got here."
 
-  y 1bh "But I started to get really nervous when nobody answered the doorbell..."
+    y 1bh "But I started to get really nervous when nobody answered the doorbell..."
 
-  mc "You always could have texted me."
+    mc "You always could have texted me."
 
-  mc "If I had known, I would have reassured you and hurried more on my way home."
+    mc "If I had known, I would have reassured you and hurried more on my way home."
 
-  y 2bv "Ah...I suppose that's true..."
+    y 2bv "Ah...I suppose that's true..."
 
-  y "I didn't think of that...for some reason."
+    y "I didn't think of that...for some reason."
 
-  "It should be common sense to do that, but I decide to ignore it."
+    "It should be common sense to do that, but I decide to ignore it."
 
-  mc "Anyway...let's go inside."
+    mc "Anyway...let's go inside."
 
-  mc "I see you brought a lot of stuff with you."
+    mc "I see you brought a lot of stuff with you."
 
-  y 1ba "That's right."
+    y 1ba "That's right."
 
-  y "And did you manage to find everything I asked you to buy as well?"
+    y "And did you manage to find everything I asked you to buy as well?"
 
-  mc "Yeah, pretty much."
+    mc "Yeah, pretty much."
 
-  mc "At least, I hope I got everything right."
+    mc "At least, I hope I got everything right."
 
-  y "I'm sure it will be fine."
+    y "I'm sure it will be fine."
 
-  scene bg bedroom with wipeleft
+    scene bg bedroom with wipeleft
 
-  "I take Yuri to my room."
+    "I take Yuri to my room."
 
-  "The first thing she does is glance around curiously, which makes me feel anxious."
+    "The first thing she does is glance around curiously, which makes me feel anxious."
 
-  show yuri 2bm zorder 2 at t11
+    show yuri 2bm zorder 2 at t11
 
-  y "It's so clean..."
+    y "It's so clean..."
 
-  mc "Ahaha..."
+    mc "Ahaha..."
 
-  mc "I cleaned it before you came over, so..."
+    mc "I cleaned it before you came over, so..."
 
-  y 2ba "That's very considerate of you to do."
+    y 2ba "That's very considerate of you to do."
 
-  mc "Ah, no..."
+    mc "Ah, no..."
 
-  mc "I would be really embarrassed for my room to be a mess while you were here."
+    mc "I would be really embarrassed for my room to be a mess while you were here."
 
-  y 1ba "Hmm..."
+    y 1ba "Hmm..."
 
-  y "Well, I do enjoy cleaning..."
+    y "Well, I do enjoy cleaning..."
 
-  y "I would have gladly helped you clean."
+    y "I would have gladly helped you clean."
 
-  mc "Ah--"
+    mc "Ah--"
 
-  mc "That would be even more embarrassing!"
+    mc "That would be even more embarrassing!"
 
-  show yuri 1be
+    show yuri 1be
 
-  mc "Wait, don't look in there--!"
+    mc "Wait, don't look in there--!"
 
-  "I snatch Yuri's wrist, which was in the process of opening a desk drawer of mine."
+    "I snatch Yuri's wrist, which was in the process of opening a desk drawer of mine."
 
-  y 3bn "A-Ah..."
+    y 3bn "A-Ah..."
 
-  y "I'm sorry...!"
+    y "I'm sorry...!"
 
-  y 4bb "I wasn't thinking for some reason..."
+    y 4bb "I wasn't thinking for some reason..."
 
-  y "I was just spacing out!"
+    y "I was just spacing out!"
 
-  mc "It's fine, it's fine..."
+    mc "It's fine, it's fine..."
 
-  "I let go of Yuri's wrist."
+    "I let go of Yuri's wrist."
 
-  show yuri 1bl
+    show yuri 1bl
 
-  "She puts both of her hands firmly in her lap, as if making sure she's keeping track of them."
+    "She puts both of her hands firmly in her lap, as if making sure she's keeping track of them."
 
-  mc "So, um..."
+    mc "So, um..."
 
-  mc "Should we...get started?"
+    mc "Should we...get started?"
 
-  y 2bu "Ah..."
+    y 2bu "Ah..."
 
-  y "Yes..."
+    y "Yes..."
 
-  y 2bf "Um, I have a few things planned that you can help with..."
+    y 2bf "Um, I have a few things planned that you can help with..."
 
-  y "Decorations and other atmospheric enhancements."
+    y "Decorations and other atmospheric enhancements."
 
-  mc "Atmospheric enhancements...?"
+    mc "Atmospheric enhancements...?"
 
-  y 1ba "You know..."
+    y 1ba "You know..."
 
-  y "Mood lighting, aromatherapy candles..."
+    y "Mood lighting, aromatherapy candles..."
 
-  mc "Oh, wow."
+    mc "Oh, wow."
 
-  mc "I didn't know you planned on taking it that far."
+    mc "I didn't know you planned on taking it that far."
 
-  y 1bc "Of course."
+    y 1bc "Of course."
 
-  y "I want to help take our guests to a faraway place."
+    y "I want to help take our guests to a faraway place."
 
-  y 1ba "Although many will stop by just out of curiosity..."
+    y 1ba "Although many will stop by just out of curiosity..."
 
-  y 1bj "And for...cupcakes, I guess..."
+    y 1bj "And for...cupcakes, I guess..."
 
-  y 1ba "I'm determined to provide an experience that will leave them wanting more."
+    y 1ba "I'm determined to provide an experience that will leave them wanting more."
 
-  mc "That's great."
+    mc "That's great."
 
-  mc "It's easy to forget that you're a pretty intense person."
+    mc "It's easy to forget that you're a pretty intense person."
 
-  y 1bt "Ah--"
+    y 1bt "Ah--"
 
-  y 2bt "Intense...?"
+    y 2bt "Intense...?"
 
-  mc "I guess that's the best way to put it."
+    mc "I guess that's the best way to put it."
 
-  y "Is that...a bad thing?"
+    y "Is that...a bad thing?"
 
-  mc "No, not at all."
+    mc "No, not at all."
 
-  mc "It's something that I like about you, actually."
+    mc "It's something that I like about you, actually."
 
-  y 3bu "I-Is that so...?"
+    y 3bu "I-Is that so...?"
 
-  y "That makes me feel relieved..."
+    y "That makes me feel relieved..."
 
-  y "And kind of happy..."
+    y "And kind of happy..."
 
-  mc "Yeah, no need to be so anxious."
+    mc "Yeah, no need to be so anxious."
 
-  mc "You can relax a little."
+    mc "You can relax a little."
 
-  y 3bl "Relax..."
+    y 3bl "Relax..."
 
-  y 1bf "I brought some things for relaxation."
+    y 1bf "I brought some things for relaxation."
 
-  y "I was going to use them during the poetry event..."
+    y "I was going to use them during the poetry event..."
 
-  mc "Oh yeah? Like what?"
+    mc "Oh yeah? Like what?"
 
-  y "Let's see..."
+    y "Let's see..."
 
-  "Yuri rummages through her bag."
+    "Yuri rummages through her bag."
 
-  "She pulls out a few candles and a wooden cylinder-shaped object."
+    "She pulls out a few candles and a wooden cylinder-shaped object."
 
-  y "I did some shopping on the way here, so I happen to have these in my bag."
+    y "I did some shopping on the way here, so I happen to have these in my bag."
 
-  y "I planned to cover the windows in black paper and use the candles to light the room."
+    y "I planned to cover the windows in black paper and use the candles to light the room."
 
-  y 1ba "I think that would be amazing, don't you?"
+    y 1ba "I think that would be amazing, don't you?"
 
-  mc "Yeah, that would be really neat."
+    mc "Yeah, that would be really neat."
 
-  mc "What's that wooden thing, though?"
+    mc "What's that wooden thing, though?"
 
-  y 1bf "Oh, this?"
+    y 1bf "Oh, this?"
 
-  y "It's a diffuser for essential oils."
+    y "It's a diffuser for essential oils."
 
-  y "How familiar are you with aromatherapy?"
+    y "How familiar are you with aromatherapy?"
 
-  mc "Not familiar at all..."
+    mc "Not familiar at all..."
 
-  y 1ba "Ah, is that so?"
+    y 1ba "Ah, is that so?"
 
-  y "It's one of my favorite contributors to a positive atmosphere."
+    y "It's one of my favorite contributors to a positive atmosphere."
 
-  y "Depending on the oils or herbs you choose, you can change the mood of the air itself."
+    y "Depending on the oils or herbs you choose, you can change the mood of the air itself."
 
-  y "You can even feel it permeate through your body."
+    y "You can even feel it permeate through your body."
 
-  y 3bm "Relaxation, positive energy, romance, reflection..."
+    y 3bm "Relaxation, positive energy, romance, reflection..."
 
-  y "It's almost like magic."
+    y "It's almost like magic."
 
-  show yuri 3ba
+    show yuri 3ba
 
-  "Yuri takes the cylinder and pushes a switch on the bottom."
+    "Yuri takes the cylinder and pushes a switch on the bottom."
 
-  "In just a moment, a thin ray of vapor begins to spout through a small hole on the top."
+    "In just a moment, a thin ray of vapor begins to spout through a small hole on the top."
 
-  mc "Wow, that smells wonderful."
+    mc "Wow, that smells wonderful."
 
-  mc "What kind of mood is that one for?"
+    mc "What kind of mood is that one for?"
 
-  y 1ba "This is a Jasmine essential oil."
+    y 1ba "This is a Jasmine essential oil."
 
-  y "It smells a little sweet and flowery, right?"
+    y "It smells a little sweet and flowery, right?"
 
-  mc "Yeah, that's a good way to describe it."
+    mc "Yeah, that's a good way to describe it."
 
-  y 1bb "I chose Jasmine for the event because it provides more than relaxation."
+    y 1bb "I chose Jasmine for the event because it provides more than relaxation."
 
-  y "Jasmine enhances your emotions and helps you feel them flow through your body."
+    y "Jasmine enhances your emotions and helps you feel them flow through your body."
 
-  y 1bu "You feel warmer, and your heart pounds more heavily."
+    y 1bu "You feel warmer, and your heart pounds more heavily."
 
-  y 1ba "Don't you think that will be perfect for sharing our poems?"
+    y 1ba "Don't you think that will be perfect for sharing our poems?"
 
-  mc "It does sound suitable..."
+    mc "It does sound suitable..."
 
-  mc "But you seem to know a lot about this, so I'll trust your opinion with anything."
+    mc "But you seem to know a lot about this, so I'll trust your opinion with anything."
 
-  show yuri 1bc
+    show yuri 1bc
 
-  "Yuri smiles gently, clearly enjoying herself."
+    "Yuri smiles gently, clearly enjoying herself."
 
-  "She again reaches into her bag and pulls out several spools of thin ribbon."
+    "She again reaches into her bag and pulls out several spools of thin ribbon."
 
-  show yuri 1ba
+    show yuri 1ba
 
-  mc "What are those for?"
+    mc "What are those for?"
 
-  y 1bf "Well..."
+    y 1bf "Well..."
 
-  y "Did you purchase the origami paper I asked you to get?"
+    y "Did you purchase the origami paper I asked you to get?"
 
-  mc "Yeah, I have it over here..."
+    mc "Yeah, I have it over here..."
 
-  y "We won't be using the paper for folding origami."
+    y "We won't be using the paper for folding origami."
 
-  y "What I'd like to do is write a different word on each paper."
+    y "What I'd like to do is write a different word on each paper."
 
-  y "We'll need about a hundred of them."
+    y "We'll need about a hundred of them."
 
-  mc "Oh yeah?"
+    mc "Oh yeah?"
 
-  mc "What will those be used for?"
+    mc "What will those be used for?"
 
-  y 2bf "Well, I'm going to cut pieces of ribbon to hang from the doorway of the classroom."
+    y 2bf "Well, I'm going to cut pieces of ribbon to hang from the doorway of the classroom."
 
-  y "Then, we can fasten the paper onto the ribbons to create a doorway curtain."
+    y "Then, we can fasten the paper onto the ribbons to create a doorway curtain."
 
-  y 2bm "Wouldn't that be beautiful?"
+    y 2bm "Wouldn't that be beautiful?"
 
-  y "It would also catch the eye of those passing by the room..."
+    y "It would also catch the eye of those passing by the room..."
 
-  y 2ba "It may attract some to peek inside."
+    y 2ba "It may attract some to peek inside."
 
-  mc "That's really creative!"
+    mc "That's really creative!"
 
-  mc "I had no idea you'd be so good at this, Yuri."
+    mc "I had no idea you'd be so good at this, Yuri."
 
-  y 4ba "Is...that so?"
+    y 4ba "Is...that so?"
 
-  y "Well, I suppose I do get a little intense...as you'd put it."
+    y "Well, I suppose I do get a little intense...as you'd put it."
 
-  y 3bu "Uhuhu."
+    y 3bu "Uhuhu."
 
-  "Yuri giggles with red cheeks."
+    "Yuri giggles with red cheeks."
 
-  "Is it just me, or is she more relaxed when it's just the two of us?"
+    "Is it just me, or is she more relaxed when it's just the two of us?"
 
-  "Or maybe it's the excitement she feels from sharing something that she enjoys."
+    "Or maybe it's the excitement she feels from sharing something that she enjoys."
 
-  y 1ba "Here's a marker, [player]."
+    y 1ba "Here's a marker, [player]."
 
-  y "You can write any characters you want."
+    y "You can write any characters you want."
 
-  y "I'll help you once I finish cutting the ribbons."
+    y "I'll help you once I finish cutting the ribbons."
 
-  mc "Ah, alright."
+    mc "Ah, alright."
 
-  "Sitting on the floor together, the two of us get to work."
+    "Sitting on the floor together, the two of us get to work."
 
-  "I carefully draw a different character on each paper, doing my best to manage my bad handwriting."
+    "I carefully draw a different character on each paper, doing my best to manage my bad handwriting."
 
-  "Yuri unravels a long strand of red ribbon to her desired length."
+    "Yuri unravels a long strand of red ribbon to her desired length."
 
-  "Then, she reaches into her bag once more and pulls out a pocket knife."
+    "Then, she reaches into her bag once more and pulls out a pocket knife."
 
-  mc "Eh...?"
+    mc "Eh...?"
 
-  "The knife is strangely beautiful."
+    "The knife is strangely beautiful."
 
-  "The silver handle has an intricate pattern of waves etched into it."
+    "The silver handle has an intricate pattern of waves etched into it."
 
-  "The blade itself is gently tinted blue."
+    "The blade itself is gently tinted blue."
 
-  mc "That's no ordinary pocket knife..."
+    mc "That's no ordinary pocket knife..."
 
-  mc "It looks really fancy."
+    mc "It looks really fancy."
 
-  y 4bb "A-Ah..."
+    y 4bb "A-Ah..."
 
-  y "Well..."
+    y "Well..."
 
-  "Embarrassed, Yuri looks away."
+    "Embarrassed, Yuri looks away."
 
-  mc "What is it?"
+    mc "What is it?"
 
-  y "You're going to think it's weird..."
+    y "You're going to think it's weird..."
 
-  mc "Yuri, whatever it is, I have no reason to judge."
+    mc "Yuri, whatever it is, I have no reason to judge."
 
-  mc "To each their own, you know?"
+    mc "To each their own, you know?"
 
-  y "If you promise you won't be weirded out..."
+    y "If you promise you won't be weirded out..."
 
-  mc "Yeah, I promise."
+    mc "Yeah, I promise."
 
-  y 2bi "Alright..."
+    y 2bi "Alright..."
 
-  y "The thing is, I'm kind of into knives..."
+    y "The thing is, I'm kind of into knives..."
 
-  y "They're just...so pretty..."
+    y "They're just...so pretty..."
 
-  y 2bv "I-I can't help it!"
+    y 2bv "I-I can't help it!"
 
-  y "I don't know what it is..."
+    y "I don't know what it is..."
 
-  y "The combination of craftsmanship and feeling of danger, maybe..."
+    y "The combination of craftsmanship and feeling of danger, maybe..."
 
-  y 4bb "Uu, what am I saying...?"
+    y 4bb "Uu, what am I saying...?"
 
-  y "Please don't think I'm weird for this..."
+    y "Please don't think I'm weird for this..."
 
-  mc "Ahaha."
+    mc "Ahaha."
 
-  y "You're laughing at me..."
+    y "You're laughing at me..."
 
-  mc "No, I'm not laughing at you."
+    mc "No, I'm not laughing at you."
 
-  mc "It's just funny how nervous you got about sharing."
+    mc "It's just funny how nervous you got about sharing."
 
-  mc "It's...well, it's an interesting thing to be into, I guess."
+    mc "It's...well, it's an interesting thing to be into, I guess."
 
-  mc "But I think it kind of suits you."
+    mc "But I think it kind of suits you."
 
-  y 2bt "Suits me...?"
+    y 2bt "Suits me...?"
 
-  mc "Yeah... It's kind of intense. Ahaha."
+    mc "Yeah... It's kind of intense. Ahaha."
 
-  mc "Besides, it's a really cool-looking knife, I can't deny that."
+    mc "Besides, it's a really cool-looking knife, I can't deny that."
 
-  y 2bu "It is, isn't it...?"
+    y 2bu "It is, isn't it...?"
 
-  "Yuri relaxes her expression once again."
+    "Yuri relaxes her expression once again."
 
-  y 1ba "Would you like to hold it?"
+    y 1ba "Would you like to hold it?"
 
-  mc "Sure, I'll check it out."
+    mc "Sure, I'll check it out."
 
-  "Yuri carefully hands me the knife, with the handle facing me."
+    "Yuri carefully hands me the knife, with the handle facing me."
 
-  "I take it and turn it around in my hands."
+    "I take it and turn it around in my hands."
 
-  "It feels heavy, and extremely solid."
+    "It feels heavy, and extremely solid."
 
-  "Where do you even get a knife like this...?"
+    "Where do you even get a knife like this...?"
 
-  "Curious of its sharpness, I feel the point of the knife with my index finger."
+    "Curious of its sharpness, I feel the point of the knife with my index finger."
 
-  mc "Ow--!"
+    mc "Ow--!"
 
-  y 3bn "[player]--!!"
+    y 3bn "[player]--!!"
 
-  y "Why did you do that?!"
+    y "Why did you do that?!"
 
-  mc "I didn't expect it to be that sharp...!"
+    mc "I didn't expect it to be that sharp...!"
 
-  mc "I barely touched it at all."
+    mc "I barely touched it at all."
 
-  y "I-It's my fault!"
+    y "I-It's my fault!"
 
-  y 3bo "I should have warned you..."
+    y 3bo "I should have warned you..."
 
-  y "This knife is extremely sharp..."
+    y "This knife is extremely sharp..."
 
-  y "It can cut through skin like it's paper."
+    y "It can cut through skin like it's paper."
 
-  y 2bv "Oh no..."
+    y 2bv "Oh no..."
 
-  "A small drop of blood trickles down the side of my finger."
+    "A small drop of blood trickles down the side of my finger."
 
-  "Yuri takes my hand and gives the wound a closer look."
+    "Yuri takes my hand and gives the wound a closer look."
 
-  y 2bt "Ah..."
+    y 2bt "Ah..."
 
-  "She stares at it and noticeably fidgets."
+    "She stares at it and noticeably fidgets."
 
-  mc "If you're squeamish, I'll go wash it off now--"
+    mc "If you're squeamish, I'll go wash it off now--"
 
-  mc "A-Ah!"
+    mc "A-Ah!"
 
-  "Without warning, Yuri puts my finger in her mouth and licks the wound."
+    "Without warning, Yuri puts my finger in her mouth and licks the wound."
 
-  "I feel her tongue curl around my finger."
+    "I feel her tongue curl around my finger."
 
-  "Startled, I instinctively pull my hand back."
+    "Startled, I instinctively pull my hand back."
 
-  y "O-Oh..."
+    y "O-Oh..."
 
-  y 3bo "P-Please forgive me!"
+    y 3bo "P-Please forgive me!"
 
-  y "I wasn't thinking!"
+    y "I wasn't thinking!"
 
-  y 4bc "I..."
+    y 4bc "I..."
 
-  "Yuri lowers her head, her face burning up."
+    "Yuri lowers her head, her face burning up."
 
-  mc "Yuri..."
+    mc "Yuri..."
 
-  y "That's the most embarrassing thing I've ever done..."
+    y "That's the most embarrassing thing I've ever done..."
 
-  y "How could I do something like that??"
+    y "How could I do something like that??"
 
-  y "I'm sorry, I'm sorry..."
+    y "I'm sorry, I'm sorry..."
 
-  mc "Ah..."
+    mc "Ah..."
 
-  "Sure, it was a little weird, and it took me by surprise..."
+    "Sure, it was a little weird, and it took me by surprise..."
 
-  "But I guess she was just trying to help, right...?"
+    "But I guess she was just trying to help, right...?"
 
-  mc "Yuri, I think you're overreacting a little..."
+    mc "Yuri, I think you're overreacting a little..."
 
-  y "Uuuh..."
+    y "Uuuh..."
 
-  "She doesn't lift her head."
+    "She doesn't lift her head."
 
-  "What if she doesn't recover from this for the rest of the afternoon?"
+    "What if she doesn't recover from this for the rest of the afternoon?"
 
-  mc "Alright, you know what..."
+    mc "Alright, you know what..."
 
-  "This might be a stupid thing to do, but I do it anyway."
+    "This might be a stupid thing to do, but I do it anyway."
 
-  "I take Yuri's hand and lick her index finger in return."
+    "I take Yuri's hand and lick her index finger in return."
 
-  show yuri 3bn at h11
+    show yuri 3bn at h11
 
-  y "[player]--!!"
+    y "[player]--!!"
 
-  y "D-Did you really just do that?"
+    y "D-Did you really just do that?"
 
-  mc "N-Now we're even..."
+    mc "N-Now we're even..."
 
-  y 3bv "..."
+    y 3bv "..."
 
-  "Yuri just looks at me like I did something wrong."
+    "Yuri just looks at me like I did something wrong."
 
-  mc "Ahaha..."
+    mc "Ahaha..."
 
-  mc "I knew that would be a bad idea..."
+    mc "I knew that would be a bad idea..."
 
-  "If not for the sweet aroma of the Jasmine oil, the air would be extremely heavy right now."
+    "If not for the sweet aroma of the Jasmine oil, the air would be extremely heavy right now."
 
-  y 1bu "You're so weird, [player]."
+    y 1bu "You're so weird, [player]."
 
-  "Yuri giggles shyly."
+    "Yuri giggles shyly."
 
-  mc "Eh...?"
+    mc "Eh...?"
 
-  "Yuri calling {i}me{/i} weird?"
+    "Yuri calling {i}me{/i} weird?"
 
-  "I have no response to that..."
+    "I have no response to that..."
 
-  y 1bf "Where do you keep your bandages?"
+    y 1bf "Where do you keep your bandages?"
 
-  mc "Ah..."
+    mc "Ah..."
 
-  mc "I don't think I need one, actually."
+    mc "I don't think I need one, actually."
 
-  mc "It was a tiny cut."
+    mc "It was a tiny cut."
 
-  mc "Look, it already stopped bleeding."
+    mc "Look, it already stopped bleeding."
 
-  y 1ba "I see..."
+    y 1ba "I see..."
 
-  y "That's relieving."
-  "The tension is quickly lifted."
+    y "That's relieving."
+    "The tension is quickly lifted."
 
-  "We each resume our respective activities."
+    "We each resume our respective activities."
 
-  "I watch Yuri's knife cut through the ribbon like it's nothing but air."
+    "I watch Yuri's knife cut through the ribbon like it's nothing but air."
 
-  "Meanwhile, I continue to make progress on the paper."
+    "Meanwhile, I continue to make progress on the paper."
 
-  scene bg bedroom with wipeleft_scene
+    scene bg bedroom with wipeleft_scene
 
-  "After we finish attaching the paper to the ribbons, we lay them all out side by side."
+    "After we finish attaching the paper to the ribbons, we lay them all out side by side."
 
-  "It looks better than I expected and will be very effective as a door curtain."
+    "It looks better than I expected and will be very effective as a door curtain."
 
-  mc "It looks great."
+    mc "It looks great."
 
-  mc "Good thinking coming up with this, Yuri."
+    mc "Good thinking coming up with this, Yuri."
 
-  show yuri 1bq zorder 2 at t11
+    show yuri 1bq zorder 2 at t11
 
-  y "Ah, thanks..."
+    y "Ah, thanks..."
 
-  y "It's just something I saw online, really."
+    y "It's just something I saw online, really."
 
-  y 1ba "Are you ready to move onto the next task?"
+    y 1ba "Are you ready to move onto the next task?"
 
-  mc "Yeah, let's do it."
+    mc "Yeah, let's do it."
 
-  mc "What do you have in mind?"
+    mc "What do you have in mind?"
 
-  y "I'd like to create a banner."
+    y "I'd like to create a banner."
 
-  y "That's why I asked you to buy the paint tablets."
+    y "That's why I asked you to buy the paint tablets."
 
-  mc "Ah, that's right."
+    mc "Ah, that's right."
 
-  "One of the items Yuri had asked me to buy was a kit of watercolor paint tablets."
+    "One of the items Yuri had asked me to buy was a kit of watercolor paint tablets."
 
-  y 1bf "We'll need about six cups of water to put each of the tablets in."
+    y 1bf "We'll need about six cups of water to put each of the tablets in."
 
-  y "Do you mind fetching those for us?"
+    y "Do you mind fetching those for us?"
 
-  mc "Of course not."
+    mc "Of course not."
 
-  mc "Six cups of water..."
+    mc "Six cups of water..."
 
-  mc "I'll be right back in a minute."
+    mc "I'll be right back in a minute."
 
-  y 1ba "Thank you very much."
+    y 1ba "Thank you very much."
 
-  y 2bf "Oh, and just a little bit of water is okay."
+    y 2bf "Oh, and just a little bit of water is okay."
 
-  y "If you fill the cups too much, it will be too diluted."
+    y "If you fill the cups too much, it will be too diluted."
 
-  scene bg bedroom with wipeleft_scene
+    scene bg bedroom with wipeleft_scene
 
-  "Taking Yuri's advice, I decide to use small plastic bathroom cups rather than full-sized glasses."
+    "Taking Yuri's advice, I decide to use small plastic bathroom cups rather than full-sized glasses."
 
-  "I put them on a plate to catch any paint that drips, then bring it back into my room."
+    "I put them on a plate to catch any paint that drips, then bring it back into my room."
 
-  mc "Yuri?"
+    mc "Yuri?"
 
-  show yuri 1bd zorder 2 at t11
+    show yuri 1bd zorder 2 at t11
 
-  y "Yes?"
+    y "Yes?"
 
-  "I come in to see Yuri quickly unrolling her sleeve, pulling it back over her arm."
+    "I come in to see Yuri quickly unrolling her sleeve, pulling it back over her arm."
 
-  mc "Ah, nothing..."
+    mc "Ah, nothing..."
 
-  mc "Your face is a little red."
+    mc "Your face is a little red."
 
-  mc "Is it too hot in here, or anything?"
+    mc "Is it too hot in here, or anything?"
 
-  y 3bq "Ah--"
+    y 3bq "Ah--"
 
-  y "No, not at all!"
+    y "No, not at all!"
 
-  y "There's nothing wrong, so..."
+    y "There's nothing wrong, so..."
 
-  y "Let's mix the paint."
+    y "Let's mix the paint."
 
-  "Yuri hurriedly dismisses me and takes it upon herself to unwrap the tablets, dropping them into the cups."
+    "Yuri hurriedly dismisses me and takes it upon herself to unwrap the tablets, dropping them into the cups."
 
-  y 1ba "So..."
+    y 1ba "So..."
 
-  y "I thought we would do something simple that would look very nice."
+    y "I thought we would do something simple that would look very nice."
 
-  y "I'd like to paint a gradient across the banner..."
+    y "I'd like to paint a gradient across the banner..."
 
-  y "Starting with the colors for a sunrise, then daytime, then sunset and nighttime."
+    y "Starting with the colors for a sunrise, then daytime, then sunset and nighttime."
 
-  y "Once it dries, I'll write an inspirational quote across the banner."
+    y "Once it dries, I'll write an inspirational quote across the banner."
 
-  y "We can hang it on the wall behind the podium at the front of the classroom."
+    y "We can hang it on the wall behind the podium at the front of the classroom."
 
-  mc "Ah, neat."
+    mc "Ah, neat."
 
-  mc "What are you going to write?"
+    mc "What are you going to write?"
 
-  y 2bm "Well..."
+    y 2bm "Well..."
 
-  y "...It will be more fun to surprise you."
+    y "...It will be more fun to surprise you."
 
-  "Yuri smiles at me."
+    "Yuri smiles at me."
 
-  mc "If you say so..."
+    mc "If you say so..."
 
-  show yuri zorder 1 at thide
-  hide yuri
+    show yuri zorder 1 at thide
+    hide yuri
 
-  "After rolling out the banner, Yuri and I kneel on opposite sides so we don't get in the way of each other."
+    "After rolling out the banner, Yuri and I kneel on opposite sides so we don't get in the way of each other."
 
-  "Yuri uses a brush and adds a few dots of different colors across the banner to serve as a color guide when we paint."
+    "Yuri uses a brush and adds a few dots of different colors across the banner to serve as a color guide when we paint."
 
-  mc "This kind of reminds me of elementary school..."
+    mc "This kind of reminds me of elementary school..."
 
-  "Painting on a banner with watercolors feels a lot like the art class projects we had back then."
+    "Painting on a banner with watercolors feels a lot like the art class projects we had back then."
 
-  "It's relaxing."
+    "It's relaxing."
 
-  show yuri 2bt zorder 2 at t11
+    show yuri 2bt zorder 2 at t11
 
-  y "Ah..."
+    y "Ah..."
 
-  y "I'm sorry if this feels too childish...!"
+    y "I'm sorry if this feels too childish...!"
 
-  mc "No, I didn't mean that at all."
+    mc "No, I didn't mean that at all."
 
-  mc "It's kind of fun, you know?"
+    mc "It's kind of fun, you know?"
 
-  y 1bs "...Yeah."
+    y 1bs "...Yeah."
 
-  y "It is fun."
+    y "It is fun."
 
-  y "I'm glad you feel that way, too."
+    y "I'm glad you feel that way, too."
 
-  "Yuri stops painting for a moment, thinking to herself."
+    "Yuri stops painting for a moment, thinking to herself."
 
-  y 2bl "For me..."
+    y 2bl "For me..."
 
-  y "I don't need to go out and do crazy things to have fun."
+    y "I don't need to go out and do crazy things to have fun."
 
-  y "In fact, I usually don't even want to."
+    y "In fact, I usually don't even want to."
 
-  y 2bf "I just like when I can spend time with one other person..."
+    y 2bf "I just like when I can spend time with one other person..."
 
-  y "Even if it's something simple, like reading - it doesn't even matter if we don't talk much."
+    y "Even if it's something simple, like reading - it doesn't even matter if we don't talk much."
 
-  y 2ba "Just having a friend next to me makes things feel a little bit nicer."
+    y 2ba "Just having a friend next to me makes things feel a little bit nicer."
 
-  y "I think that's all it takes for me to be happy."
+    y "I think that's all it takes for me to be happy."
 
-  mc "Is that so...?"
+    mc "Is that so...?"
 
-  "Even if Yuri and I are quite different, I can understand where she's coming from."
+    "Even if Yuri and I are quite different, I can understand where she's coming from."
 
-  "I feel that way about things like anime and games, where simply sharing the experience with someone can make me happy."
+    "I feel that way about things like anime and games, where simply sharing the experience with someone can make me happy."
 
-  mc "I think I feel the same way."
+    mc "I think I feel the same way."
 
-  "Yuri smiles gently."
+    "Yuri smiles gently."
 
-  y 1bm "I knew you'd understand..."
+    y 1bm "I knew you'd understand..."
 
-  "Yuri leans over the banner to grab an unused paintbrush."
+    "Yuri leans over the banner to grab an unused paintbrush."
 
-  "But I move at the same time, causing my head to bump into hers."
+    "But I move at the same time, causing my head to bump into hers."
 
-  y 3bn "Kya--!"
+    y 3bn "Kya--!"
 
-  mc "S-Sorry!"
+    mc "S-Sorry!"
 
-  "Yuri reels back, and I quickly lift my hands in surprise."
+    "Yuri reels back, and I quickly lift my hands in surprise."
 
-  mc "Are you hurt?"
+    mc "Are you hurt?"
 
-  y 2bv "N-No, I'm not hurt."
+    y 2bv "N-No, I'm not hurt."
 
-  y "It just startled me...that's all."
+    y "It just startled me...that's all."
 
-  y "Sorry, I should have asked you to get it for me..."
+    y "Sorry, I should have asked you to get it for me..."
 
-  mc "It's not your fault."
+    mc "It's not your fault."
 
-  mc "Ah, your face..."
+    mc "Ah, your face..."
 
-  "There are droplets of paint on Yuri's face and neck."
+    "There are droplets of paint on Yuri's face and neck."
 
-  y 2bt "Is there something on my face?"
+    y 2bt "Is there something on my face?"
 
-  mc "Yeah, I accidentally got paint on you..."
+    mc "Yeah, I accidentally got paint on you..."
 
-  mc "Sorry, it's totally my fault!"
+    mc "Sorry, it's totally my fault!"
 
-  mc "I'll get a towel right away."
+    mc "I'll get a towel right away."
 
-  show yuri zorder 1 at thide
-  hide yuri
+    show yuri zorder 1 at thide
+    hide yuri
 
-  "I rush out and fetch a small towel, then I dampen it with hot water."
+    "I rush out and fetch a small towel, then I dampen it with hot water."
 
-  "I return to my room and kneel back down in front of her."
+    "I return to my room and kneel back down in front of her."
 
-  $ persistent.clear[5] = True
-  $ renpy.save_persistent()
+    $ persistent.clear[5] = True
+    $ renpy.save_persistent()
 
-  scene y_cg3_base with dissolve_cg
+    scene y_cg3_base with dissolve_cg
 
-  mc "Here..."
+    mc "Here..."
 
-  "I pat down Yuri's face and neck with the towel."
+    "I pat down Yuri's face and neck with the towel."
 
-  show y_cg3_exp1 at cgfade
+    show y_cg3_exp1 at cgfade
 
-  y "Ah--"
+    y "Ah--"
 
-  mc "Is something wrong?"
+    mc "Is something wrong?"
 
-  y "It's hot...I just didn't expect it."
+    y "It's hot...I just didn't expect it."
 
-  mc "Sorry..."
+    mc "Sorry..."
 
-  mc "I didn't want to use cold water."
+    mc "I didn't want to use cold water."
 
-  "Having finished, I start to retract my hand."
+    "Having finished, I start to retract my hand."
 
-  "But Yuri suddenly holds my wrist."
+    "But Yuri suddenly holds my wrist."
 
-  hide y_cg3_exp1
+    hide y_cg3_exp1
 
-  y "Wait--"
+    y "Wait--"
 
-  mc "Eh?"
+    mc "Eh?"
 
-  show y_cg3_exp1 at cgfade
+    show y_cg3_exp1 at cgfade
 
-  y "Just...for a little longer."
+    y "Just...for a little longer."
 
-  y "It feels really nice..."
+    y "It feels really nice..."
 
-  mc "Ah..."
+    mc "Ah..."
 
-  "I keep my hand still against Yuri's neck."
+    "I keep my hand still against Yuri's neck."
 
-  hide y_cg3_exp1
+    hide y_cg3_exp1
 
-  "She looks into my eyes."
+    "She looks into my eyes."
 
-  "It's an intense expression that I recognize from when she reads her books..."
+    "It's an intense expression that I recognize from when she reads her books..."
 
-  "Almost as if she's lost in a daze, enveloped by her own thoughts."
+    "Almost as if she's lost in a daze, enveloped by her own thoughts."
 
-  "She breathes gently, half through slightly-parted lips."
+    "She breathes gently, half through slightly-parted lips."
 
-  "What is happening...?"
+    "What is happening...?"
 
-  "Is it the aroma of the Jasmine oil giving me this dizzy feeling?"
+    "Is it the aroma of the Jasmine oil giving me this dizzy feeling?"
 
-  "Yuri's gentle fingers, wrapped around my wrist, send a tingling sensation through my arm."
+    "Yuri's gentle fingers, wrapped around my wrist, send a tingling sensation through my arm."
 
-  "And suddenly, her face seems to be much closer to mine than it was just a moment ago..."
+    "And suddenly, her face seems to be much closer to mine than it was just a moment ago..."
 
-  y "Ah..."
+    y "Ah..."
 
-  "Yuri slowly pulls away."
+    "Yuri slowly pulls away."
 
-  y "Sorry..."
+    y "Sorry..."
 
-  y "I've been feeling a little light-headed today."
+    y "I've been feeling a little light-headed today."
 
-  y "I didn't mean to space out..."
+    y "I didn't mean to space out..."
 
-  mc "I-It's fine..."
+    mc "I-It's fine..."
 
-  scene bedroom with dissolve_cg
+    scene bedroom with dissolve_cg
 
-  "The moment is over as soon as it began."
+    "The moment is over as soon as it began."
 
-  "Yuri picks up her brush again."
+    "Yuri picks up her brush again."
 
-  "But her movements seem clumsier, like she's unable to focus."
+    "But her movements seem clumsier, like she's unable to focus."
 
-  "I remain silent, forced to ignore the event that just transpired."
+    "I remain silent, forced to ignore the event that just transpired."
 
-  "I hesitantly retrieve my own brush and continue following Yuri's example."
+    "I hesitantly retrieve my own brush and continue following Yuri's example."
 
-  scene bedroom with wipeleft_scene
+    scene bedroom with wipeleft_scene
 
-  mc "That should do it..."
+    mc "That should do it..."
 
-  "I finish filling the night sky with white dots that look like stars."
+    "I finish filling the night sky with white dots that look like stars."
 
-  "Looking at the banner as a whole, it's very pretty and natural-looking."
+    "Looking at the banner as a whole, it's very pretty and natural-looking."
 
-  show yuri 1ba zorder 2 at t11
+    show yuri 1ba zorder 2 at t11
 
-  y "I think it came out better than I expected."
+    y "I think it came out better than I expected."
 
-  y "I'm really happy with the results."
+    y "I'm really happy with the results."
 
-  mc "Yeah, me too."
+    mc "Yeah, me too."
 
-  mc "Are you going to add the lettering now?"
+    mc "Are you going to add the lettering now?"
 
-  y 1bf "Ah, not yet..."
+    y 1bf "Ah, not yet..."
 
-  y "It needs to dry first."
+    y "It needs to dry first."
 
-  mc "That's true, but won't that take a while?"
+    mc "That's true, but won't that take a while?"
 
-  y 2bh "Well..."
+    y 2bh "Well..."
 
-  y "Perhaps it would be best to leave it here, then have you bring it in the morning."
+    y "Perhaps it would be best to leave it here, then have you bring it in the morning."
 
-  y 2bf "I can do the lettering in the classroom before our event starts."
+    y 2bf "I can do the lettering in the classroom before our event starts."
 
-  y "Is that okay?"
+    y "Is that okay?"
 
-  mc "That's totally fine."
+    mc "That's totally fine."
 
-  y 1ba "Wonderful."
+    y 1ba "Wonderful."
 
-  y "In that case..."
+    y "In that case..."
 
-  y "I don't think there's anything more for us to do here."
+    y "I don't think there's anything more for us to do here."
 
-  mc "Phew."
+    mc "Phew."
 
-  y 1bc "Ahaha."
+    y 1bc "Ahaha."
 
-  y "You say that like you're glad it's over."
+    y "You say that like you're glad it's over."
 
-  y 1ba "Was I wrong to assume that you were at least enjoying yourself a little bit?"
+    y 1ba "Was I wrong to assume that you were at least enjoying yourself a little bit?"
 
-  mc "Ah, no, it's not that."
+    mc "Ah, no, it's not that."
 
-  mc "I'm just glad that we managed to get everything done."
+    mc "I'm just glad that we managed to get everything done."
 
-  y 2ba "I see."
+    y 2ba "I see."
 
-  y "I am, too."
+    y "I am, too."
 
-  y "I was a little concerned about time..."
+    y "I was a little concerned about time..."
 
-  y "I need to start making dinner soon."
+    y "I need to start making dinner soon."
 
-  mc "Ah..."
+    mc "Ah..."
 
-  mc "So you don't have any time left?"
+    mc "So you don't have any time left?"
 
-  "I was secretly hoping we would have extra time after finishing the work..."
+    "I was secretly hoping we would have extra time after finishing the work..."
 
-  y 2bl "Well..."
+    y 2bl "Well..."
 
-  y "..."
+    y "..."
 
-  "Yuri thinks to herself."
+    "Yuri thinks to herself."
 
-  y 3bv "I-I think it would be too irresponsible of me to wait much longer..."
+    y 3bv "I-I think it would be too irresponsible of me to wait much longer..."
 
-  y "I'm sorry!"
+    y "I'm sorry!"
 
-  y "I was hoping there would be more time as well..."
+    y "I was hoping there would be more time as well..."
 
-  mc "It's probably my fault."
+    mc "It's probably my fault."
 
-  mc "Sorry for being such a slow worker."
+    mc "Sorry for being such a slow worker."
 
-  y 1bt "No, it's not your fault at all."
+    y 1bt "No, it's not your fault at all."
 
-  y "And...the important thing is that we got everything done, right?"
+    y "And...the important thing is that we got everything done, right?"
 
-  mc "Yeah..."
+    mc "Yeah..."
 
-  y 1bu "So..."
+    y 1bu "So..."
 
-  y "I shouldn't be disappointed...or anything."
+    y "I shouldn't be disappointed...or anything."
 
-  "Gathering all her things, Yuri seems to look a little downcast."
+    "Gathering all her things, Yuri seems to look a little downcast."
 
-  "I understand why."
+    "I understand why."
 
-  "It sounded like she rarely gets the opportunity to spend time with friends in a relaxed environment."
+    "It sounded like she rarely gets the opportunity to spend time with friends in a relaxed environment."
 
-  "But that doesn't mean this is the last time it can happen..."
+    "But that doesn't mean this is the last time it can happen..."
 
-  scene bg house with wipeleft_scene
+    scene bg house with wipeleft_scene
 
-  "Once Yuri packs up, I walk her out the front door."
+    "Once Yuri packs up, I walk her out the front door."
 
-  show yuri 1ba zorder 2 at t11
+    show yuri 1ba zorder 2 at t11
 
-  y "Thank you very much for having me today."
+    y "Thank you very much for having me today."
 
-  mc "No problem, I'm glad I was able to help."
+    mc "No problem, I'm glad I was able to help."
 
-  mc "Just let me know if there's anything else you need me to bring tomorrow."
+    mc "Just let me know if there's anything else you need me to bring tomorrow."
 
-  y "I will."
+    y "I will."
 
-  y 1bu "Well, then..."
+    y 1bu "Well, then..."
 
-  "Yuri fidgets."
+    "Yuri fidgets."
 
-  y 2bu "I guess...I'll see you tomorrow."
+    y 2bu "I guess...I'll see you tomorrow."
 
-  mc "Wait--"
+    mc "Wait--"
 
-  show yuri 2bt
+    show yuri 2bt
 
-  "I kind of say that without thinking."
+    "I kind of say that without thinking."
 
-  mc "About today..."
+    mc "About today..."
 
-  mc "It's fine that we didn't have as much time as we wanted."
+    mc "It's fine that we didn't have as much time as we wanted."
 
-  mc "Because we can do this again."
+    mc "Because we can do this again."
 
-  mc "Whenever you want, you can come over, or we can go out somewhere--"
+    mc "Whenever you want, you can come over, or we can go out somewhere--"
 
-  mc "Ah, I forgot you don't like going out much--"
+    mc "Ah, I forgot you don't like going out much--"
 
-  show yuri 2bs
+    show yuri 2bs
 
-  "As I stumble over my words, Yuri simply smiles bashfully."
+    "As I stumble over my words, Yuri simply smiles bashfully."
 
-  mc "Anyway..."
+    mc "Anyway..."
 
-  mc "You know what I'm trying to say, so..."
+    mc "You know what I'm trying to say, so..."
 
-  y 1bs "You're very thoughtful, [player]."
+    y 1bs "You're very thoughtful, [player]."
 
-  "Yuri takes a step closer to me, then briefly squeezes my hand."
+    "Yuri takes a step closer to me, then briefly squeezes my hand."
 
-  show yuri 2bs at face(y=600) with dissolve
+    show yuri 2bs at face(y=600) with dissolve
 
-  stop music fadeout 2.0
+    stop music fadeout 2.0
 
-  y "I kind of like that about you..."
+    y "I kind of like that about you..."
 
-  mc "Well..."
+    mc "Well..."
 
-  "How am I supposed to respond to that?"
+    "How am I supposed to respond to that?"
 
-  "But I don't even get a chance to, as Yuri suddenly pulls back."
+    "But I don't even get a chance to, as Yuri suddenly pulls back."
 
-  show yuri 3bn zorder 2 at t11
+    show yuri 3bn zorder 2 at t11
 
-  y "S-Sayori--?"
+    y "S-Sayori--?"
 
-  mc "Eh?!"
+    mc "Eh?!"
 
-  show sayori 1bl zorder 3 at f21
-  show yuri zorder 2 at t22
+    show sayori 1bl zorder 3 at f21
+    show yuri zorder 2 at t22
 
-  s "Ah..."
+    s "Ah..."
 
-  s "H-Hi, [player]..."
+    s "H-Hi, [player]..."
 
-  mc "Sayori--!"
+    mc "Sayori--!"
 
-  mc "Just now, we weren't--"
+    mc "Just now, we weren't--"
 
-  s 1bq "Ehehe~"
+    s 1bq "Ehehe~"
 
-  s "It's okay, [player]."
+    s "It's okay, [player]."
 
-  s 1ba "I just stopped by to say hi~"
+    s 1ba "I just stopped by to say hi~"
 
-  show sayori zorder 2 at t21
-  show yuri zorder 3 at f22
+    show sayori zorder 2 at t21
+    show yuri zorder 3 at f22
 
-  y 3bq "U-Um..."
+    y 3bq "U-Um..."
 
-  y "Well, it's nice to see you..."
+    y "Well, it's nice to see you..."
 
-  y 3bv "I'm sorry, but I'm already on my way to leave!"
+    y 3bv "I'm sorry, but I'm already on my way to leave!"
 
-  show yuri zorder 2 at t22
-  show sayori zorder 3 at f21
+    show yuri zorder 2 at t22
+    show sayori zorder 3 at f21
 
-  s 1bh "Aw, really?"
+    s 1bh "Aw, really?"
 
-  s "That's too bad..."
+    s "That's too bad..."
 
-  show sayori zorder 2 at t21
-  show yuri zorder 3 at f22
+    show sayori zorder 2 at t21
+    show yuri zorder 3 at f22
 
-  y 2bt "I'm sorry..."
+    y 2bt "I'm sorry..."
 
-  y "But we'll all be together at the festival tomorrow, so..."
+    y "But we'll all be together at the festival tomorrow, so..."
 
-  y "So that's fine, right?"
+    y "So that's fine, right?"
 
-  show yuri zorder 2 at t22
-  show sayori zorder 3 at f21
+    show yuri zorder 2 at t22
+    show sayori zorder 3 at f21
 
-  s 4bq "Of course!"
+    s 4bq "Of course!"
 
-  "Sayori beams."
+    "Sayori beams."
 
-  show sayori 4ba
-  show sayori zorder 2 at t21
-  show yuri zorder 3 at f22
+    show sayori 4ba
+    show sayori zorder 2 at t21
+    show yuri zorder 3 at f22
 
-  y 4bc "Y-Yeah, so..."
+    y 4bc "Y-Yeah, so..."
 
-  y "I'll see you tomorrow!"
+    y "I'll see you tomorrow!"
 
-  show yuri at lhide
+    show yuri at lhide
 
-  hide yuri
+    hide yuri
 
-  "Clearly embarrassed, Yuri hurries off."
+    "Clearly embarrassed, Yuri hurries off."
 
-  "Sayori waves goodbye after her."
+    "Sayori waves goodbye after her."
 
-  return
+    return
 
 label ch4_end:
 
-  play music t10 fadeout 2.0
+    play music t10 fadeout 2.0
 
-  show sayori 1ba zorder 2 at t11
+    show sayori 1ba zorder 2 at t11
 
-  mc "Sayori--"
+    mc "Sayori--"
 
-  mc "I thought you didn't want to come over today!"
+    mc "I thought you didn't want to come over today!"
 
-  s 2bl "Ahaha, well..."
+    s 2bl "Ahaha, well..."
 
-  s "I tried staying in my room..."
+    s "I tried staying in my room..."
 
-  s "But my imagination was being really mean to me..."
+    s "But my imagination was being really mean to me..."
 
-  s 1by "So I had to come here and see it for myself."
+    s 1by "So I had to come here and see it for myself."
 
-  mc "See what?"
+    mc "See what?"
 
-  mc "What are you talking about?"
+    mc "What are you talking about?"
 
-  s "You know..."
+    s "You know..."
 
-  s "How much fun you were having with [ch4_name]."
+    s "How much fun you were having with [ch4_name]."
 
-  s "And how close you got to her."
+    s "And how close you got to her."
 
-  s 1bt "It makes me...really happy..."
+    s 1bt "It makes me...really happy..."
 
-  s "That you've made such good friends."
+    s "That you've made such good friends."
 
-  s "That's all that matters to me."
+    s "That's all that matters to me."
 
-  "Tears start to fall down Sayori's face."
+    "Tears start to fall down Sayori's face."
 
-  s 4bv "That's all that matters to me--!"
+    s 4bv "That's all that matters to me--!"
 
-  s "Why am I feeling this way, [player]?"
+    s "Why am I feeling this way, [player]?"
 
-  s "I'm supposed to be happy for you."
+    s "I'm supposed to be happy for you."
 
-  s 4bw "Why does it feel like my heart is splitting in half?"
+    s 4bw "Why does it feel like my heart is splitting in half?"
 
-  s "It hurts so much..."
+    s "It hurts so much..."
 
-  s "Everything hurts so much..."
+    s "Everything hurts so much..."
 
-  s "This would be so much better if I could just disappear!"
+    s "This would be so much better if I could just disappear!"
 
-  mc "Sayori, don't say that!"
+    mc "Sayori, don't say that!"
 
-  s 1bw "It's true, [player]!"
+    s 1bw "It's true, [player]!"
 
-  s "If I wasn't here, then you wouldn't have to waste your sympathy on me!"
+    s "If I wasn't here, then you wouldn't have to waste your sympathy on me!"
 
-  s "You wouldn't have to put up with me being selfish!"
+    s "You wouldn't have to put up with me being selfish!"
 
-  s 1bv "Monika was right..."
+    s 1bv "Monika was right..."
 
-  s "I should just..."
+    s "I should just..."
 
-  mc "Monika...?"
+    mc "Monika...?"
 
-  mc "Monika was right about what?"
+    mc "Monika was right about what?"
 
-  s "..."
-
-  mc "Sayori..."
-
-  mc "What I said before is true."
-
-  mc "I'm not going to let this continue."
-
-  mc "Caring about you like this isn't the burden your mind is making it out to be."
-
-  mc "It's something that makes me happy."
-
-  mc "It's something that I wouldn't trade for anything else."
-
-  mc "So, even if it takes an entire lifetime..."
-
-  mc "I'm going to be by your side until you don't feel any more pain."
-
-  s 1bk "B-But..."
-
-  "Sayori looks away."
-
-  "I put a hand on her shoulder to reassure her."
-
-  s "I'm scared, [player]..."
-
-  s "I'm really scared..."
-
-  mc "What are you scared of, Sayori?"
-
-  s "I'm scared that..."
-
-  s "That I might like you more than you like me..."
-
-  mc "Sayori...?"
-
-  s 1bu "It's true, isn't it?"
-
-  s "I was weak and started to like you too much..."
-
-  s "I did this to myself."
-
-  s "[player]..."
-
-  s 4bw "I like you so much that I want to die!"
-
-  s "That's how I feel!"
-
-  s 2bv "And...and..."
-
-  mc "That's enough, Sayori..."
-
-  mc "I don't want you to hurt anymore."
-
-  "I slide my hand down Sayori's arm and squeeze her hand in my own."
-
-  mc "Do you remember how I said I always know what's best for you?"
-
-  mc "Do you still believe me?"
-
-  "Wordlessly, Sayori nods."
-
-  mc "Even if you don't understand all of your own feelings..."
-
-  mc "I know what you need the most right now."
-
-  mc "And that's what I'm going to give to you."
-
-  show black zorder 4 with dissolve_cg
-
-  menu:
+    s "..."
 
     mc "Sayori..."
 
-    "I love you.":
+    mc "What I said before is true."
 
-      $ sayori_confess = True
+    mc "I'm not going to let this continue."
 
-      hide black with dissolve_cg
+    mc "Caring about you like this isn't the burden your mind is making it out to be."
 
-      call ch4_end_yes
+    mc "It's something that makes me happy."
 
-    "You'll always be my dearest friend.":
+    mc "It's something that I wouldn't trade for anything else."
 
-      $ sayori_confess = False
+    mc "So, even if it takes an entire lifetime..."
 
-      hide black with dissolve_cg
+    mc "I'm going to be by your side until you don't feel any more pain."
 
-      call ch4_end_no
+    s 1bk "B-But..."
 
-  return
+    "Sayori looks away."
+
+    "I put a hand on her shoulder to reassure her."
+
+    s "I'm scared, [player]..."
+
+    s "I'm really scared..."
+
+    mc "What are you scared of, Sayori?"
+
+    s "I'm scared that..."
+
+    s "That I might like you more than you like me..."
+
+    mc "Sayori...?"
+
+    s 1bu "It's true, isn't it?"
+
+    s "I was weak and started to like you too much..."
+
+    s "I did this to myself."
+
+    s "[player]..."
+
+    s 4bw "I like you so much that I want to die!"
+
+    s "That's how I feel!"
+
+    s 2bv "And...and..."
+
+    mc "That's enough, Sayori..."
+
+    mc "I don't want you to hurt anymore."
+
+    "I slide my hand down Sayori's arm and squeeze her hand in my own."
+
+    mc "Do you remember how I said I always know what's best for you?"
+
+    mc "Do you still believe me?"
+
+    "Wordlessly, Sayori nods."
+
+    mc "Even if you don't understand all of your own feelings..."
+
+    mc "I know what you need the most right now."
+
+    mc "And that's what I'm going to give to you."
+
+    show black zorder 4 with dissolve_cg
+
+    menu:
+
+        mc "Sayori..."
+
+        "I love you.":
+
+            $ sayori_confess = True
+
+            hide black with dissolve_cg
+
+            call ch4_end_yes
+
+        "You'll always be my dearest friend.":
+
+            $ sayori_confess = False
+
+            hide black with dissolve_cg
+
+            call ch4_end_no
+
+    return
 
 label ch4_end_yes:
 
-  mc "I love you."
+    mc "I love you."
 
-  s 1bv "Eh--?"
+    s 1bv "Eh--?"
 
-  mc "Those are my true feelings."
+    mc "Those are my true feelings."
 
-  mc "So...there's no way you could like me more than I like you."
+    mc "So...there's no way you could like me more than I like you."
 
-  mc "I should have realized it sooner."
+    mc "I should have realized it sooner."
 
-  mc "But spending time with everyone at the club..."
+    mc "But spending time with everyone at the club..."
 
-  mc "Making new friends..."
+    mc "Making new friends..."
 
-  mc "And having fun with you every day..."
+    mc "And having fun with you every day..."
 
-  mc "It helped me realize that you are truly the most important person to me."
+    mc "It helped me realize that you are truly the most important person to me."
 
-  mc "That's why I'll accept any of your burdens."
+    mc "That's why I'll accept any of your burdens."
 
-  mc "As long as we continue like this every day..."
+    mc "As long as we continue like this every day..."
 
-  mc "With you by my side..."
+    mc "With you by my side..."
 
-  mc "Then I know we'll both be happy."
+    mc "Then I know we'll both be happy."
 
-  s "[player]..."
+    s "[player]..."
 
-  $ persistent.clear[8] = True
-  $ renpy.save_persistent()
+    $ persistent.clear[8] = True
+    $ renpy.save_persistent()
 
-  scene s_cg3 with dissolve_cg
+    scene s_cg3 with dissolve_cg
 
-  "Suddenly, Sayori wraps her arms tightly around me."
+    "Suddenly, Sayori wraps her arms tightly around me."
 
-  s "[player]..."
+    s "[player]..."
 
-  s "Is this...really okay?"
+    s "Is this...really okay?"
 
-  mc "Yeah."
+    mc "Yeah."
 
-  "I hold Sayori in my arms and pull her closer."
+    "I hold Sayori in my arms and pull her closer."
 
-  mc "You'll never have to let go of me again."
+    mc "You'll never have to let go of me again."
 
-  s "I love you, [player]..."
+    s "I love you, [player]..."
 
-  s "I want to be with you forever."
+    s "I want to be with you forever."
 
-  mc "Me too."
+    mc "Me too."
 
-  s "..."
+    s "..."
 
-  "I feel Sayori's grip around me weaken a little bit."
+    "I feel Sayori's grip around me weaken a little bit."
 
-  s "What is this...?"
+    s "What is this...?"
 
-  mc "Sayori...?"
+    mc "Sayori...?"
 
-  s "I'm supposed to be happy right now..."
+    s "I'm supposed to be happy right now..."
 
-  s "I always thought this would be the happiest moment for me."
+    s "I always thought this would be the happiest moment for me."
 
-  s "But why...?"
+    s "But why...?"
 
-  s "Even now..."
+    s "Even now..."
 
-  s "Why won't the rainclouds go away?"
+    s "Why won't the rainclouds go away?"
 
-  s "They're not going away at all, [player]..."
+    s "They're not going away at all, [player]..."
 
-  mc "It's okay, Sayori..."
+    mc "It's okay, Sayori..."
 
-  mc "It might take some time for things to get better again."
+    mc "It might take some time for things to get better again."
 
-  mc "But no matter how long it takes, I'll be there every step of the way."
+    mc "But no matter how long it takes, I'll be there every step of the way."
 
-  mc "That's all that matters right now."
+    mc "That's all that matters right now."
 
-  s "O-Okay..."
+    s "O-Okay..."
 
-  s "I...trust you..."
+    s "I...trust you..."
 
-  scene bg house
-  show sayori 1bv zorder 2 at i11
-  with dissolve_cg
+    scene bg house
+    show sayori 1bv zorder 2 at i11
+    with dissolve_cg
 
-  "Sayori and I slowly release each other."
+    "Sayori and I slowly release each other."
 
-  mc "So..."
+    mc "So..."
 
-  mc "I guess that makes the festival tomorrow...our first date, huh?"
+    mc "I guess that makes the festival tomorrow...our first date, huh?"
 
-  s 1by "Ehehe..."
+    s 1by "Ehehe..."
 
-  s "What are you saying?"
+    s "What are you saying?"
 
-  s "I don't want to think about those things, you know?"
+    s "I don't want to think about those things, you know?"
 
-  s "I want everything to be the same as it always has been."
+    s "I want everything to be the same as it always has been."
 
-  s "Even if we really are...a couple."
+    s "Even if we really are...a couple."
 
-  s 1bk "I don't know if I could handle anything more right now..."
+    s 1bk "I don't know if I could handle anything more right now..."
 
-  s "It's really new and scary to me."
+    s "It's really new and scary to me."
 
-  mc "I understand."
+    mc "I understand."
 
-  mc "We'll go at whatever pace suits you best."
+    mc "We'll go at whatever pace suits you best."
 
-  s 1bd "Hey, [player]..."
+    s 1bd "Hey, [player]..."
 
-  "Sayori gazes at me once again, smiling sadly."
+    "Sayori gazes at me once again, smiling sadly."
 
-  s 4bd "Even if I get really, really sad..."
+    s 4bd "Even if I get really, really sad..."
 
-  s "This is the best thing for me...right?"
+    s "This is the best thing for me...right?"
 
-  mc "Eh...?"
+    mc "Eh...?"
 
-  "I don't really understand what Sayori means by that."
+    "I don't really understand what Sayori means by that."
 
-  mc "Are you saying that this is making you feel sad, Sayori?"
+    mc "Are you saying that this is making you feel sad, Sayori?"
 
-  s 4bk "I-I don't know..."
-  s "I don't understand what I'm feeling."
+    s 4bk "I-I don't know..."
+    s "I don't understand what I'm feeling."
 
-  s "It felt like a bunch of thorns when you told me you love me..."
+    s "It felt like a bunch of thorns when you told me you love me..."
 
-  s 4bd "But that's why I want to trust you."
+    s 4bd "But that's why I want to trust you."
 
-  s "You know what's best for me..."
+    s "You know what's best for me..."
 
-  mc "...Yeah."
+    mc "...Yeah."
 
-  mc "I do."
+    mc "I do."
 
-  mc "That's my promise."
+    mc "That's my promise."
 
-  show sayori zorder 1 at thide
-  hide sayori
+    show sayori zorder 1 at thide
+    hide sayori
 
-  "I say that, but in reality, I've never felt more uncertain when it comes to Sayori."
+    "I say that, but in reality, I've never felt more uncertain when it comes to Sayori."
 
-  "I know that I love her, and she loves me."
+    "I know that I love her, and she loves me."
 
-  "But I'm having as much trouble understanding Sayori's feelings as she is."
+    "But I'm having as much trouble understanding Sayori's feelings as she is."
 
-  "Even though I can comfort her..."
+    "Even though I can comfort her..."
 
-  "I keep wondering if I should be doing something more, or something different."
+    "I keep wondering if I should be doing something more, or something different."
 
-  "I know these thoughts will continue to plague me until things are back to the way they were."
+    "I know these thoughts will continue to plague me until things are back to the way they were."
 
-  "Is that what Sayori meant by not wanting anything to change?"
+    "Is that what Sayori meant by not wanting anything to change?"
 
-  "I don't know."
+    "I don't know."
 
-  "But I know that I'll give it everything I've got."
+    "But I know that I'll give it everything I've got."
 
-  "Sayori is the most important person to me."
+    "Sayori is the most important person to me."
 
-  "And I'll do whatever it takes to have a happy future with her."
+    "And I'll do whatever it takes to have a happy future with her."
 
-  return
+    return
 
 label ch4_end_no:
 
-  mc "You'll always be my dearest friend."
+    mc "You'll always be my dearest friend."
 
-  mc "What you need most is for things to be like they've always been."
+    mc "What you need most is for things to be like they've always been."
 
-  mc "Monika told me the truth..."
+    mc "Monika told me the truth..."
 
-  mc "She told me how much happier you seemed after I joined the club."
+    mc "She told me how much happier you seemed after I joined the club."
 
-  mc "I know you're struggling with some really difficult feelings right now."
+    mc "I know you're struggling with some really difficult feelings right now."
 
-  mc "But..."
+    mc "But..."
 
-  mc "Please trust me that I know what's best...and what will make you happy in the end."
+    mc "Please trust me that I know what's best...and what will make you happy in the end."
 
-  mc "I promise I'll help get things back to the way they were."
+    mc "I promise I'll help get things back to the way they were."
 
-  s 1bt "I..."
+    s 1bt "I..."
 
-  s "I...see..."
+    s "I...see..."
 
-  "Sayori forces a smile through an incredibly pained expression."
+    "Sayori forces a smile through an incredibly pained expression."
 
-  s "Ahaha..."
+    s "Ahaha..."
 
-  s "Is this what it feels like...to get stabbed in the chest?"
+    s "Is this what it feels like...to get stabbed in the chest?"
 
-  s "I should write a poem about this..."
+    s "I should write a poem about this..."
 
-  mc "Sayori--"
+    mc "Sayori--"
 
-  s "It's okay."
+    s "It's okay."
 
-  s "This is just my punishment...remember?"
+    s "This is just my punishment...remember?"
 
-  s "For being so selfish..."
+    s "For being so selfish..."
 
-  s "So please..."
+    s "So please..."
 
-  s "Please don't worry about these stupid feelings."
+    s "Please don't worry about these stupid feelings."
 
-  s "I know you're right."
+    s "I know you're right."
 
-  s "I knew this whole time that there's no happiness down that path."
+    s "I knew this whole time that there's no happiness down that path."
 
-  s "That's why I came here..."
+    s "That's why I came here..."
 
-  s "Just so I could get the answer I needed to hear."
+    s "Just so I could get the answer I needed to hear."
 
-  s "And the other thing..."
+    s "And the other thing..."
 
-  s "You're also right that I just want it to go back to the way it was."
+    s "You're also right that I just want it to go back to the way it was."
 
-  s "I realize that now."
+    s "I realize that now."
 
-  s "You really do know me better than anyone, [player]."
+    s "You really do know me better than anyone, [player]."
 
-  s 4bv "I'll trust you with anything..."
+    s 4bv "I'll trust you with anything..."
 
-  s "Anything at all..."
+    s "Anything at all..."
 
-  s "So..."
+    s "So..."
 
-  show sayori zorder 1 at thide
-  hide sayori
+    show sayori zorder 1 at thide
+    hide sayori
 
-  "Sayori's smile finally breaks."
+    "Sayori's smile finally breaks."
 
-  "All of a sudden, she turns around and drops to her knees."
+    "All of a sudden, she turns around and drops to her knees."
 
-  s "{i}AAAAAaaaaAAAAAAAAHH!!!!{/i}"
+    s "{i}AAAAAaaaaAAAAAAAAHH!!!!{/i}"
 
-  "Clutching her head with both hands, she screams as loudly as she can."
+    "Clutching her head with both hands, she screams as loudly as she can."
 
-  "I'm so shocked that I don't know how to react."
+    "I'm so shocked that I don't know how to react."
 
-  show sayori 4bt zorder 2 at t11
+    show sayori 4bt zorder 2 at t11
 
-  s "..."
+    s "..."
 
-  show sayori at lhide
-  hide sayori
+    show sayori at lhide
+    hide sayori
 
-  "Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off."
+    "Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off."
 
-  mc "Sayori!"
+    mc "Sayori!"
 
-  "..."
+    "..."
 
-  "I'm left helplessly standing in the front of my house."
+    "I'm left helplessly standing in the front of my house."
 
-  "Why am I feeling so horrible about this?"
+    "Why am I feeling so horrible about this?"
 
-  "There's nothing more that I could have done."
+    "There's nothing more that I could have done."
 
-  "The most I can do is support Sayori through her feelings and help her on the path that's right."
+    "The most I can do is support Sayori through her feelings and help her on the path that's right."
 
-  "But I'm having as much trouble understanding Sayori's feelings as she is."
+    "But I'm having as much trouble understanding Sayori's feelings as she is."
 
-  "Even though I can comfort her..."
+    "Even though I can comfort her..."
 
-  "I keep wondering if I should be doing something more, or something different."
+    "I keep wondering if I should be doing something more, or something different."
 
-  "I know these thoughts will continue to plague me until things are back to the way they were."
+    "I know these thoughts will continue to plague me until things are back to the way they were."
 
-  "I'm going to give it everything I've got."
+    "I'm going to give it everything I've got."
 
-  "Sayori will always be my dearest friend."
+    "Sayori will always be my dearest friend."
 
-  "And I'll do whatever it takes to put a smile on her face every day."
+    "And I'll do whatever it takes to put a smile on her face every day."
 
-  return
+    return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
