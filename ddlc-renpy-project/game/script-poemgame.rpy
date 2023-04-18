@@ -14,7 +14,7 @@ init python:
 
     full_wordlist = []
 
-    with renpy.file('poemwords.txt') as wordfile:
+    with renpy.file('poemwords.txt', encoding="UTF-8") as wordfile:
         for line in wordfile:
             line = line.strip()
 
