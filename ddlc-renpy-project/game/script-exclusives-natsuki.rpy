@@ -1224,4 +1224,4 @@ label natsuki_exclusive_2_ch3:
     "I return to my seat and slip the book into my bag."
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

@@ -313,4 +313,4 @@ image s_kill2_zoom:
         linear 0.25 alpha 0.6
         linear 0.25 alpha 0.4
         repeat
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

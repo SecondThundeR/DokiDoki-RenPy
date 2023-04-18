@@ -375,7 +375,7 @@ label ch21_end:
     show yuri zorder 2 at t32
     show natsuki zorder 2 at t33
     show monika 3l behind yuri, natsuki at l41
-    
+
     m "Um, Natsuki, that's a little--"
 
     show monika at h41
@@ -793,4 +793,4 @@ label ch21_end:
     window auto
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

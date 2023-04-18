@@ -1085,4 +1085,4 @@ label ch0_kill:
     $ renpy.quit()
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

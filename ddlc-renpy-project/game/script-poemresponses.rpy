@@ -5001,4 +5001,4 @@ label m_yuri_3:
     m "If anything, she might accidentally hurt herself."
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

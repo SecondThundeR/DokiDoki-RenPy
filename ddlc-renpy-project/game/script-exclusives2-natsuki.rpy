@@ -452,7 +452,7 @@ label natsuki_exclusive2_1:
     $ style.say_dialogue = style.edited
 
     n "{color=#000}[ntext]{/color}"
-    
+
     $ ntext = glitchtext(96)
 
     n "{color=#000}[ntext]{/color}"
@@ -517,4 +517,4 @@ label natsuki_exclusive2_1:
     m "Why don't we all share poems now?"
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

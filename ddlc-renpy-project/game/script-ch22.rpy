@@ -1157,4 +1157,4 @@ label ch22_end:
     hide black onlayer front
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

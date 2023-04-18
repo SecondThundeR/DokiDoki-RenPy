@@ -1030,4 +1030,4 @@ init -1 style notify_frame:
 
 init -1 style notify_text:
     size gui.notify_text_size
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

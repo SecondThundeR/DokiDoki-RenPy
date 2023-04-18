@@ -1388,4 +1388,4 @@ default ch4_name = "Yuri"
 default sayori_confess = True
 
 default natsuki_23 = None
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

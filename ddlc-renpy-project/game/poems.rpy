@@ -744,4 +744,4 @@ label showpoem(poem=None, music=True, track=None, revert_music=True, img=None, w
         $ renpy.music.play(audio.t5c, fadein=2.0)
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

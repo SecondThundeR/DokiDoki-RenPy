@@ -77,4 +77,4 @@ label ch10_main:
     $ renpy.save_persistent()
 
     jump ch20_from_ch10
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

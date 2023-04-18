@@ -608,4 +608,4 @@ label readonly:
     $ renpy.quit()
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

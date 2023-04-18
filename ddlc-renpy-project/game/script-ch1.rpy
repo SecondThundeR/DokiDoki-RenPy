@@ -1455,4 +1455,4 @@ label ch1_end_sayori:
     "If only I could get the chance to talk to her a little more..."
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+
