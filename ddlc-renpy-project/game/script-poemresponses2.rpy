@@ -1335,4 +1335,4 @@ label m2_yuri_3:
     $ skip_poem = True
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

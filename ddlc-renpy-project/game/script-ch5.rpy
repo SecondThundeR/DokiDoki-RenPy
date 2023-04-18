@@ -557,4 +557,4 @@ label ch5_main:
     $ in_sayori_kill = False
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

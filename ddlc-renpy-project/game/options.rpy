@@ -1,5 +1,4 @@
 define config.name = "Doki Doki Literature Club! (Ren'Py Mod)"
-define gui.show_name = False
 define config.version = "1.1.1"
 define gui.about = _("")
 define build.name = "DDLC"
@@ -89,4 +88,4 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
     build.include_old_themes = False
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

@@ -216,7 +216,6 @@ init -501 screen choice(items):
         for i in items:
             textbutton i.caption action i.action
 
-define -1 config.narrator_menu = True
 init -1 style choice_vbox is vbox
 init -1 style choice_button is button
 init -1 style choice_button_text is button_text
@@ -1031,4 +1030,4 @@ init -1 style notify_frame:
 
 init -1 style notify_text:
     size gui.notify_text_size
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

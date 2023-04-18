@@ -108,9 +108,13 @@ image m_rectstatic:
     pos (0, 0)
     size (32, 32)
 image m_rectstatic2:
-    RectStatic(im.FactorScale(im.Crop("gui/logo.png", (100, 100, 128, 128)), 0.25), 2, 32, 32).sm
+    RectStatic("gui/logo.png", 2, 32, 32).sm
+    crop (100, 100, 128, 128)
+    zoom 0.25
 image m_rectstatic3:
-    RectStatic(im.FactorScale(im.Crop("gui/menu_art_s.png", (100, 100, 64, 64)), 0.5), 2, 32, 32).sm
+    RectStatic("gui/menu_art_s.png", 2, 32, 32).sm
+    crop (100, 100, 64, 64)
+    zoom 0.5
 
 init python:
     import math
@@ -379,7 +383,7 @@ image bsod_2:
     0.1
     yoffset 750
 
-image bsod = LiveComposite((1280, 720), (0, 0), "bsod_1", (0, 0), "bsod_2")
+image bsod = Composite((1280, 720), (0, 0), "bsod_1", (0, 0), "bsod_2")
 
 image veins:
     AnimatedMask("images/bg/veinmask.png", "images/bg/veinmask.png", "images/bg/veinmaskb.png", 0.15, 16, moving=False, speed=10.0, frequency=0.25, amount=0.1)
@@ -417,4 +421,4 @@ image veins:
         choice:
             xoffset -2
         repeat
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

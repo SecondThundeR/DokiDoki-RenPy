@@ -1530,4 +1530,4 @@ label yuri_exclusive2_2_ch23:
     window auto
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

@@ -14,7 +14,7 @@ init python:
 
     full_wordlist = []
 
-    with renpy.file('poemwords.txt') as wordfile:
+    with renpy.file('poemwords.txt', encoding="UTF-8") as wordfile:
         for line in wordfile:
             line = line.strip()
 
@@ -241,6 +241,8 @@ label poem(transition=True):
     if persistent.playthrough == 0 and chapter == 0:
         call screen dialog("It's time to write a poem!\n\nPick words you think your favorite club member\nwill like. Something good might happen with\nwhoever likes your poem the most!", ok_action=Return())
 
+    # Ignore any "obsolete" warnings for "ui"-specific function calls,
+    # as there is no way to use "text" instead of "ui.text" in Python block
     python:
         poemgame_glitch = False
         played_baa = False
@@ -590,4 +592,4 @@ transform sticker_hop:
     easeout_quad .18 yoffset 0
     easein_quad .18 yoffset -80
     easeout_quad .18 yoffset 0
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

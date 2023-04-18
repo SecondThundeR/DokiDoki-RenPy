@@ -10,4 +10,4 @@ init python:
             output += random.choice(nonunicode)
 
         return output
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

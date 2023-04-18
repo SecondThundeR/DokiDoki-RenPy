@@ -2166,4 +2166,4 @@ label ch3_end_yuri:
     "After that exchange, I make my way out the door, and Yuri follows."
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

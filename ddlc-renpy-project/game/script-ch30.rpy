@@ -86,8 +86,8 @@ image monika_body_glitch2:
 
 
 image room_glitch = "images/cg/monika/monika_bg_glitch.png"
-image room_mask = LiveComposite((1280, 720), (0, 0), "mask_test", (0, 0), "mask_test2")
-image room_mask2 = LiveComposite((1280, 720), (0, 0), "mask_test3", (0, 0), "mask_test4")
+image room_mask = Composite((1280, 720), (0, 0), "mask_test", (0, 0), "mask_test2")
+image room_mask2 = Composite((1280, 720), (0, 0), "mask_test3", (0, 0), "mask_test4")
 
 init python:
     import random
@@ -3156,4 +3156,4 @@ label ch30_56:
     m "I really don't..."
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

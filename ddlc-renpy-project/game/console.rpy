@@ -107,4 +107,4 @@ label hideconsole:
     hide console_caret
     hide ctext
     hide chistory
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+

@@ -703,4 +703,4 @@ label credits2:
         call screen dialog(message="Error: Script file is missing or corrupt.\nPlease reinstall the game.", ok_action=Quit(confirm=False))
 
         return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+
