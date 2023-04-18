@@ -137,7 +137,7 @@ image n_cg1_exp4:
 image n_cg1_exp5:
     "images/cg/n_cg1_exp5.png"
 
-image n_cg1b = LiveComposite((1280,720), (0,0), "images/cg/n_cg1b.png", (882,325), "n_rects1", (732,400), "n_rects2", (850,475), "n_rects3")
+image n_cg1b = Composite((1280,720), (0,0), "images/cg/n_cg1b.png", (882,325), "n_rects1", (732,400), "n_rects2", (850,475), "n_rects3")
 
 image n_rects1:
     RectCluster(Solid("#000"), 12, 30, 30).sm
