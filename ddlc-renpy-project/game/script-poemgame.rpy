@@ -241,6 +241,8 @@ label poem(transition=True):
     if persistent.playthrough == 0 and chapter == 0:
         call screen dialog("It's time to write a poem!\n\nPick words you think your favorite club member\nwill like. Something good might happen with\nwhoever likes your poem the most!", ok_action=Return())
 
+    # Ignore any "obsolete" warnings for "ui"-specific function calls,
+    # as there is no way to use "text" instead of "ui.text" in Python block
     python:
         poemgame_glitch = False
         played_baa = False
