@@ -216,7 +216,6 @@ init -501 screen choice(items):
         for i in items:
             textbutton i.caption action i.action
 
-define -1 config.narrator_menu = True
 init -1 style choice_vbox is vbox
 init -1 style choice_button is button
 init -1 style choice_button_text is button_text
